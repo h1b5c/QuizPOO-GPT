@@ -29,3 +29,4 @@
 - P1–P3 dependiam de P0 (concluído). Deploy depende só de autenticação Vercel.
 - Regra: consultar `AGENTS.md`/`PRD.md`/`ARCHITECTURE.md`/`PLAN.md`/`TASKS.md` antes de cada tarefa; atualizar `PLAN.md`/`TASKS.md` ao concluir, preservando histórico.
 - [x] Política obrigatória de testes/commits implementada (ESLint, Vitest data/calc/quiz, Husky pre-commit `verify`, GitHub Actions CI): 15 testes passam, `lint` só com warning `<img>` não bloqueante, `typecheck` e `build` OK. Sem commit nesta tarefa por ordem expressa (aguardando autorização).
+- [x] Fluxo automatizado GitHub+Vercel documentado no `AGENTS.md` (branch por feature → verify → commit/push branch → Preview → aprovação para main/produção). Vercel conectado a `h1b5c/quiz` (Preview automático por branch, produção só em `main`).

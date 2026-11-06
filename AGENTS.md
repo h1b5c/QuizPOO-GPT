@@ -44,7 +44,8 @@
 
 ### Regras de commit
 - Nunca commite com testes falhando; nunca ignore erros nem desabilite testes para aprovar; corrija antes de retentar; não use comandos que escondam erros/resultados.
-- Antes do commit, apresentar resumo dos testes executados e resultados; preservar alterações preexistentes que não sejam suas; não dar push sem autorização explícita.
+- Antes do commit, apresentar resumo dos testes executados e resultados; preservar alterações preexistentes que não sejam suas.
+- **Fluxo GitHub+Vercel (automatizado):** 1) branch própria por funcionalidade/correção a partir da `main` sincronizada (`git fetch --all` + `git checkout main`/rebase); 2) implementar + testes (+ regressão se bug); 3) `npm run verify` (lint→typecheck→test→build) — **se falhar, não commitar nem fazer push**; corrigir na mesma branch; 4) se passar, commit automático + push da **branch** (não da `main`), sem force push, sem PDFs ENADE; 5) GitHub Actions valida push/PR; integração GitHub→Vercel gera **Preview Deployment** da branch; 6) informar URL da Preview; 7) **não** fazer merge na `main` nem promover a produção sem aprovação explícita do usuário (sua única intervenção obrigatória é testar Preview e aprovar).
 
 ### Política de regressão
 - Ao corrigir bug: identificar causa raiz, criar teste que reproduza **antes** da correção, confirmar falha→passo depois, manter teste permanentemente, verificar regressões e rodar `npm run verify` antes de qualquer commit.
