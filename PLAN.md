@@ -16,9 +16,10 @@
 ### P2 — Discursivas ✅ concluída
 - Textarea persistente em `localStorage v1` + “Ver gabarito” (PR), fora da nota.
 
-### P3 — Deploy e QA (parcial → pendente de autenticação)
+### P3 — Deploy e QA ✅ concluída (06/11/2026, Vercel build ✓)
 - ✅ `npm run build` + `npm start` + curl + contagens validados.
-- [ ] Vercel: CLI 65.12 via `npx` mas `whoami: Logged out`. Falta `vercel login` ou import manual do repo no dashboard para publicar.
+- ✅ Vercel build `3e3befe` OK em 32s (`/` 44,6 kB, First Load 132 kB), deploy concluído. Avisos não bloqueantes: `next@14.2.5` deprecated (vulnerabilidade de segurança — upgrade para versão corrigida pendente) e `npm warn cache-dir` do ambiente Vercel.
+- ⚠️ Repo do deploy: log mostra `github.com/h1b5c/quiz` (minúsculo), commit `3e3befe`, enquanto este workspace usa `https://github.com/h1b5c/QuizPOO-GPT.git` @ `c8ffb70`. Reconciliar (renomear/fork/sync) e anotar URL pública.
 
 ### P4 — Opcional (só se pedido)
 - Filtros ano/prova, refazer só erradas, exportação.

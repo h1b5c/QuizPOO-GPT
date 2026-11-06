@@ -14,16 +14,17 @@
 - [x] P2: discursivas (textarea em `localStorage v1` + “Ver gabarito”, fora da nota).
 - [x] Git: init + commit `2a3cc7c` + push para `https://github.com/h1b5c/QuizPOO-GPT.git` (main).
 - [x] Build/QA local: `npm run build` ✓, `npm start` 200 em `/` e `/img/*`, contagens JSON conferidas.
+- [x] P3: Deploy Vercel concluído (build `3e3befe` OK em 32s, `/` 44,6 kB, First Load 132 kB; avisos não bloqueantes: `next@14.2.5` deprecated e `npm cache-dir`).
 
 ## Pendentes
-- [ ] P3: Publicar na Vercel — **`npx vercel whoami: Logged out`**. Executar `vercel login` local ou importar `h1b5c/QuizPOO-GPT` em vercel.com → Add New Project (preset Next.js, env vars nenhuma). Não publicado ainda.
+- [ ] Reconciliar repo do deploy (`h1b5c/quiz` @ `3e3befe` no log) vs workspace (`h1b5c/QuizPOO-GPT` @ `c8ffb70`); sincronizar e anotar URL pública.
 - [ ] [pendência] Completar `padrao` (PR) de 7/10 discursivas — fallback atual mostra “consulte PR/PDF + imagem”.
 - [ ] [pendência] Transcrever texto das 15 alternativas em figura (39/54 com texto hoje) — MVP permite responder pela letra via imagem da página.
 - [ ] [pendência] QA visual ponta a ponta no navegador (confirmar/navegar/persistência/mobile) e garantia de carregamento das 64 imagens — build/start validados, testes de clique pendentes.
 - [ ] [pendência] Nome/domínio final Vercel.
 
 ## Em andamento
-- (nenhuma — aguardando autenticação Vercel para P3)
+- (nenhuma — aguardando reconciliação de repos + próximo ciclo de refinamento)
 
 ## Regra
 Antes de iniciar qualquer tarefa: ler `AGENTS.md`, `PRD.md`, `ARCHITECTURE.md`, `PLAN.md`, `TASKS.md`. Ao concluir: mover item para Concluídas com evidência e atualizar `PLAN.md` sem apagar histórico.
