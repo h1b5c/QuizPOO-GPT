@@ -28,3 +28,4 @@
 
 ## Regra
 Antes de iniciar qualquer tarefa: ler `AGENTS.md`, `PRD.md`, `ARCHITECTURE.md`, `PLAN.md`, `TASKS.md`. Ao concluir: mover item para Concluídas com evidência e atualizar `PLAN.md` sem apagar histórico.
+- [x] Fix textos 2014/2017 (OCR v2 no pipeline, commit `4ffef07`) + build/push validados.

@@ -7,8 +7,9 @@
 - Denominador fixado: **53 objetivas válidas** (54 objetivas − 1 anulada `2008_CST_ADS-19`); 10 discursivas fora da nota. `com gabarito: 53/53`, `com alternativas texto: 39/54` (15 em figura — resposta por letra via imagem).
 
 ## Fases e prioridades
-### P0 — Pipeline de dados ✅ concluída
+### P0 — Pipeline de dados ✅ concluída (fix 06/11/2026)
 - `scripts/build_questoes.py` gera `questoes.json` + imagens; corrigido vínculo GB/PR por ano (tríduo legado). PR discursivo extraído em 3/10; 7/10 com fallback “consulte PR/PDF + imagem”.
+- **Fix textos "zoados":** passar a usar OCR v2 (`--psm 3`) para 2014/2017 (não PyMuPDF direto) e PyMuPDF só para demais; rebuild + verify enunciados legíveis (ex.: 2014 Q29 UML). Commit `4ffef07`. Alternativas em figura (31/54 sem texto estruturado) respondidas pela letra via imagem da página.
 
 ### P1 — MVP quiz (objetivas) ✅ concluída
 - Ordem fixa embaralhada, confirmar verde/vermelho travado, anterior/próxima, progresso, resumo com nota `10*acertos/53` e aviso só-objetivas; anulada fora da nota; alternativas em figura respondíveis por letra.
