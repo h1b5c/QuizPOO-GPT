@@ -124,14 +124,49 @@ def pr_extract(pr_path: pathlib.Path, num: int):
     return snippet[:2500] if len(snippet) > 80 else None
 
 def load_block(pub_pdf: pathlib.Path, pagina_1based: int, num: int, disc: bool):
-    # Use mupdf direct: find marker on that page and extract until next marker / next page
-    try:
-        doc = pymupdf.open(str(pub_pdf))
-    except Exception:
-        return ""
-    pages_text = []
-    for i, page in enumerate(doc, start=1):
-        pages_text.append((i, page.get_text()))
+    # Use cached extracts: OCR (tesseract psm3, clean) for 2014/2017 (Calibri garbled),
+    # PyMuPDF (best column order) for others. Cached txts have ===== PAGINA N =====.
+    import os
+    y = pub_pdf.name[:4]
+    # relative path without prefix for mupdf cache, with prefix for ocr_v2
+    rel = pub_pdf.relative_to(BASE) if str(pub_pdf).startswith(str(BASE)) else pathlib.Path(pub_pdf.name)
+    safe_mupdf = str(rel).replace("/", "__") + ".txt"
+    safe_ocr = "ENADE_Computacao_Todas_Areas__" + str(rel).replace("/", "__") + ".txt"
+    # Automação subfolder maps to relacionadas_Automacao__...; handle prefix
+    if "relacionadas_Automacao" in str(rel):
+        safe_ocr = "ENADE_Computacao_Todas_Areas__relacionadas_Automacao__" + "__".join(rel.parts[1:])
+        # fallback: search
+    base_tmp = pathlib.Path("/tmp/opencode")
+    src = None
+    if y in ("2014", "2017"):
+        cand = base_tmp / "enade_txt_ocr_v2" / safe_ocr
+        if cand.exists():
+            src = cand
+        else:
+            # glob fallback
+            g = list((base_tmp / "enade_txt_ocr_v2").glob(f"*{pub_pdf.name}*.txt"))
+            src = g[0] if g else None
+    else:
+        cand = base_tmp / "enade_txt_mupdf" / safe_mupdf
+        if cand.exists():
+            src = cand
+        else:
+            g = list((base_tmp / "enade_txt_mupdf").glob(f"*{pub_pdf.name}*.txt"))
+            src = g[0] if g else None
+    if src is None or not src.exists():
+        # last resort: mupdf direct
+        try:
+            doc = pymupdf.open(str(pub_pdf))
+            pages_text = [(i+1, p.get_text()) for i, p in enumerate(doc)]
+        except Exception:
+            return ""
+    else:
+        txt_all = src.read_text(errors="ignore")
+        pages_text = []
+        for m in re.finditer(r"===== PAGINA (\d+) =====", txt_all):
+            s = m.end()
+            e = txt_all.find("===== PAGINA", s)
+            pages_text.append((int(m.group(1)), txt_all[s:e] if e>-1 else txt_all[s:]))
     # markers
     pat = re.compile(r"QUEST[ÃA]O\s+(?:DISCURSIVA\s+)?0*(\d+)\b", flags=re.I)
     markers = []  # (page, pos_in_page_text, num)
