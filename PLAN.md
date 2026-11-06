@@ -1,27 +1,28 @@
 # PLAN — Quiz ENADE POO
 
-## Estado atual
-- Levantamento ENADE concluído: 105 PDFs baixados, inventário por área/ano, critérios POO validados.
-- Entregável: `ENADE_Computacao_Todas_Areas/POO_questoes_ENADE.md` com 64 entradas (2005:6, 2008:8, 2011:9, 2014:13, 2017:14, 2019:4, 2021:10, 2023:0).
-- Quiz definido (ordem fixa, nota só objetivas, discursiva livre + gabarito, Next.js/Vercel), mas **não implementado**. Este histórico é a fonte; ver `PRD.md`/`ARCHITECTURE.md`/`TASKS.md`.
+## Estado atual (06/11/2026)
+- Levantamento ENADE concluído: 105 PDFs, 64 questões POO validadas em `POO_questoes_ENADE.md`.
+- **MVP implementado e publicado no GitHub:** Next.js 14.2.5 + React 18 em raiz, `data/questoes.json` (64 itens, seed `20261105`), `public/img/` (64 PNGs 150dpi), `app/page.tsx` (quiz + resumo). `npm run build` passa, `npm start` serve `/` e `/img/*` (200).
+- Git: `git init` + commit `2a3cc7c` push para `https://github.com/h1b5c/QuizPOO-GPT.git` (main). `.gitignore` exclui PDFs ENADE/`node_modules`/`.next` (apenas JSON/imagens/código versionados).
+- Denominador fixado: **53 objetivas válidas** (54 objetivas − 1 anulada `2008_CST_ADS-19`); 10 discursivas fora da nota. `com gabarito: 53/53`, `com alternativas texto: 39/54` (15 em figura — resposta por letra via imagem).
 
 ## Fases e prioridades
-### P0 — Pipeline de dados (bloqueante, prioridade máxima)
-- Gerar `data/questoes.json` (enunciado/alternativas/gabarito/padrão) + `public/img/` dos 64 itens.
-- Validar OCR 2014/2017, gabaritos definitivos e anulações; fixar denominador da nota.
+### P0 — Pipeline de dados ✅ concluída
+- `scripts/build_questoes.py` gera `questoes.json` + imagens; corrigido vínculo GB/PR por ano (tríduo legado). PR discursivo extraído em 3/10; 7/10 com fallback “consulte PR/PDF + imagem”.
 
-### P1 — MVP quiz (objetivas)
-- Página quiz com ordem fixa embaralhada, confirmar verde/vermelho travado, anterior/próxima, progresso, resumo com nota 0–10 (aviso só-objetivas).
+### P1 — MVP quiz (objetivas) ✅ concluída
+- Ordem fixa embaralhada, confirmar verde/vermelho travado, anterior/próxima, progresso, resumo com nota `10*acertos/53` e aviso só-objetivas; anulada fora da nota; alternativas em figura respondíveis por letra.
 
-### P2 — Discursivas
-- Textarea persistente + “Ver gabarito” (PR), fora da nota.
+### P2 — Discursivas ✅ concluída
+- Textarea persistente em `localStorage v1` + “Ver gabarito” (PR), fora da nota.
 
-### P3 — Deploy e QA
-- Publicar na Vercel, testar ponta a ponta mobile/desktop, revisões de imagem.
+### P3 — Deploy e QA (parcial → pendente de autenticação)
+- ✅ `npm run build` + `npm start` + curl + contagens validados.
+- [ ] Vercel: CLI 65.12 via `npx` mas `whoami: Logged out`. Falta `vercel login` ou import manual do repo no dashboard para publicar.
 
 ### P4 — Opcional (só se pedido)
 - Filtros ano/prova, refazer só erradas, exportação.
 
 ## Dependências
-- P1–P3 dependem de P0. Deploy depende de P1+P2.
+- P1–P3 dependiam de P0 (concluído). Deploy depende só de autenticação Vercel.
 - Regra: consultar `AGENTS.md`/`PRD.md`/`ARCHITECTURE.md`/`PLAN.md`/`TASKS.md` antes de cada tarefa; atualizar `PLAN.md`/`TASKS.md` ao concluir, preservando histórico.
