@@ -1,0 +1,1781 @@
+[
+  {
+    "id": "2014_CST_Analise_Desenvolvimento_Sistemas-29",
+    "ano": 2014,
+    "prova": "2014_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2014_CST_Analise_Desenvolvimento_Sistemas/2014_PV_40_tecnologia_analise_desenv_sistemas.pdf",
+    "numero": 29,
+    "discursiva": false,
+    "pagina": 23,
+    "enunciado": "hD>\u0003 Ġ\u0003 ƵŵĂ\u0003 ůŝŶŐƵĂŐĞŵ\u0003 ƉĂĚƌĆŽ\u0003 ƉĂƌĂ\u0003 ĚĞƐĞŶǀŽůǀĞƌ\u0003 Ğ\u0003 ĚŽĐƵŵĞŶƚĂƌ\u0003 ƉƌŽũĞƚŽƐ\u0003 ĚĞ\u0003 ƐŽŌǁĂƌĞ\u0003 Ğ\u0003 ƉĞƌŵŝƚĞ\u0003 ƋƵĞ\u0003 ĚĞƐĞŶǀŽůǀĞĚŽƌĞƐ\u0003 ǀŝƐƵĂůŝǌĞŵ\u0003 ŽƐ\u0003 ƉƌŽĚƵƚŽƐ\u0003 ĚĞ\u0003 ƐĞƵƐ\u0003 ƚƌĂďĂůŚŽƐ\u0003 Ğŵ\u0003 ĚŝĂŐƌĂŵĂƐ\u0003 ƉĂĚƌŽŶŝǌĂĚŽƐ͘ \u0003 ůĂ\u0003 ƐƵƌŐŝƵ\u0003 ĐŽŵŽ\u0003 ƵŵĂ\u0003 ƉƌŽƉŽƐƚĂ\u0003 ĚĞ\u0003 ƐĞƌ\u0003 ƵŵĂ\u0003 ůŝŶŐƵĂŐĞŵ\u0003 ƉĂƌĂ\u0003 ŵŽĚĞůĂŐĞŵ\u0003ĚĞ\u0003ĚĂĚŽƐ\u0003ƋƵĞ\u0003ƵƐĂǀĂ\u0003ĚŝǀĞƌƐŽƐ\u0003ĂƌƚĞĨĂƚŽƐ\u0003 ƉĂƌĂ\u0003ƌĞƉƌĞƐĞŶƚĂƌ\u0003Ž\u0003ŵŽĚĞůŽ\u0003ĚĞ\u0003ŶĞŐſĐŝŽ\u0003Ğ\u0003Ƶŵ\u0003ĚĞƐƐĞƐ\u0003 ĂƌƚĞĨĂƚŽƐ\u0003Ġ\u0003Ž\u0003ĚŝĂŐƌĂŵĂ\u0003ĚĞ\u0003ĐůĂƐƐĞƐ͘ WZ ^^D\u0004E͕ \u0003Z͘ \u0003^͘ \u0003Engenharia de\u0003ƐŽŌǁĂƌĞ͘ \u0003ϲ\u0003ĞĚ͘ \u0003WŽƌƚŽ\u0003\u0004ůĞŐƌĞ͗ \u0003 \u0011ŽŽŬŵĂŶ͕ \u0003ϮϬϬϲ\u0003;ĂĚĂƉƚĂĚŽͿ͘ ^Ğ\u0003Ƶŵ\u0003ƉƌŽũĞƚŽ\u0003ŶĆŽ\u0003ƚĞŵ\u0003Ă\u0003ĚŽĐƵŵĞŶƚĂĕĆŽ\u0003ĂƉƌŽƉƌŝĂĚĂ\u0003 ŽƵ\u0003ƐĞ\u0003ĞƐƚĄ\u0003ĐŽŵ\u0003Ă\u0003ĚŽĐƵŵĞŶƚĂĕĆŽ\u0003ĚĞƐĂƚƵĂůŝǌĂĚĂ͕ \u0003ƵŵĂ\u0003 ŽƉĕĆŽ\u0003Ġ\u0003Ă\u0003ĞŶŐĞŶŚĂƌŝĂ\u0003ƌĞǀĞƌƐĂ\u0003ƋƵĞ\u0003ƉŽƐƐŝďŝůŝƚĂ\u0003ŵĂƉĞĂƌ\u0003 ĐſĚŝŐŽƐ\u0003ƉĂƌĂ\u0003ĚŝĂŐƌĂŵĂƐ\u0003hD>͘ \u0003\u0004\u0003ƐĞŐƵŝƌ͕ \u0003Ġ\u0003ĂƉƌĞƐĞŶƚĂĚŽ\u0003 Ƶŵ\u0003ĐſĚŝŐŽ\u0003ŶĂ\u0003ůŝŶŐƵĂŐĞŵ\u0003ĚĞ\u0003ƉƌŽŐƌĂŵĂĕĆŽ\u0003:\u0004s\u0004͘ 1 package default; 2 3 public class Funcionario extends Pessoa { 4 private double salario; 5 6 public Funcionario(int rg, String nome, 7 double salario) { 8 super(rg, nome); 9 this.salario= salario; 10 } 11 public double getSalario() { 12 return salario; 13 14 } 15 public double obterSalario(double 16 percentualAcrescimo) { 17 double salarioReajustado = salario + 1 8 salario * percentualAcrescimo / 100; 19 return salarioReajustado; 20 21 } 22 public double obterSalario(double 23 adicional, double desconto){ 24 return this.getSalario() + adicional - desconto; 25 26 } 27 } hƟůŝǌĂŶĚŽ\u0003 Ă\u0003 ĞŶŐĞŶŚĂƌŝĂ\u0003 ƌĞǀĞƌƐĂ\u0003 ŶĞƐƐĞ\u0003 ƚƌĞĐŚŽ\u0003 ĚĞ\u0003 ĐſĚŝŐŽ͕ \u0003Ž\u0003ĚŝĂŐƌĂŵĂ\u0003hD>\u0003ĚĞ\u0003ĐůĂƐƐĞƐ\u0003ĐŽƌƌĞƐƉŽŶĚĞŶƚĞ\u0003Ġ",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A Pessoa Funcionario +Pessoa(rg:int,nome:String) +Funcionario(rg:int,nome:String,salario:double) +getSalario(): double +obterSalario(adicional:double,desconto:double): double +obterSalario(percentualAcrescimo:double): double"
+      },
+      {
+        "letra": "B",
+        "texto": "B Pessoa Funcionario +Pessoa(rg:int,nome:String) +Funcionario(rg:int,nome:String,salario:double) +getSalario(): double +obterSalario(adicional:double,desconto:double): double +obterSalario(percentualAcrescimo:double): double"
+      },
+      {
+        "letra": "C",
+        "texto": "C Pessoa Funcionario +Funcionario(rg:int,nome:String) +Funcionario(rg:int,nome:String,salario:double) +getSalario(): double +obterSalario(adicional:double,desconto:double): double +obterSalario(percentualAcrescimo:double): double"
+      },
+      {
+        "letra": "D",
+        "texto": "D Pessoa Funcionario +Pessoa(rg:int,nome:String) +Funcionario(rg:int,nome:String,salario:double) +getSalario(): double +obterSalario(adicional:double,desconto:double): double"
+      },
+      {
+        "letra": "E",
+        "texto": "E Pessoa Funcionario +Funcionario(rg:int,nome:String,salario:double) +getSalario(): double +obterSalario(percentualAcrescimo:double): double +obterSalario(adicional:double,desconto:double): double 24 d \u0012EK>K'/\u0004\u0003 D\u0003\u0004E\u0006>/^ \u0003 \u0003\u0018 ^ EsK>s/D EdK\u0003\u0018 \u0003^/^d D\u0004^"
+      }
+    ],
+    "gabarito": "A",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2014_CST_Analise_Desenvolvimento_Sistemas-29.png"
+  },
+  {
+    "id": "2014_CST_Analise_Desenvolvimento_Sistemas-14",
+    "ano": 2014,
+    "prova": "2014_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2014_CST_Analise_Desenvolvimento_Sistemas/2014_PV_40_tecnologia_analise_desenv_sistemas.pdf",
+    "numero": 14,
+    "discursiva": false,
+    "pagina": 16,
+    "enunciado": "WĂƌĂ\u0003 ĨŝŶƐ\u0003 ĞƐƚĂƚşƐƚŝĐŽƐ͕ \u0003 ƵŵĂ\u0003 ĞŵƉƌĞƐĂ\u0003 ƉƌĞĐŝƐĂ\u0003 ĂƌŵĂǌĞŶĂƌ\u0003 ŽƐ\u0003 ƚƌĂũĞƚŽƐ\u0003 ƋƵĞ\u0003 ƐĞƵƐ\u0003 ƌĞƉƌĞƐĞŶƚĂŶƚĞƐ\u0003 ĐŽŵĞƌĐŝĂŝƐ\u0003 ƉĞƌĐŽƌƌĞŵ\u0003 ĞŶƚƌĞ\u0003 ƉŽŶƚŽƐ\u0003 ĚĞ\u0003 ǀĞŶĚĂ͘ \u0003 \u0003 ŝŵƉŽƌƚĂŶƚĞ\u0003 ƋƵĞ\u0003 ƉĂƌĂ\u0003 ĐĂĚĂ\u0003 ůŽĐĂů\u0003 ǀŝƐŝƚĂĚŽ\u0003 ƐĞũĂŵ\u0003 ĂƌŵĂǌĞŶĂĚŽƐ͕ \u0003 ĂůĠŵ\u0003 ĚĂ\u0003 ŝŶĨŽƌŵĂĕĆŽ\u0003 ĚŽ\u0003 ƉƌſƉƌŝŽ\u0003 ůŽĐĂů͕ \u0003Ž\u0003ůŽĐĂů\u0003ĚĞ\u0003ŽƌŝŐĞŵ\u0003ĚŽ\u0003ƌĞƉƌĞƐĞŶƚĂŶƚĞ\u0003;ƉŽŶƚŽ\u0003 ĚĞ\u0003ǀĞŶĚĂ\u0003ĂŶƚĞƌŝŽƌͿ͕ \u0003Ž\u0003ůŽĐĂů\u0003ĚĞ\u0003ĚĞƐƚŝŶŽ\u0003;ƉŽŶƚŽ\u0003ĚĞ\u0003 ǀĞŶĚĂ\u0003 ƉŽƐƚĞƌŝŽƌͿ͕ \u0003 ĂƐ\u0003 ĚŝƐƚąŶĐŝĂƐ\u0003 ƉĞƌĐŽƌƌŝĚĂƐ\u0003 Ğ\u0003 ŽƐ\u0003 ƚĞŵƉŽƐ\u0003 ĚĞ\u0003 ǀŝĂŐĞŵ͘ \u0003 ƐƐĞ\u0003 ƉƌŽĐĞĚŝŵĞŶƚŽ\u0003 ƉĞƌŵŝƚĞ\u0003 ƋƵĞ\u0003ĞƐƚĞƐ\u0003ƚƌĂũĞƚŽƐ\u0003ƉŽƐƐĂŵ\u0003ƐĞƌ\u0003ĂŶĂůŝƐĂĚŽƐ͕ \u0003ĚĞ\u0003ĨŽƌŵĂ\u0003 ƌĄƉŝĚĂ͕ \u0003ĚŽ\u0003ůŽĐĂů\u0003ĚĞ\u0003ŽƌŝŐĞŵ\u0003ĂŽ\u0003ůŽĐĂů\u0003ĚĞ\u0003ĚĞƐƚŝŶŽ͕ \u0003ďĞŵ\u0003 ĐŽŵŽ\u0003ŶŽ\u0003ƐĞŶƚŝĚŽ\u0003ŝŶǀĞƌƐŽ͕ \u0003ĚŽ\u0003ůŽĐĂů\u0003ĚĞ\u0003ĚĞƐƚŝŶŽ\u0003;ĨŝŶĂů\u0003 ĚŽ\u0003ƚƌĂũĞƚŽͿ\u0003ĂŽ\u0003ůŽĐĂů\u0003ĚĞ\u0003ŽƌŝŐĞŵ\u0003;ŝŶşĐŝŽ\u0003ĚŽ\u0003ƚƌĂũĞƚŽͿ͘ K\u0003 ĂŶĂůŝƐƚĂ\u0003 ƌĞƐƉŽŶƐĄǀĞů\u0003 ƉĞůŽ\u0003 ƐŝƐƚĞŵĂ\u0003 ƋƵĞ\u0003 ƵƟůŝǌĂƌĄ\u0003 ŽƐ\u0003 ĚĂĚŽƐ\u0003 ĂƌŵĂǌĞŶĂĚŽƐ\u0003 Ğ\u0003 ƉƌŽĚƵǌŝƌĄ\u0003 ŽƐ\u0003 ƌĞůĂƚſƌŝŽƐ\u0003 ĞƐƚĂơƐƟĐŽƐ͕ \u0003 ƉƌŽũĞƚŽƵ\u0003 Ž\u0003 ƐĞŐƵŝŶƚĞ\u0003 ĞƐďŽĕŽ\u0003 ĚĞ\u0003 ƵŵĂ\u0003 ĐůĂƐƐĞ\u0003ƋƵĞ\u0003ƌĞƉƌĞƐĞŶƚĂ\u0003Ƶŵ\u0003ƉŽŶƚŽ\u0003ĚĞ\u0003ǀĞŶĚĂ͗ public class Local { private String nome_estabelecimento; private String endereco; private Local origem; private Local destino; \u0003\u0003\u0003SULYDWH\u0003ÀRDW\u0003GLVWDQFLDBRULJHP \u0003\u0003\u0003SULYDWH\u0003ÀRDW\u0003WHPSRBRULJHP } \u0004\u0003ƌĞƐƉĞŝƚŽ\u0003ĚŽ\u0003ĞƐďŽĕŽ\u0003ĚĂ\u0003ĐůĂƐƐĞ͕ \u0003ĂǀĂůŝĞ\u0003ĂƐ\u0003ĂĮƌŵĂĕƁĞƐ\u0003 Ă\u0003ƐĞŐƵŝƌ͘ /͘ \u0003 K\u0003 ĞƐďŽĕŽ\u0003 ĂĐŝŵĂ\u0003 ƌĞƉƌĞƐĞŶƚĂ\u0003 ƵŵĂ\u0003 ůŝƐƚĂ\u0003 ĚƵƉůĂŵĞŶƚĞ\u0003ĞŶĐĂĚĞĂĚĂ͘ //͘ \u0003 hƟůŝǌĂƌ\u0003 Ƶŵ\u0003 Ŷſ\u0003 ĚĞ\u0003 ƵŵĂ\u0003 ĞƐƚƌƵƚƵƌĂ\u0003 ĚĞ\u0003 ĚĂĚŽƐ\u0003 ĚŽ\u0003ƟƉŽ\u0003ĄƌǀŽƌĞ\u0003ĚĞ\u0003ďƵƐĐĂ\u0003ŵƵůƟǀŝĂƐ\u0003ĚĞ\u0003ŐƌĂƵ\u0003ϯ͕ \u0003 ƐĞƌŝĂ\u0003Ă\u0003ƐŽůƵĕĆŽ\u0003ŝĚĞĂů\u0003ƉĂƌĂ\u0003Ž\u0003ƉƌŽďůĞŵĂ\u0003ƉŽƌƋƵĞ\u0003 ƉƌŽǀŝĚĞŶĐŝĂƌŝĂ\u0003 Ă\u0003 ĞĐŽŶŽŵŝĂ\u0003 ĚĞ\u0003 ƌĞĐƵƌƐŽƐ\u0003 ĚĞ\u0003 ŵĞŵſƌŝĂ\u0003Ğ\u0003ĚĞ\u0003ĚŝƐĐŽ͘ ///͘ \u0003 \u0004\u0003ƵƟůŝǌĂĕĆŽ\u0003ĚĞ\u0003ƵŵĂ\u0003ĄƌǀŽƌĞ\u0003ĚĞ\u0003ƉĞƐƋƵŝƐĂ\u0003ďŝŶĄƌŝĂ\u0003 ƉĂƌĂ\u0003Ă\u0003ƐŽůƵĕĆŽ\u0003ĚŽ\u0003ƉƌŽďůĞŵĂ\u0003Ġ\u0003ŶŽƌŵĂů͕ \u0003ĚĞƐĚĞ\u0003 ƋƵĞ\u0003Ž\u0003ĂƚƌŝďƵƚŽ\u0003\u0003ĚĞ\u0003ŽƌĚĞŶĂĕĆŽ\u0003ĚĂ\u0003ĄƌǀŽƌĞ\u0003ƐĞũĂ\u0003 distancia_origem. \u0003ĐŽƌƌĞƚŽ\u0003Ž\u0003ƋƵĞ\u0003ƐĞ\u0003ĂĮƌŵĂ\u0003Ğŵ",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A /͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "B",
+        "texto": "B //͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "C",
+        "texto": "C /\u0003Ğ\u0003///͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "D",
+        "texto": "D //\u0003Ğ\u0003///͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "E",
+        "texto": "E /͕ \u0003//\u0003Ğ\u0003///͘"
+      }
+    ],
+    "gabarito": "A",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2014_CST_Analise_Desenvolvimento_Sistemas-14.png"
+  },
+  {
+    "id": "2014_Engenharia_de_Computacao-35",
+    "ano": 2014,
+    "prova": "2014_Engenharia_de_Computacao",
+    "pdf": "2014_Engenharia_de_Computacao/2014_PV_14_engenharia_computacao.pdf",
+    "numero": 35,
+    "discursiva": false,
+    "pagina": 29,
+    "enunciado": "K\u0003ĐſĚŝŐŽ\u0003Ă\u0003ƐĞŐƵŝƌ\u0003ŵŽƐƚƌĂ\u0003Ƶŵ\u0003ƉƌŽŐƌĂŵĂ\u0003ĞƐĐƌŝƚŽ\u0003ŶĂ\u0003ůŝŶŐƵĂŐĞŵ\u0003ĚĞ\u0003ƉƌŽŐƌĂŵĂĕĆŽ\u0003:ĂǀĂ͘ SXEOLF\u0003FODVV\u0003-DYD\u0003^\u0003 \u0003\u0003\u0003\u0003SULYDWH\u0003VWDWLF\u0003YRLG\u0003WURFD% 6WULQJ\u0003D\u000f\u00036WULQJ\u0003E\u0003 ^\u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u00036WULQJ\u0003WPS\u0003 \u0003D \u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003D\u0003 \u0003E \u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003E\u0003 \u0003WPS \u0003 \u0003\u0003\u0003\u0003`\u0003 \u0003\u0003\u0003\u0003\u0003 \u0003\u0003\u0003\u0003SULYDWH\u0003VWDWLF\u0003YRLG\u0003WURFD& LQW\u0003DUUD\\>@\u000f\u00036WULQJ\u0003D ^\u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003IRU LQW\u0003[\u0003 \u0003\u0013 \u0003[\u0003 \u0003DUUD\\\u0011OHQJWK \u0003[\u000e\u000e ^\u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003DUUD\\>[@\u0003 \u0003DUUD\\>[@\u0003 \u0003,QWHJHU\u0011YDOXH2I D \u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003`\u0003 \u0003\u0003\u0003\u0003`\u0003 \u0003\u0003\u0003\u0003\u0003 \u0003\u0003\u0003\u0003SXEOLF\u0003VWDWLF\u0003YRLG\u0003PDLQ 6WULQJ>@\u0003DUJV \u0003^\u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003LQW\u0003DUUD\\>@\u0003 \u0003^\u0003\u0014\u000f\u0003\u0015\u000f\u0003\u0016\u000f\u0003\u0017\u000f\u0003\u0018`\u0003 \u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u00036WULQJ\u0003D\u0003 \u0003³\u0015´\u000f\u0003E\u0003 \u0003³\u0018´ \u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003WURFD% D\u000f\u0003E \u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003WURFD& DUUD\\\u000f\u0003D \u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u00036\\VWHP\u0011RXW\u0011SULQW D\u0003\u000e\u0003³\u0003³\u0003\u000e\u0003E\u0003\u000e\u0003³\u0003³ \u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003IRU LQW\u0003[\u0003 \u0003\u0013 \u0003[\u0003 \u0003DUUD\\\u0011OHQJWK \u0003[\u000e\u000e ^\u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u00036\\VWHP\u0011RXW\u0011SULQW DUUD\\>[@\u0003\u000e\u0003³\u0003³ \u0003 \u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003`\u0003 \u0003\u0003\u0003\u0003`\u0003 ` \u0004ƉſƐ\u0003ƐĞƌ\u0003ĞǆĞĐƵƚĂĚŽ\u0003Ž\u0003ĐſĚŝŐŽ͕ \u0003Ž\u0003ǀĂůŽƌ\u0003ŝŵƉƌĞƐƐŽ\u0003ŶĂ\u0003ƐĂşĚĂ\u0003ƉĂĚƌĆŽ\u0003ĚŽ\u0003ƵƐƵĄƌŝŽ\u0003ƐĞƌĄ A 5 2 5 10 15 20 25. B Ϯ\u0003ϱ\u0003Ϯ\u0003ϰ\u0003ϲ\u0003ϴ\u0003ϭϬ͘ C ϱ\u0003Ϯ\u0003Ϯ\u0003ϰ\u0003ϲ\u0003ϴ\u0003ϭϬ͘ D ϱ\u0003Ϯ\u0003ϭ\u0003Ϯ\u0003ϯ\u0003ϰ\u0003ϱ͘ E Ϯ\u0003ϱ\u0003ϭ\u0003Ϯ\u0003ϯ\u0003ϰ\u0003ϱ͘ ϯϬ E' E,\u0004Z/\u0004\u0003\u0018 \u0003\u0012KDWhd\u0004\u0017\bK",
+    "alternativas": [],
+    "gabarito": "B",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2014_Engenharia_de_Computacao-35.png"
+  },
+  {
+    "id": "2008_CST_Analise_Desenvolvimento_Sistemas-13",
+    "ano": 2008,
+    "prova": "2008_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2008_CST_Analise_Desenvolvimento_Sistemas/2008_PV_TECNOLOGIA_DESENVOLVIMENTO_SISTEMAS.pdf",
+    "numero": 13,
+    "discursiva": false,
+    "pagina": 9,
+    "enunciado": "Com relação ao diagrama acima, assinale a opção correta. A Para economizar tempo e memória, as mensagens de retorno 7: dados e 15: dados poderiam ser mescladas em uma única mensagem. B O objeto Controlador Acesso utiliza uma estrutura de repetição para verificar os atributos de acesso a um arquivo. C A mensagem 5: obterACL( ) pode levar à repetição da chamada 4: lerPermissao( ). D Sempre que um Aplicativo fizer uma leitura, será construído e destruído um objeto Controlador Acesso. E A mensagem 3: preparar( ) ocorre simultaneamente (em paralelo) à mensagem 4: lerpermissao( ). 8 TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+    "alternativas": [],
+    "gabarito": "D",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2008_CST_Analise_Desenvolvimento_Sistemas-13.png"
+  },
+  {
+    "id": "2021_CST_Analise_Desenvolvimento_Sistemas-13",
+    "ano": 2021,
+    "prova": "2021_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2021_CST_Analise_Desenvolvimento_Sistemas/2021_PV_tecnologia_analise_desenvolvimento_sistemas.pdf",
+    "numero": 13,
+    "discursiva": false,
+    "pagina": 21,
+    "enunciado": "Considere que as variáveis pilha e fila correspondem, respectivamente, às estruturas de dados do tipo Pilha e Fila. Para testar as duas estruturas, um programador realizou a série de operações a seguir. Pilha pilha = new Pilha(); Fila fila = new Fila(); pilha.push(‘A’); pilha.push(‘B’); pilha.push(‘C’); fila.enqueue(pilha.top()); fila.enqueue(pilha.top()); fila.enqueue(‘D’); pilha.push(fila.dequeue()); fila.enqueue(fila.dequeue()); fila.enqueue(pilha.pop()); pilha.push(‘E’); fila.enqueue(‘E’); pilha.pop(); Após essas operações, ao imprimir o conteúdo de pilha e fila, respectivamente, seria exibido: A pilha: topo → C → A → E. fila: início → D → A → A → E. B pilha: topo →A. fila: início → D → B → C → E. C pilha: topo → C → B → A. fila: início → D → C → C → E. D pilha: topo → B → A. fila: início → D → B → C → E. E pilha: topo → C → B → A. fila: início → D → B → C → E. 22 TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+    "alternativas": [],
+    "gabarito": "C",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2021_CST_Analise_Desenvolvimento_Sistemas-13.png"
+  },
+  {
+    "id": "2014_Sistemas_de_Informacao-14",
+    "ano": 2014,
+    "prova": "2014_Sistemas_de_Informacao",
+    "pdf": "2014_Sistemas_de_Informacao/2014_PV_39_sistemas_informacao.pdf",
+    "numero": 14,
+    "discursiva": false,
+    "pagina": 15,
+    "enunciado": "\u0004\u0003ƚĂďĞůĂ\u0003ĂďĂŝǆŽ\u0003ĂƉƌĞƐĞŶƚĂ\u0003Ž\u0003ranking\u0003ĚĂƐ\u0003ϮϬ\u0003ůŝŶŐƵĂŐĞŶƐ\u0003ĚĞ\u0003ƉƌŽŐƌĂŵĂĕĆŽ\u0003ŵĂŝƐ\u0003ƉŽƉƵůĂƌĞƐ͘ :Ƶů\u0003ϮϬϭϰ :Ƶů\u0003ϮϬϭϯ Change Programming Language ZĂƟŶŐƐ Change 1 1 \u0012 17.145% ͲϬ͕ ϰϴй 2 2 :ĂǀĂ ϭϱ͘ ϲϴϴй ͲϬ͕ ϮϮй ϯ ϯ KďũĞĐƟǀĞͲ\u0012 10.294% нϬ͕ Ϭϱй 4 4 \u0012нн 5.520% Ͳϯ͕ Ϯϯй 5 7 ;sŝƐƵĂůͿ\u0003\u0011ĂƐŝĐ ϰ͘ ϯϰϭй нϬ͕ Ϭϭй 6 6 \u0012η 4.051% -2.16% 7 5 W,W 2.916% -4.27% ϴ ϴ WǇƚŚŽŶ 2.656% Ͳϭ͘ ϯϴй 9 10 :ĂǀĂ^ĐƌŝƉƚ ϭ͘ ϴϬϲй ͲϬ͕ Ϭϰй 10 12 dƌĂŶƐĂĐƚͲ^Y> 1.759% нϬ͕ ϭϵй 11 9 WĞƌů 1.627% ͲϬ͕ ϱϮй 12 ϭϯ sŝƐƵĂů\u0003\u0011ĂƐŝĐ\u0003͘ E d 1.495% нϬ͕ Ϯϰй ϭϯ ϯϳ &η ϭ͘ Ϭϵϯй нϬ͕ ϴϲй 14 11 ZƵďǇ 1.072% ͲϬ͕ ϱϭй 15 45 \u0004ĐƟŽŶ^ĐƌŝƉƚ 1.067% нϬ͕ ϴϲй 16 - ^ǁŝŌ 1.054% нϭ͕ Ϭϱй 17 17 \u0018ĞůƉŚŝͬ KďũĞĐƚ\u0003WĂƐĐĂů ϭ͘ Ϭϯϭй нϬ͕ ϯϰй ϭϴ 15 >ŝƐƉ Ϭ͕ ϴϮϵй ͲϬ͕ Ϭϰй 19 ϭϴ D\u0004d>\u0004\u0011 Ϭ͕ ϳϴϭй нϬ͕ ϭϬй 20 20 \u0004ƐƐĞŵďůǇ Ϭ͕ ϳϳϳй нϬ͕ ϮϬй \u0018ŝƐƉŽŶşǀĞů\u0003Ğŵ͗ \u0003фŚƩƉ͗ͬͬ ǁǁǁ͘ ƟŽďĞ͘ ĐŽŵх͘ \u0003\u0004ĐĞƐƐŽ\u0003Ğŵ͗ \u0003Ϯϯ\u0003ũƵů͘ \u0003ϮϬϭϰ\u0003;ĂĚĂƉƚĂĚŽͿ͘ 16 ^/^d D\u0004^\u0003\u0018 \u0003/E&KZD\u0004\u0017\bK \u0012ŽŶƐŝĚĞƌĂŶĚŽ\u0003 Ă\u0003 ĐůĂƐƐŝĮĐĂĕĆŽ\u0003 ĚĂƐ\u0003 ůŝŶŐƵĂŐĞŶƐ\u0003 ĚĞ\u0003 ƉƌŽŐƌĂŵĂĕĆŽ\u0003 ĂƉƌĞƐĞŶƚĂĚĂ\u0003 ŶĂ\u0003 ƚĂďĞůĂ͕ \u0003 ĂǀĂůŝĞ\u0003 ĂƐ\u0003 ĂĮƌŵĂĕƁĞƐ\u0003Ă\u0003ƐĞŐƵŝƌ͘ I. K\u0003ranking\u0003Ġ\u0003ůŝĚĞƌĂĚŽ\u0003ƉŽƌ\u0003ƵŵĂ\u0003ůŝŶŐƵĂŐĞŵ\u0003ĚĞ\u0003 ƚĞƌĐĞŝƌĂ\u0003ŐĞƌĂĕĆŽ\u0003Ğ\u0003ĚĞ\u0003ƉĂƌĂĚŝŐŵĂ\u0003ĨƵŶĐŝŽŶĂů͘ II. >ŝŶŐƵĂŐĞŶƐ\u0003ĐŽŵ\u0003ůŝĐĞŶĕĂ\u0003ůŝǀƌĞ\u0003ƚġŵ\u0003ƉĂƌƟĐŝƉĂĕĆŽ\u0003 ŝŶĨĞƌŝŽƌ\u0003Ă\u0003ϮϬй͕ \u0003ƐĞ\u0003ƐŽŵĂĚŽƐ\u0003ŽƐ\u0003ƉĞƌĐĞŶƚƵĂŝƐ\u0003ĚĞ\u0003 ƉŽƉƵůĂƌŝĚĂĚĞ͘ III. \u0003 ŵĂŝŽƌ͕ \u0003 ŶŽ\u0003 ranking͕ \u0003 Ă\u0003 ƉĂƌƟĐŝƉĂĕĆŽ\u0003 ĚĞ\u0003 ůŝŶŐƵĂŐĞŶƐ\u0003 ƋƵĞ\u0003 ƵƟůŝǌĂŵ\u0003 Ž\u0003 ƉĂƌĂĚŝŐŵĂ\u0003 ŽƌŝĞŶƚĂĚŽ\u0003Ă\u0003ŽďũĞƚŽƐ\u0003ƋƵĞ\u0003Ă\u0003ĚĂƐ\u0003ůŝŶŐƵĂŐĞŶƐ\u0003ƋƵĞ\u0003 ƵƟůŝǌĂŵ\u0003ŽƐ\u0003ĚĞŵĂŝƐ\u0003ƉĂƌĂĚŝŐŵĂƐ͘ \u0003ĐŽƌƌĞƚŽ\u0003Ž\u0003ƋƵĞ\u0003ƐĞ\u0003ĂĮƌŵĂ\u0003Ğŵ A //͕ \u0003ĂƉĞŶĂƐ͘ B ///͕ \u0003ĂƉĞŶĂƐ͘ C /\u0003Ğ\u0003//͕ \u0003ĂƉĞŶĂƐ͘ D /\u0003Ğ\u0003///͕ \u0003ĂƉĞŶĂƐ͘ E /͕ \u0003//\u0003Ğ\u0003///͘",
+    "alternativas": [],
+    "gabarito": "B",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2014_Sistemas_de_Informacao-14.png"
+  },
+  {
+    "id": "2014_CST_Analise_Desenvolvimento_Sistemas-10",
+    "ano": 2014,
+    "prova": "2014_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2014_CST_Analise_Desenvolvimento_Sistemas/2014_PV_40_tecnologia_analise_desenv_sistemas.pdf",
+    "numero": 10,
+    "discursiva": false,
+    "pagina": 13,
+    "enunciado": "\u0004\u0003ĐůĂƐƐĞ\u0003CountOccurrence ĞƐĐƌŝƚĂ\u0003ŶĂ\u0003ůŝŶŐƵĂŐĞŵ\u0003 :ĂǀĂ͕ \u0003 ƚĞŵ\u0003 ƉŽƌ\u0003 ŽďũĞƟǀŽ\u0003 ůŽĐĂůŝǌĂƌ\u0003 Ğ\u0003 ĐŽŶƚĂƌ\u0003 ƋƵĂŶƚĂƐ\u0003 ŽĐŽƌƌġŶĐŝĂƐ\u0003 ĚĞ\u0003 Ƶŵ\u0003 ĚĞƚĞƌŵŝŶĂĚŽ\u0003 ǀĂůŽƌ\u0003 ĞǆŝƐƚĞŵ\u0003 Ğŵ\u0003 Ƶŵ\u0003ĐŽŶũƵŶƚŽ\u0003ƉƌĞĚĞƚĞƌŵŝŶĂĚŽ\u0003ĚĞ\u0003ǀĂůŽƌĞƐ͕ \u0003ƌĞƚŽƌŶĂŶĚŽ\u0003 Ă\u0003ƋƵĂŶƟĚĂĚĞ\u0003ĚĞ\u0003ǀĞǌĞƐ\u0003ƋƵĞ\u0003Ƶŵ\u0003ĚĞƚĞƌŵŝŶĂĚŽ\u0003ǀĂůŽƌ\u0003ƐĞ\u0003 ƌĞƉĞƚĞ\u0003ŶŽ\u0003ĐŽŶũƵŶƚŽ͘ 1 public class CountConcurrence { 2 3 public boolean hasValue(int searchValue, int[] array, int i) { 4 if (i >= array.length) 5 return false; 6 7 if (array[i] == searchValue) 8 return true; 9 else 10 return hasValue(searchValue, array, i + 1); 11 } 12 13 public int count(int countValue, int[] array, int i) { 14 if (!hasValue(countValue, array, i) || i >= array.length) 15 return 0; 16 17 int c = 0; 18 if (array[i] == contValue) 19 c++; 20 21 c += count(countValue, array, i); 22 return c; 23 } 24 25 public static void main(String[] args) { 26 int[] array = {2, 3, 5, 6, 9, 7, 8, 8, 9}; 27 CountOccurrence co = new CountOccurrence(); 28 System.out.println(co.count(5, array, 0)); 29 } 30 } WĂƌĂ\u0003 ƋƵĞ\u0003 Ž\u0003 ĂůŐŽƌŝƚŵŽ\u0003 ĨƵŶĐŝŽŶĞ\u0003 ĐŽƌƌĞƚĂŵĞŶƚĞ͕ \u0003 ĂƚĞŶĚĞŶĚŽ\u0003Ž\u0003ƌĞƋƵŝƐŝƚŽ\u0003ƉƌŽƉŽƐƚŽ͕ \u0003Ă\u0003ŵƵĚĂŶĕĂ\u0003Ğŵ\u0003ƐƵĂ\u0003 ĞƐƚƌƵƚƵƌĂ\u0003ƋƵĞ\u0003ĚĞǀĞ\u0003ƐĞƌ\u0003ĂƉůŝĐĂĚĂ\u0003Ġ",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A ĂůƚĞƌĂƌ\u0003Ă\u0003ůŝŶŚĂ\u0003ϭϱ͕ \u0003ĚĞ͗ return 0;\u0003ƉĂƌĂ͗ return count(countValue, array, 0)͖"
+      },
+      {
+        "letra": "B",
+        "texto": "B ĂůƚĞƌĂƌ\u0003 Ă\u0003 ůŝŶŚĂ\u0003 ϭϴ͕ \u0003 ĚĞ͗ if (array[i] == countValue)\u0003 ƉĂƌĂ͗ if (array[c] == countValue"
+      },
+      {
+        "letra": "C",
+        "texto": "C ĂůƚĞƌĂƌ\u0003Ă\u0003ůŝŶŚĂ\u0003Ϯϭ͕ \u0003ĚĞ͗ c += count(countValue, array, i)͖ \u0003ƉĂƌĂ͗ c += count(countValue, array, i + 1)͖"
+      },
+      {
+        "letra": "D",
+        "texto": "D ĂůƚĞƌĂƌ\u0003 Ă\u0003 ůŝŶŚĂ\u0003 ϭϰ͕ \u0003 ĚĞ͗ \u0003 if (!hasValue(countValue, array, i) || i >= array.length)\u0003ƉĂƌĂ͗ \u0003if (i >= array.length"
+      },
+      {
+        "letra": "E",
+        "texto": "E ĂůƚĞƌĂƌ\u0003 Ă\u0003 ůŝŶŚĂ\u0003 ϭϬ͕ \u0003 ĚĞ͗ \u0003 return hasValue(searchValue, array, i + 1); ƉĂƌĂ͗ \u0003 return hasValue(searchValue, array, i - 1)͖ 14 d \u0012EK>K'/\u0004\u0003 D\u0003\u0004E\u0006>/^ \u0003 \u0003\u0018 ^ EsK>s/D EdK\u0003\u0018 \u0003^/^d D\u0004^"
+      }
+    ],
+    "gabarito": "C",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2014_CST_Analise_Desenvolvimento_Sistemas-10.png"
+  },
+  {
+    "id": "legado_Computacao_2005_2008_2011-20",
+    "ano": 2005,
+    "prova": "legado_Computacao_2005_2008_2011",
+    "pdf": "legado_Computacao_2005_2008_2011/2005_Computacao_PV.pdf",
+    "numero": 20,
+    "discursiva": false,
+    "pagina": 10,
+    "enunciado": "A orientação a objetos é uma forma abstrata de pensar um problema utilizando-se conceitos do mundo real e não, apenas, conceitos computacionais. Nessa perspectiva, a adoção do paradigma orientado a objetos implica necessariamente que A os usuários utilizem as aplicações de forma mais simples. B os sistemas sejam encapsulados por outros sistemas. C os programadores de aplicações sejam mais especializados. D os objetos sejam implementados de maneira eficiente e simples. E a computação seja acionada por troca de mensagens entre objetos.",
+    "alternativas": [],
+    "gabarito": "E",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/legado_Computacao_2005_2008_2011-20.png"
+  },
+  {
+    "id": "2017_CST_Analise_Desenvolvimento_Sistemas-5-D",
+    "ano": 2017,
+    "prova": "2017_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2017_CST_Analise_Desenvolvimento_Sistemas/2017_PV_41_TEC_ANA_DES_SIS_BAIXA.pdf",
+    "numero": 5,
+    "discursiva": true,
+    "pagina": 16,
+    "enunciado": "16 TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS Yh ^d\bK\u0003\u0018/^\u0012hZ^/s\u0004\u0003Ϭϱ\u0003 \u0004\u0003ĐŽŽƌĚĞŶĂĕĆŽ\u0003ĚĞ\u0003ŐĞƐƚĆŽ\u0003ĚĞ\u0003ƉĞƐƐŽĂƐ\u0003;\u0012'WͿ\u0003ĚĞ\u0003ƵŵĂ\u0003ĞŵƉƌĞƐĂ\u0003ƐŽůŝĐŝƚŽƵ\u0003ă\u0003ĞƋƵŝƉĞ\u0003ĚĞ\u0003d/\u0003ƋƵĞ\u0003ĚĞƐĞŶǀŽůǀĞƐƐĞ\u0003 Ƶŵ\u0003ĂƉůŝĐĂƟǀŽ\u0003;appͿ\u0003ƉĂƌĂ\u0003ĐƌŝĂĕĆŽ\u0003ĚĞ\u0003ƵŵĂ\u0003ƌĞĚĞ\u0003ƐŽĐŝĂů\u0003on-line\u0003ƋƵĞ\u0003ŝŶĐĞŶƟǀĂƐƐĞ\u0003ŽƐ\u0003ĞŵƉƌĞŐĂĚŽƐ\u0003Ă\u0003ŝĚĞĂůŝǌĂƌ\u0003Ğ\u0003 ĞǆĞĐƵƚĂƌ\u0003ƉƌŽũĞƚŽƐ͘ \u0003\u0004\u0003Įŵ\u0003ĚĞ\u0003ƌĞĂůŝǌĂƌ\u0003Ž\u0003ůĞǀĂŶƚĂŵĞŶƚŽ\u0003ĚĞ\u0003ƌĞƋƵŝƐŝƚŽƐ͕ \u0003Ă\u0003ĞƋƵŝƉĞ\u0003ĚĞ\u0003ĚĞƐĞŶǀŽůǀŝŵĞŶƚŽ\u0003ƐĞ\u0003ƌĞƵŶŝƵ\u0003 ĐŽŵ\u0003Ă\u0003\u0012'W\u0003Ğ\u0003ĂůŐƵŶƐ\u0003ĞŵƉƌĞŐĂĚŽƐ\u0003Ğ͕ \u0003ƉĂƌĂ\u0003ŵĞůŚŽƌĂƌ\u0003Ă\u0003ĐŽŵƵŶŝĐĂĕĆŽ\u0003ĞŶƚƌĞ\u0003ŽƐ\u0003ĞŶǀŽůǀŝĚŽƐ͕ \u0003ŽƐ\u0003ĂŶĂůŝƐƚĂƐ\u0003ĚĞ\u0003 ƐŝƐƚĞŵĂƐ\u0003ĚĂ\u0003ĞŵƉƌĞƐĂ\u0003ŽƉƚĂƌĂŵ\u0003ƉĞůĂ\u0003ƉƌŽƚŽƟƉĂĕĆŽ\u0003ĚĞ\u0003ƚĞůĂƐ\u0003ĚŽ\u0003app͕ \u0003ĐŽŶĨŽƌŵĞ\u0003ŽƐ\u0003ĞǆĞŵƉůŽƐ\u0003Ă\u0003ƐĞŐƵŝƌ͘ WƌŽƚſƟƉŽ\u0003ϭ\u0003 WƌŽƚſƟƉŽ\u0003Ϯ\u0003 WƌŽƚſƟƉŽ\u0003ϯ\u0003 dĞŶĚŽͲƐĞ\u0003ƵƐĂĚŽ\u0003Ă\u0003ĂďŽƌĚĂŐĞŵ\u0003ĚĞ\u0003ƉƌŽƚŽƟƉĂĕĆŽ͕ \u0003ĨŽƌĂŵ\u0003ĚŽĐƵŵĞŶƚĂĚŽƐ\u0003ŽƐ\u0003ƐĞŐƵŝŶƚĞƐ\u0003ƌĞƋƵŝƐŝƚŽƐ͗ ͻ\u0003 ƚŽĚŽ\u0003ĐŽůĂďŽƌĂĚŽƌ\u0003ĚĞǀĞ\u0003ŝŶĨŽƌŵĂƌ\u0003ŶƷŵĞƌŽ\u0003ĚĞ\u0003ŵĂƚƌşĐƵůĂ͕ \u0003ŶŽŵĞ͕ \u0003ĞŶĚĞƌĞĕŽ\u0003ĚĞ\u0003e-mail Ğ\u0003ƐĞŶŚĂ\u0003ĚĞ\u0003login ƉĂƌĂ\u0003ƐĞ\u0003ĐĂĚĂƐƚƌĂƌ\u0003ŶŽ\u0003app\u0003Ğ\u0003ƉŽĚĞƌ\u0003ƌĞŐŝƐƚƌĂƌ\u0003ƉƌŽũĞƚŽƐ\u0003Ğ\u0003ĞŶǀŝĂƌ\u0003ĐŽŵĞŶƚĄƌŝŽƐ͖ \u0003Ă\u0003ĐŽŽƌĚĞŶĂĕĆŽ\u0003ĚĞ\u0003Ƶŵ\u0003 ƉƌŽũĞƚŽ\u0003Ġ\u0003ĂƚƌŝďƵşĚĂ\u0003ĂƵƚŽŵĂƟĐĂŵĞŶƚĞ\u0003ĂŽ\u0003ĐŽůĂďŽƌĂĚŽƌ\u0003ƋƵĞ\u0003Ž\u0003ƌĞŐŝƐƚƌĂƌ͖ ͻ\u0003 ĐĂĚĂ\u0003ƉƌŽũĞƚŽ\u0003ƉŽĚĞ\u0003ƐĞƌ\u0003ĐůĂƐƐŝĮĐĂĚŽ\u0003Ğŵ\u0003ƵŵĂ\u0003ĚĞ\u0003ĚƵĂƐ\u0003ƉŽƐƐşǀĞŝƐ\u0003ĐĂƚĞŐŽƌŝĂƐ͗ \u0003ΗDĞůŚŽƌŝĂ\u0003ĚĞ\u0003WƌŽĐĞƐƐŽΗ\u0003 ŽƵ\u0003Η^ŽĐŝĂůΗ͖ \u0003ĂůĠŵ\u0003ĚŽƐ\u0003ĚĂĚŽƐ\u0003Ğŵ\u0003ĐŽŵƵŵ\u0003ƉĂƌĂ\u0003ĂŵďĂƐ\u0003ĂƐ\u0003ĐĂƚĞŐŽƌŝĂƐ͕ \u0003Ƶŵ\u0003ƉƌŽũĞƚŽ\u0003ĚĞ\u0003ΗDĞůŚŽƌŝĂ\u0003ĚĞ\u0003 WƌŽĐĞƐƐŽΗ\u0003ĚĞǀĞ\u0003ƐĞƌ\u0003ĂůŽĐĂĚŽ\u0003ĂŽ\u0003ĚĞƉĂƌƚĂŵĞŶƚŽ\u0003;ƐĞůĞĐŝŽŶĂĚŽ\u0003ĚĞ\u0003ƵŵĂ\u0003ůŝƐƚĂͿ\u0003Ğŵ\u0003ƋƵĞ\u0003ĞůĞ\u0003ƐĞƌĄ\u0003ĂƉůŝĐĂĚŽ\u0003 Ğ\u0003 ŽƐ\u0003 ƌĞƐƵůƚĂĚŽƐ\u0003 ĞƐƉĞƌĂĚŽƐ\u0003 ĚĞǀĞŵ\u0003 ƐĞƌ\u0003 ŝŶĨŽƌŵĂĚŽƐ\u0003 ;ĐŽŶĨŽƌŵĞ\u0003 Ž\u0003 ƉƌŽƚſƟƉŽ\u0003 ϭͿ͖ \u0003 ƉĂƌĂ\u0003 Ƶŵ\u0003 ƉƌŽũĞƚŽ\u0003 Η^ŽĐŝĂůΗ͕ \u0003ĚĞǀĞͲƐĞ\u0003ŝŶĚŝĐĂƌ\u0003Ž\u0003ƉƷďůŝĐŽ\u0003ďĞŶĞĮĐŝĄƌŝŽ\u0003;ĐŽŶĨŽƌŵĞ\u0003Ž\u0003ƉƌŽƚſƟƉŽ\u0003ϮͿ͖ ͻ\u0003 ƵŵĂ\u0003ǀĞǌ\u0003ƌĞŐŝƐƚƌĂĚŽ\u0003Ž\u0003ƉƌŽũĞƚŽ͕ \u0003ƋƵĂůƋƵĞƌ\u0003ĐŽůĂďŽƌĂĚŽƌ\u0003ƉŽĚĞ\u0003ǀŝƐƵĂůŝǌĄͲůŽ\u0003ŶŽ\u0003app\u0003Ğ\u0003ƌĞŐŝƐƚƌĂƌ\u0003Ƶŵ\u0003ŽƵ\u0003ŵĂŝƐ\u0003 ĐŽŵĞŶƚĄƌŝŽƐ\u0003ƉĂƌĂ\u0003ĐŽŶƚƌŝďƵŝƌ\u0003ĐŽŵ\u0003Ž\u0003ƌĞĮŶĂŵĞŶƚŽ\u0003ĚĂ\u0003ŝĚĞŝĂ\u0003;ĐŽŶĨŽƌŵĞ\u0003Ž\u0003ƉƌŽƚſƟƉŽ\u0003ϯͿ͖ \u0003ŽƐ\u0003ĐŽŵĞŶƚĄƌŝŽƐ\u0003 ƐĆŽ\u0003ǀŝƐƵĂůŝǌĂĚŽƐ\u0003Ğŵ\u0003ŽƌĚĞŵ\u0003ĐƌŽŶŽůſŐŝĐĂ͕ \u0003ƉŽƌ\u0003ĚĂƚĂ\u0003Ğ\u0003ŚŽƌĄƌŝŽ͖ ͻ\u0003 Ž\u0003ĐŽŽƌĚĞŶĂĚŽƌ\u0003ĚŽ\u0003ƉƌŽũĞƚŽ\u0003ƉŽĚĞ\u0003ŝŶĐůƵŝƌ\u0003ĂƚĠ\u0003ƚƌġƐ\u0003ĐŽůĂďŽƌĂĚŽƌĞƐ\u0003ƉĂƌĂ\u0003ƉĂƌƟĐŝƉĂƌĞŵ\u0003ĚĂ\u0003ĞƋƵŝƉĞ͘",
+    "alternativas": [],
+    "gabarito": null,
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2017_CST_Analise_Desenvolvimento_Sistemas-5-D.png"
+  },
+  {
+    "id": "2017_Ciencia_Computacao_Bacharelado-11",
+    "ano": 2017,
+    "prova": "2017_Ciencia_Computacao_Bacharelado",
+    "pdf": "2017_Ciencia_Computacao_Bacharelado/2017_PV_03_CIE_COM_BACHAREL_BAIXA.pdf",
+    "numero": 11,
+    "discursiva": false,
+    "pagina": 17,
+    "enunciado": "K\u0003 ĞŶĐĂƉƐƵůĂŵĞŶƚŽ\u0003 Ġ\u0003 Ƶŵ\u0003 ŵĞĐĂŶŝƐŵŽ\u0003 ĚĂ\u0003 ƉƌŽŐƌĂŵĂĕĆŽ\u0003 ŽƌŝĞŶƚĂĚĂ\u0003 Ă\u0003 ŽďũĞƚŽƐ\u0003 ŶŽ\u0003 ƋƵĂů\u0003 ŽƐ\u0003 ŵĞŵďƌŽƐ\u0003 ĚĞ\u0003 ƵŵĂ\u0003 ĐůĂƐƐĞ\u0003 ;ĂƚƌŝďƵƚŽƐ\u0003 Ğ\u0003 ŵĠƚŽĚŽƐͿ\u0003 ĐŽŶƐƟƚƵĞŵ\u0003 ƵŵĂ\u0003 ĐĂŝǆĂ\u0003 ƉƌĞƚĂ͘ \u0003 K\u0003 ŶşǀĞů\u0003 ĚĞ\u0003 ǀŝƐŝďŝůŝĚĂĚĞ\u0003ĚŽƐ\u0003ŵĞŵďƌŽƐ\u0003ƉŽĚĞ\u0003ƐĞƌ\u0003ĚĞĮŶŝĚŽ\u0003ƉĞůŽƐ\u0003 ŵŽĚŝĮĐĂĚŽƌĞƐ\u0003ĚĞ\u0003ǀŝƐŝďŝůŝĚĂĚĞ\u0003ΗƉƌŝǀĂĚŽΗ͕ \u0003ΗƉƷďůŝĐŽΗ\u0003 Ğ\u0003ΗƉƌŽƚĞŐŝĚŽΗ͘ \u0012Žŵ\u0003 ƌĞůĂĕĆŽ\u0003 ĂŽ\u0003 ĐŽŵƉŽƌƚĂŵĞŶƚŽ\u0003 ŐĞƌĂĚŽ\u0003 ƉĞůŽƐ\u0003 ŵŽĚŝĮĐĂĚŽƌĞƐ\u0003 ĚĞ\u0003 ǀŝƐŝďŝůŝĚĂĚĞ͕ \u0003 ĂƐƐŝŶĂůĞ\u0003 Ă\u0003 ŽƉĕĆŽ\u0003 ĐŽƌƌĞƚĂ͘",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A hŵ\u0003 ĂƚƌŝďƵƚŽ\u0003 ƉƌŝǀĂĚŽ\u0003 ƉŽĚĞ\u0003 ƐĞƌ\u0003 ĂĐĞƐƐĂĚŽ\u0003 ƉĞůŽƐ\u0003 ŵĠƚŽĚŽƐ\u0003 ƉƌŝǀĂĚŽƐ\u0003 ĚĂ\u0003 ƉƌſƉƌŝĂ\u0003 ĐůĂƐƐĞ\u0003 Ğ\u0003 ƉĞůŽƐ\u0003 ŵĠƚŽĚŽƐ\u0003 ƉƌŽƚĞŐŝĚŽƐ\u0003 ĚĂƐ\u0003 ƐƵĂƐ\u0003 ĐůĂƐƐĞƐ\u0003 ĚĞƐĐĞŶĚĞŶƚĞƐ͘"
+      },
+      {
+        "letra": "B",
+        "texto": "B hŵ\u0003 ĂƚƌŝďƵƚŽ\u0003 ƉƌŝǀĂĚŽ\u0003 ƉŽĚĞ\u0003 ƐĞƌ\u0003 ĂĐĞƐƐĂĚŽ\u0003 ƉĞůŽƐ\u0003 ŵĠƚŽĚŽƐ\u0003 ƉƷďůŝĐŽƐ\u0003 ĚĂ\u0003 ƉƌſƉƌŝĂ\u0003 ĐůĂƐƐĞ\u0003 Ğ\u0003 ƉĞůŽƐ\u0003 ŵĠƚŽĚŽƐ\u0003 ƉƷďůŝĐŽƐ\u0003 ĚĂƐ\u0003 ƐƵĂƐ\u0003 ĐůĂƐƐĞƐ\u0003 ĚĞƐĐĞŶĚĞŶƚĞƐ͘"
+      },
+      {
+        "letra": "C",
+        "texto": "C hŵ\u0003ŵĞŵďƌŽ\u0003ƉƷďůŝĐŽ\u0003Ġ\u0003ǀŝƐşǀĞů\u0003ŶĂ\u0003ĐůĂƐƐĞ\u0003ă\u0003ƋƵĂů\u0003 ĞůĞ\u0003ƉĞƌƚĞŶĐĞ͕ \u0003ŵĂƐ\u0003ŶĆŽ\u0003Ġ\u0003ǀŝƐşǀĞů\u0003ŶĂƐ\u0003ƐƵĂƐ\u0003ĐůĂƐƐĞƐ\u0003 ĚĞƐĐĞŶĚĞŶƚĞƐ͘"
+      },
+      {
+        "letra": "D",
+        "texto": "D hŵ\u0003 ŵĠƚŽĚŽ\u0003 ƉƌŽƚĞŐŝĚŽ\u0003 ŶĆŽ\u0003 ƉŽĚĞ\u0003 ĂĐĞƐƐĂƌ\u0003 ŽƐ\u0003 ĂƚƌŝďƵƚŽƐ\u0003 ƉƌŝǀĂĚŽƐ\u0003 Ğ\u0003 ĚĞĐůĂƌĂĚŽƐ\u0003 ŶĂ\u0003 ƉƌſƉƌŝĂ\u0003 ĐůĂƐƐĞ͘"
+      },
+      {
+        "letra": "E",
+        "texto": "E \u0003hŵ\u0003ŵĞŵďƌŽ\u0003ƉƌŽƚĞŐŝĚŽ\u0003Ġ\u0003ǀŝƐşǀĞů\u0003ŶĂ\u0003ĐůĂƐƐĞ\u0003ă\u0003ƋƵĂů\u0003 ƉĞƌƚĞŶĐĞ\u0003Ğ\u0003Ğŵ\u0003ƐƵĂƐ\u0003ĐůĂƐƐĞƐ\u0003ĚĞƐĐĞŶĚĞŶƚĞƐ͘ \u0006ƌĞĂ\u0003ůŝǀƌĞ CIÊNCIA DA COMPUTAÇÃO ϭϴ"
+      }
+    ],
+    "gabarito": "E",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2017_Ciencia_Computacao_Bacharelado-11.png"
+  },
+  {
+    "id": "2021_Sistemas_de_Informacao_Bacharelado-9",
+    "ano": 2021,
+    "prova": "2021_Sistemas_de_Informacao_Bacharelado",
+    "pdf": "2021_Sistemas_de_Informacao_Bacharelado/2021_PV_bacharelado_sistema_informacao.pdf",
+    "numero": 9,
+    "discursiva": false,
+    "pagina": 17,
+    "enunciado": "O gestor de uma instituição seguradora solicitou ao desenvolvedor de software o projeto de uma solução computacional para a instituição. Após executar a análise de requisitos, esse desenvolvedor esboçou o diagrama UML (Unified Modeling Language), contendo os elementos apresentados na figura a seguir. Em relação ao que é proposto no diagrama, avalie as afirmações a seguir. I.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A classe Seguro é a superclasse de uma hierarquia de herança múltipla. II. O mecanismo de ligação entre as classes Segurado e Seguro é a associação. III. As subclasses Residencial, Automotivo e Vida devem ser implementadas como classes abstratas. IV. É permitido que um Segurado possa adquirir várias apólices de Seguro. É correto apenas o que se afirma em A I e III"
+      },
+      {
+        "letra": "B",
+        "texto": "B II e III"
+      },
+      {
+        "letra": "C",
+        "texto": "C II e IV"
+      },
+      {
+        "letra": "D",
+        "texto": "D I, II e IV"
+      },
+      {
+        "letra": "E",
+        "texto": "E I, III e IV. Segurado 1..1 0..n Seguro Residencial AutomoƟvo Vida 18 Sistemas de informação"
+      }
+    ],
+    "gabarito": "C",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2021_Sistemas_de_Informacao_Bacharelado-9.png"
+  },
+  {
+    "id": "legado_Computacao_2005_2008_2011-27",
+    "ano": 2005,
+    "prova": "legado_Computacao_2005_2008_2011",
+    "pdf": "legado_Computacao_2005_2008_2011/2005_Computacao_PV.pdf",
+    "numero": 27,
+    "discursiva": false,
+    "pagina": 11,
+    "enunciado": "Na etapa de projeto orientado a objetos, no contexto de um processo de desenvolvimento de software, são desenvolvidas as atividades de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A definição da arquitetura do sistema e conversão das bases de dados do sistema"
+      },
+      {
+        "letra": "B",
+        "texto": "B identificação dos objetos do sistema e definição da arquitetura do sistema"
+      },
+      {
+        "letra": "C",
+        "texto": "C conversão das bases de dados do sistema e teste de integração do sistema"
+      },
+      {
+        "letra": "D",
+        "texto": "D teste de integração do sistema e análise de requisitos do sistema"
+      },
+      {
+        "letra": "E",
+        "texto": "E análise de requisitos do sistema e definição da arquitetura do sistema"
+      }
+    ],
+    "gabarito": "B",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/legado_Computacao_2005_2008_2011-27.png"
+  },
+  {
+    "id": "2017_Ciencia_Computacao_Licenciatura-4-D",
+    "ano": 2017,
+    "prova": "2017_Ciencia_Computacao_Licenciatura",
+    "pdf": "2017_Ciencia_Computacao_Licenciatura/2017_PV_04_CIE_COM_LICENCIATURA_BAIXA.pdf",
+    "numero": 4,
+    "discursiva": true,
+    "pagina": 14,
+    "enunciado": "CIÊNCIA DA COMPUTAÇÃO 14 Yh ^d\bK\u0003\u0018/^\u0012hZ^/s\u0004\u0003Ϭϰ\u0003 hŵĂ\u0003ĞŵƉƌĞƐĂ\u0003ƉƌĞƚĞŶĚĞ\u0003ĚĞƐĞŶǀŽůǀĞƌ\u0003Ƶŵ\u0003ƐŝƐƚĞŵĂ\u0003ĚĞ\u0003ĨŽůŚĂ\u0003ĚĞ\u0003ƉĂŐĂŵĞŶƚŽ\u0003ĐƵũŽ\u0003ƉƌŽĐĞƐƐŽ\u0003ĚĞ\u0003ŵŽĚĞůĂŐĞŵ\u0003 ƵƟůŝǌĂƌĄ\u0003hD>\u0003;hŶŝĮĞĚ\u0003DŽĚĞůŝŶŐ\u0003>ĂŶŐƵĂŐĞͿ͘ \u0003 ƐƐĂ\u0003ĞŵƉƌĞƐĂ\u0003ƚĞŵ\u0003ƚƌġƐ\u0003ƟƉŽƐ\u0003ĚĞ\u0003ĐŽůĂďŽƌĂĚŽƌ͗ \u0003Ž\u0003ĐŽŵŝƐƐŝŽŶĂĚŽ͕ \u0003 Ž\u0003ŚŽƌŝƐƚĂ\u0003Ğ\u0003Ž\u0003ĂƐƐĂůĂƌŝĂĚŽ͘ \u0003dŽĚŽƐ\u0003ŽƐ\u0003ĐŽůĂďŽƌĂĚŽƌĞƐ\u0003ƌĞŐŝƐƚƌĂŵ͕ \u0003ƉĂƌĂ\u0003ĞĨĞŝƚŽ\u0003ĚĞ\u0003ĐŽŶƚƌŽůĞ͕ \u0003Ž\u0003ŶƷŵĞƌŽ\u0003ĚĞ\u0003ŚŽƌĂƐ\u0003 ƚƌĂďĂůŚĂĚĂƐ\u0003ŶŽ\u0003ŵġƐ͘ \u0003\u0004ĚŝĐŝŽŶĂůŵĞŶƚĞ͕ \u0003ŽƐ\u0003ĐŽŵŝƐƐŝŽŶĂĚŽƐ\u0003ƌĞŐŝƐƚƌĂŵ\u0003Ž\u0003ǀĂůŽƌ\u0003ĚŽ\u0003ƉĞƌĐĞŶƚƵĂů\u0003ĚĞ\u0003ĐŽŵŝƐƐĆŽ\u0003 Ğ\u0003Ž\u0003ǀĂůŽƌ\u0003ƚŽƚĂů\u0003ĚĞ\u0003ǀĞŶĚĂƐ\u0003ĂĐƵŵƵůĂĚŽ\u0003ŶŽ\u0003ŵġƐ͖ \u0003ŽƐ\u0003ŚŽƌŝƐƚĂƐ\u0003ƌĞŐŝƐƚƌĂŵ\u0003Ž\u0003ǀĂůŽƌ\u0003ƌĞĐĞďŝĚŽ\u0003ƉŽƌ\u0003ŚŽƌĂ͖ \u0003Ğ\u0003ŽƐ\u0003 ĂƐƐĂůĂƌŝĂĚŽƐ\u0003ƌĞŐŝƐƚƌĂŵ\u0003Ž\u0003ǀĂůŽƌ\u0003ĚŽ\u0003ƐĂůĄƌŝŽ͘ \u0012ĂĚĂ\u0003ĐŽůĂďŽƌĂĚŽƌ\u0003ƉĞƌƚĞŶĐĞ\u0003Ă\u0003Ƶŵ\u0003ĚĞƉĂƌƚĂŵĞŶƚŽ\u0003Ğ\u0003ĐĂĚĂ\u0003ĚĞƉĂƌƚĂŵĞŶƚŽ\u0003ƉŽƐƐƵŝ\u0003ƉĞůŽ\u0003ŵĞŶŽƐ\u0003Ƶŵ\u0003ĐŽůĂďŽƌĂĚŽƌ͘ \u0003 EŽ\u0003ĮŶĂů\u0003ĚĞ\u0003ĐĂĚĂ\u0003ŵġƐ͕ \u0003ĐĂĚĂ\u0003ĚĞƉĂƌƚĂŵĞŶƚŽ\u0003ĚĞǀĞ\u0003ĐĂůĐƵůĂƌ\u0003Ž\u0003ƐĂůĄƌŝŽ\u0003ĚŽƐ\u0003ƐĞƵƐ\u0003ĐŽůĂďŽƌĂĚŽƌĞƐ\u0003ĚĂ\u0003ƐĞŐƵŝŶƚĞ\u0003 ĨŽƌŵĂ͗ \u0003 ŽƐ\u0003 ĐŽŵŝƐƐŝŽŶĂĚŽƐ\u0003 ĚĞǀĞŵ\u0003 ƌĞĐĞďĞƌ\u0003 Ž\u0003 ǀĂůŽƌ\u0003 ƚŽƚĂů\u0003 ĚĂƐ\u0003 ǀĞŶĚĂƐ\u0003 ŵƵůƟƉůŝĐĂĚŽ\u0003 ƉĞůĂ\u0003 ƉĞƌĐĞŶƚĂŐĞŵ͕ \u0003 ŝŶĚĞƉĞŶĚĞŶƚĞŵĞŶƚĞ\u0003 ĚŽ\u0003 ŶƷŵĞƌŽ\u0003 ĚĞ\u0003 ŚŽƌĂƐ\u0003 ƚƌĂďĂůŚĂĚĂƐ͖ \u0003 ŽƐ\u0003 ŚŽƌŝƐƚĂƐ\u0003 ĚĞǀĞŵ\u0003 ƌĞĐĞďĞƌ\u0003 Ž\u0003 ǀĂůŽƌ\u0003 ĚĂ\u0003 ŚŽƌĂ\u0003 ƚƌĂďĂůŚĂĚĂ\u0003ŵƵůƟƉůŝĐĂĚŽ\u0003ƉĞůŽ\u0003ŶƷŵĞƌŽ\u0003ĚĞ\u0003ŚŽƌĂƐ\u0003ƚƌĂďĂůŚĂĚĂƐ͖ \u0003Ğ\u0003ŽƐ\u0003ĂƐƐĂůĂƌŝĂĚŽƐ\u0003ĚĞǀĞŵ\u0003ƌĞĐĞďĞƌ\u0003Ž\u0003ǀĂůŽƌ\u0003 ŶŽŵŝŶĂů\u0003ĚŽ\u0003ƐĂůĄƌŝŽ͘ \u0012ŽŶƐŝĚĞƌĂŶĚŽ\u0003ĞƐƐĂ\u0003ƐŝƚƵĂĕĆŽ\u0003Ğ\u0003ƋƵĞ\u0003Ž\u0003ŵŽĚĞůŽ\u0003ƋƵĞ\u0003ƐĞƌĄ\u0003ĞůĂďŽƌĂĚŽ\u0003ƉĂƌĂ\u0003ƌĞƉƌĞƐĞŶƚĄͲůĂ\u0003ƵƟůŝǌĂƌĄ\u0003ŚĞƌĂŶĕĂ\u0003Ğ\u0003 ƉŽůŝŵŽƌĮƐŵŽ͕ \u0003ĚĞƐĞŶŚĞ\u0003Ƶŵ\u0003ĚŝĂŐƌĂŵĂ\u0003ĚĞ\u0003ĐůĂƐƐĞ\u0003hD>\u0003ƋƵĞ\u0003ĐŽŶƚĞŶŚĂ͗ ͻ\u0003 ĂƐ\u0003ĐůĂƐƐĞƐ\u0003ƋƵĞ\u0003ƌĞƉƌĞƐĞŶƚĂŵ\u0003ĂƐ\u0003ĞŶƟĚĂĚĞƐ\u0003ŵĞŶĐŝŽŶĂĚĂƐ\u0003;ĚĞƉĂƌƚĂŵĞŶƚŽ͕ \u0003ĐŽůĂďŽƌĂĚŽƌ\u0003Ğ\u0003ƐĞƵƐ\u0003ƟƉŽƐͿ͖ ͻ\u0003 ĂƐ\u0003ƌĞƐƉĞĐƟǀĂƐ\u0003ĂƐƐŽĐŝĂĕƁĞƐ͕ \u0003ĂƚƌŝďƵƚŽƐ\u0003Ğ\u0003ŵĠƚŽĚŽƐ͕ \u0003ŶĆŽ\u0003ƐĞŶĚŽ\u0003ŶĞĐĞƐƐĄƌŝŽ\u0003ƟƉĂƌ\u0003ŽƐ\u0003ĂƚƌŝďƵƚŽƐ͖ ͻ\u0003 ĞǀĞŶƚƵĂŝƐ\u0003ĐůĂƐƐĞƐ\u0003ĂďƐƚƌĂƚĂƐ\u0003ĐŽŵ\u0003Ă\u0003ŝŶĚŝĐĂĕĆŽ\u0003ĚĂ\u0003ƌĞƐƚƌŝĕĆŽ\u0003΂abstract΃͖ ͻ\u0003 Ă\u0003ŵƵůƟƉůŝĐŝĚĂĚĞ\u0003ĚĞ\u0003ƉĂƉĞů\u0003ĚĂƐ\u0003ĂƐƐŽĐŝĂĕƁĞƐ͖ ͻ\u0003 ĂŽ\u0003ůĂĚŽ\u0003ĚĞ\u0003ĐĂĚĂ\u0003ŽĐŽƌƌġŶĐŝĂ\u0003ĚŽ\u0003ŵĠƚŽĚŽ\u0003ƉĂƌĂ\u0003ĐĄůĐƵůŽ\u0003ĚŽ\u0003ƉĂŐĂŵĞŶƚŽ͕ \u0003ƐƵĂ\u0003ĚĞĮŶŝĕĆŽ\u0003ŶĂ\u0003ĨŽƌŵĂ\u0003ĚĞ\u0003ƵŵĂ\u0003 ĞǆƉƌĞƐƐĆŽ\u0003ƋƵĞ\u0003ĐŽŵďŝŶĞ\u0003ŽƐ\u0003ǀĂůŽƌĞƐ\u0003ĚŽƐ\u0003ĂƚƌŝďƵƚŽƐ\u0003ĚĂ\u0003ĐůĂƐƐĞ͘ ;ǀĂůŽƌ͗ \u0003ϭϬ͕ Ϭ\u0003ƉŽŶƚŽƐͿ 1 2 ϯ 4 5 6 7 ϴ 9 10 11 12 ϭϯ 14 15",
+    "alternativas": [],
+    "gabarito": null,
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2017_Ciencia_Computacao_Licenciatura-4-D.png"
+  },
+  {
+    "id": "legado_Computacao_2005_2008_2011-57",
+    "ano": 2005,
+    "prova": "legado_Computacao_2005_2008_2011",
+    "pdf": "legado_Computacao_2005_2008_2011/2005_Computacao_PV.pdf",
+    "numero": 57,
+    "discursiva": false,
+    "pagina": 21,
+    "enunciado": "A escolha de uma boa representação de conhecimento é tarefa fundamental na resolução de problemas que envolvem inteligência artificial. Acerca desse assunto, assinale a opção correta. A O encadeamento regressivo, por utilizar busca em largura para resolução de conflitos, é menos usado que o progressivo. B O encadeamento progressivo utiliza busca gulosa para fazer a comparação entre os fatos armazenados na memória de trabalho do sistema e os antecedentes das regras a disparar. C As redes semânticas, mecanismo mais expressivo que a lógica de primeira ordem, foram desenvolvidas para se superar uma dificuldade dos sistemas embasados em lógica de representar categorias. D A representação de conhecimento frames é uma boa alternativa para esse tipo de problema, por incluir, além de um mecanismo de inferência semanticamente bem definido, mecanismos de encapsulamento e componentes, comuns ao paradigma orientado a objeto. E Tanto redes semânticas quanto frames representam facilmente conhecimento estrutural, comportamental e procedural.",
+    "alternativas": [],
+    "gabarito": "B",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/legado_Computacao_2005_2008_2011-57.png"
+  },
+  {
+    "id": "2021_CST_Analise_Desenvolvimento_Sistemas-24",
+    "ano": 2021,
+    "prova": "2021_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2021_CST_Analise_Desenvolvimento_Sistemas/2021_PV_tecnologia_analise_desenvolvimento_sistemas.pdf",
+    "numero": 24,
+    "discursiva": false,
+    "pagina": 32,
+    "enunciado": "Em razão da Covid-19, muitos estabelecimentos viram no delivery uma forma de manter os negócios funcionando. As mudanças de hábitos dos brasileiros revelaram um aumento do interesse nesse tipo de serviço. Nesse contexto, um restaurante solicitou o desenvolvimento de um sistema web que possibilite gerenciar automaticamente os pedidos de entrega. O sistema foi projetado com base em tecnologias web e modelado com UML (Unified Modeling Language). Durante o processo de desenvolvimento foram descritos alguns itens importantes que merecem atenção no processo de teste de software. Considerem as seguintes descrições definidas pelo analista de teste: 01 – Verificar se o método “Finalizar Pedido” da classe “Pedido” está funcionando corretamente. 02 – Garantir que o sistema funcione corretamente em diferentes navegadores de internet. 03 – O sistema deve passar por testes rigorosos na estrutura lógica interna do software. 04 – O sistema deve garantir, no mínimo, o registro de 100 pedidos simultâneos. 05 – O usuário deve testar o sistema em um ambiente controlado sob a supervisão dos desenvolvedores. Considerando o texto e as descrições apresentadas, avalie as afirmações a seguir. I.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A descrição 01 deve ser verificada com teste unitário. II. A descrição 02 deve ser executada com a abordagem caixa-branca. III. A descrição 03 deve ser executada com a abordagem caixa-preta. IV. A descrição 04 deve ser verificada com teste carga. V. A descrição 05 deve ser classificada como teste alfa. É correto apenas o que se afirma em A II e III"
+      },
+      {
+        "letra": "B",
+        "texto": "B I, II e IV"
+      },
+      {
+        "letra": "C",
+        "texto": "C I, III e V"
+      },
+      {
+        "letra": "D",
+        "texto": "D I, IV e V"
+      },
+      {
+        "letra": "E",
+        "texto": "E II, III, IV e V. 33 TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS"
+      }
+    ],
+    "gabarito": "D",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2021_CST_Analise_Desenvolvimento_Sistemas-24.png"
+  },
+  {
+    "id": "2014_CST_Analise_Desenvolvimento_Sistemas-3-D",
+    "ano": 2014,
+    "prova": "2014_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2014_CST_Analise_Desenvolvimento_Sistemas/2014_PV_40_tecnologia_analise_desenv_sistemas.pdf",
+    "numero": 3,
+    "discursiva": true,
+    "pagina": 9,
+    "enunciado": "\u0004Ɛ\u0003ĐůĂƐƐĞƐ\u0003ĐŽƐƚƵŵĂŵ\u0003ƉŽƐƐƵŝƌ\u0003ƌĞůĂĐŝŽŶĂŵĞŶƚŽƐ\u0003ĞŶƚƌĞ\u0003Ɛŝ͕ \u0003ĐŚĂŵĂĚŽƐ\u0003ĚĞ\u0003ĂƐƐŽĐŝĂĕƁĞƐ͕ \u0003ƋƵĞ\u0003ƉĞƌŵŝƚĞŵ\u0003ƋƵĞ\u0003ĞůĂƐ\u0003 ĐŽŵƉĂƌƟůŚĞŵ\u0003ŝŶĨŽƌŵĂĕƁĞƐ\u0003ĞŶƚƌĞ\u0003Ɛŝ\u0003Ğ\u0003ĐŽůĂďŽƌĞŵ\u0003ƉĂƌĂ\u0003Ă\u0003ĞǆĞĐƵĕĆŽ\u0003ĚŽƐ\u0003ƉƌŽĐĞƐƐŽƐ\u0003ĞǆĞĐƵƚĂĚŽƐ\u0003ƉĞůŽ\u0003ƐŝƐƚĞŵĂ͘ \u0012Žŵ\u0003ďĂƐĞ\u0003ŶĞƐƐĞ\u0003ĐŽŶƚĞǆƚŽ͕ \u0003ĐŽŶƐƚƌƵĂ\u0003Ƶŵ\u0003ĚŝĂŐƌĂŵĂ\u0003ĚĞ\u0003ĐůĂƐƐĞƐ\u0003ƉĂƌĂ\u0003ƌĞƉƌĞƐĞŶƚĂƌ\u0003ĂƐ\u0003ƐĞŐƵŝŶƚĞƐ\u0003ĂƐƐŽĐŝĂĕƁĞƐ͗ ͻ\u0003 ƵŵĂ\u0003ƌĞǀŝƐƚĂ\u0003ĐŝĞŶơĮĐĂ\u0003ƉŽƐƐƵŝ\u0003ơƚƵůŽ͕ \u0003/^^E\u0003Ğ\u0003ƉĞƌŝŽĚŝĐŝĚĂĚĞ͖ ͻ\u0003 ĞƐƐĂ\u0003ƌĞǀŝƐƚĂ\u0003ƉƵďůŝĐĂ\u0003ĚŝǀĞƌƐĂƐ\u0003ĞĚŝĕƁĞƐ\u0003ĐŽŵ\u0003ŽƐ\u0003ƐĞŐƵŝŶƚĞƐ\u0003ĂƚƌŝďƵƚŽƐ͗ \u0003ŶƷŵĞƌŽ\u0003ĚĂ\u0003ĞĚŝĕĆŽ͕ \u0003ǀŽůƵŵĞ\u0003ĚĂ\u0003ĞĚŝĕĆŽ\u0003Ğ\u0003ĚĂƚĂ\u0003 ĚĞ\u0003ĞĚŝĕĆŽ͘ \u0003/ŵƉŽƌƚĂŶƚĞ\u0003ĚĞƐƚĂĐĂƌ\u0003ƋƵĞ\u0003ĐĂĚĂ\u0003ŝŶƐƚąŶĐŝĂ\u0003ĚĂ\u0003ĐůĂƐƐĞ\u0003ĞĚŝĕĆŽ\u0003ƌĞůĂĐŝŽŶĂͲƐĞ\u0003ƷŶŝĐĂ\u0003Ğ\u0003ĞǆĐůƵƐŝǀĂŵĞŶƚĞ\u0003Ă\u0003 ƵŵĂ\u0003ŝŶƐƚąŶĐŝĂ\u0003ĚĂ\u0003ĐůĂƐƐĞ\u0003ƌĞǀŝƐƚĂ\u0003ĐŝĞŶƟĮĐĂ͕ \u0003ŶĆŽ\u0003ƉŽĚĞŶĚŽ\u0003ƌĞůĂĐŝŽŶĂƌͲƐĞ\u0003ĐŽŵ\u0003ŶĞŶŚƵŵĂ\u0003ŽƵƚƌĂ͖ ͻ\u0003 Ƶŵ\u0003ĂƌƟŐŽ\u0003ƉŽƐƐƵŝ\u0003ơƚƵůŽ\u0003Ğ\u0003ŶŽŵĞ\u0003ĚŽ\u0003ĂƵƚŽƌ͘ \u0003hŵ\u0003ĂƌƟŐŽ\u0003Ġ\u0003Ƶŵ\u0003ĐŽŶƚĞƷĚŽ\u0003ĞǆĐůƵƐŝǀŽ\u0003ĚĞ\u0003ƵŵĂ\u0003ĞĚŝĕĆŽ͘ \u0003 \u0003ƵŵĂ\u0003ĞĚŝĕĆŽ\u0003 ŽďƌŝŐĂƚŽƌŝĂŵĞŶƚĞ\u0003ƚĞŵ\u0003ƋƵĞ\u0003ƉŽƐƐƵŝƌ\u0003ŶŽ\u0003ŵşŶŝŵŽ\u0003ϭϬ\u0003Ğ\u0003ŶŽ\u0003ŵĄǆŝŵŽ\u0003ϭϱ\u0003ĂƌƟŐŽƐ͘ ;ǀĂůŽƌ͗ \u0003ϭϬ͕ Ϭ\u0003ƉŽŶƚŽƐͿ 1 2 ϯ 4 5 6 7 ϴ 9 10 11 12 ϭϯ 14 15 10 d \u0012EK>K'/\u0004\u0003 D\u0003\u0004E\u0006>/^ \u0003 \u0003\u0018 ^ EsK>s/D EdK\u0003\u0018 \u0003^/^d D\u0004^",
+    "alternativas": [],
+    "gabarito": null,
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2014_CST_Analise_Desenvolvimento_Sistemas-3-D.png"
+  },
+  {
+    "id": "2011_CST_Analise_Desenvolvimento_Sistemas-11",
+    "ano": 2011,
+    "prova": "2011_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2011_CST_Analise_Desenvolvimento_Sistemas/2011_PV_ANALISE_E_DESENVOLVIMENTO_DE_SISTEMAS.pdf",
+    "numero": 11,
+    "discursiva": false,
+    "pagina": 9,
+    "enunciado": "O conjunto de casos de uso representa as possíveis interações que serão representadas nos requisitos do sistema.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A figura a seguir desenvolve um exemplo de biblioteca e mostra outros casos de uso (use-cases) nesse ambiente. Usuário da biblioteca Serviços de Emprestimo Administração de usuário Pessoal da biblioteca Serviços do catálogo Fornecedor SOMMERVILLE, I. Engenharia de software. 6. ed. São Paulo: Makron Books, 2003, p. 113. Com relação ao tema, analise as asserções a seguir. A figura também ilustra os pontos essenciais da notação de casos de uso. Os agentes no processo são representados por bonecos e cada tipo de interação é representada por uma elipse com um nome PORQUE a UML é um padrão para a modelagem orientada a objetos e, assim, os casos de uso e a obtenção de requisitos com base em casos de uso são cada vez mais utilizados para obter requisitos. Acerca dessas asserções, assinale a opção correta. A As duas asserções são proposições verdadeiras, e a segunda é uma justificativa correta da primeira"
+      },
+      {
+        "letra": "B",
+        "texto": "B As duas asserções são proposições verdadeiras, mas a segunda não é uma justificativa correta da primeira"
+      },
+      {
+        "letra": "C",
+        "texto": "C A primeira asserção é uma proposição verdadeira, e a segunda, uma proposição falsa"
+      },
+      {
+        "letra": "D",
+        "texto": "D A primeira asserção é uma proposição falsa, e a segunda, uma proposição verdadeira"
+      },
+      {
+        "letra": "E",
+        "texto": "E Tanto a primeira quanto a segunda asserções são proposições falsas. TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS 2011 10"
+      }
+    ],
+    "gabarito": "B",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2011_CST_Analise_Desenvolvimento_Sistemas-11.png"
+  },
+  {
+    "id": "2021_CST_Analise_Desenvolvimento_Sistemas-19",
+    "ano": 2021,
+    "prova": "2021_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2021_CST_Analise_Desenvolvimento_Sistemas/2021_PV_tecnologia_analise_desenvolvimento_sistemas.pdf",
+    "numero": 19,
+    "discursiva": false,
+    "pagina": 27,
+    "enunciado": "Arquitetura de software é uma representação que permite analisar a efetividade do projeto no entendimento dos requisitos declarados. Durante a fase de concepção da arquitetura, podem-se considerar alternativas de arquitetura em um estágio em que mudanças ainda são realizadas com menor esforço, diminuindo riscos associados à construção do software ainda na fase inicial. PRESSMAN, R. S. Engenharia de Software: uma abordagem profissional. 8. ed. Porto Alegue: AMGH, 2016 (adaptado).",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A respeito dos estilos e padrões arquiteturais contidos na engenharia de software, avalie as afirmações a seguir. I. Em arquiteturas orientadas a objetos, a comunicação entre os componentes do software é realizada por intermédio da troca de mensagens. II. As arquiteturas monolíticas consistem de um sistema dividido em pequenas partes, possibilitando que estas tenham sua manutenção, execução e evolução individual. III. No padrão arquitetural Modelo-Visão-Controle (MVC), a camada de Modelo armazena as interações realizadas no Controle, podendo ser apresentados/manipulados posteriormente na Visão. IV. Nas arquiteturas microsserviços, o software possui componentes altamente acoplados, dificultando a manutenção. É correto apenas o que se afirma em A I e III"
+      },
+      {
+        "letra": "B",
+        "texto": "B II e III"
+      },
+      {
+        "letra": "C",
+        "texto": "C II e IV"
+      },
+      {
+        "letra": "D",
+        "texto": "D I, II e IV"
+      },
+      {
+        "letra": "E",
+        "texto": "E I, III e IV. 28 TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS"
+      }
+    ],
+    "gabarito": "A",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2021_CST_Analise_Desenvolvimento_Sistemas-19.png"
+  },
+  {
+    "id": "legado_Computacao_2005_2008_2011-39",
+    "ano": 2005,
+    "prova": "legado_Computacao_2005_2008_2011",
+    "pdf": "legado_Computacao_2005_2008_2011/2011_Computacao_PV.pdf",
+    "numero": 39,
+    "discursiva": false,
+    "pagina": 25,
+    "enunciado": "O conceito de Tipo de Dados Abstrato (TDA) é popular em linguagens de programação. Nesse contexto, analise as afi rmativas a seguir. I.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A especifi cação de um TDA é composta das operações aplicáveis a ele, da sua representação interna, e das implementações das operações. II. Dois mecanismos utilizáveis na implementação de um TDA em programas orientados a objetos são a composição e a herança. III. Se S é um subtipo de outro T, então entidades do tipo S em um programa podem ser substituídas por entidades do tipo T, sem alterar a corretude desse programa. IV. O encapsulamento em linguagens de programação orientadas a objetos é um efeito positivo do uso de TDA. É correto apenas o que se afi rma em A I"
+      },
+      {
+        "letra": "B",
+        "texto": "B II"
+      },
+      {
+        "letra": "C",
+        "texto": "C I e III"
+      },
+      {
+        "letra": "D",
+        "texto": "D II e IV"
+      },
+      {
+        "letra": "E",
+        "texto": "E III e IV"
+      }
+    ],
+    "gabarito": "D",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/legado_Computacao_2005_2008_2011-39.png"
+  },
+  {
+    "id": "2014_Computacao_Licenciatura-24",
+    "ano": 2014,
+    "prova": "2014_Computacao_Licenciatura",
+    "pdf": "2014_Computacao_Licenciatura/2014_PV_04_computacao_licenciatura.pdf",
+    "numero": 24,
+    "discursiva": false,
+    "pagina": 21,
+    "enunciado": "K\u0003 ĞŶƐŝŶŽ\u0003 ĚĞ\u0003 ĂůŐŽƌŝƚŵŽƐ\u0003 Ġ\u0003 Ƶŵ\u0003 ƉƌŽĐĞƐƐŽ\u0003 ĚĞůŝĐĂĚŽ\u0003 Ğ\u0003 ĐŽŵƉůĞǆŽ͕ \u0003 Ğ\u0003 ƐĞƵ\u0003 ƐƵĐĞƐƐŽ\u0003 ĚĞƉĞŶĚĞ\u0003 ĚĞ\u0003 ĚŝǀĞƌƐŽƐ\u0003 ĨĂƚŽƌĞƐ͕ \u0003 ƚĂŝƐ\u0003 ĐŽŵŽ͗ \u0003 ŚĂďŝůŝĚĂĚĞ\u0003 ĚŽ\u0003 ĂůƵŶŽ\u0003 Ğŵ\u0003 ŵĂƚĞŵĄƟĐĂ\u0003 Ğ\u0003 ůſŐŝĐĂ͕ \u0003 ŵĞƚŽĚŽůŽŐŝĂ\u0003 ĚĞ\u0003 ĞŶƐŝŶŽ\u0003 ĚŽ\u0003 ƉƌŽĨĞƐƐŽƌ͕ \u0003 ƵƐŽ\u0003 ĚĞ\u0003 ĨĞƌƌĂŵĞŶƚĂƐ\u0003 ĚĞ\u0003 ƐŝŵƵůĂĕĆŽ͕ \u0003 ƌĞĂůŝǌĂĕĆŽ\u0003 ĞĮĐŝĞŶƚĞ\u0003 ĚĞ\u0003 ĞǆĞƌĐşĐŝŽƐ\u0003 ĚĞ\u0003 ĮǆĂĕĆŽ\u0003 Ğ\u0003 ƉƌĄƟĐĂƐ\u0003 ůĂďŽƌĂƚŽƌŝĂŝƐ͕ \u0003 ĂƉŽŝŽ\u0003 ĞǆƚƌĂͲĐůĂƐƐĞ\u0003 ŶĂ\u0003 ƐŽůƵĕĆŽ\u0003ĚĞ\u0003ĚƷǀŝĚĂƐ͕ \u0003ƚƌĂďĂůŚŽƐ\u0003Ğŵ\u0003ŐƌƵƉŽ͕ \u0003ĚĞĚŝĐĂĕĆŽ\u0003 ĚŽ\u0003 ĂůƵŶŽ\u0003 ĞŶƚƌĞ\u0003 ŽƵƚƌŽƐ͘ \u0003 \u0004\u0003 ĞƐĐŽůŚĂ\u0003 ĚĂ\u0003 ůŝŶŐƵĂŐĞŵ\u0003 ĚĞ\u0003 ƉƌŽŐƌĂŵĂĕĆŽ\u0003 ƚĂŵďĠŵ\u0003 ŵĞƌĞĐĞ\u0003 ĂƚĞŶĕĆŽ͘ \u0003 hŶƐ\u0003 ĚĞĨĞŶĚĞŵ\u0003Ž\u0003ƵƐŽ\u0003ĚĞ\u0003ůŝŶŐƵĂŐĞŶƐ\u0003ŽƌŝĞŶƚĂĚĂƐ\u0003Ă\u0003ŽďũĞƚŽƐ͕ \u0003 ƋƵĞ\u0003ƉŽƐƐƵĞŵ\u0003ĨĂĐŝůŝĚĂĚĞƐ\u0003ĚĞ\u0003ƉƌŽŐƌĂŵĂĕĆŽ\u0003ĚĞ\u0003ĂůƚŽ\u0003 ŶşǀĞů\u0003Ğ\u0003ĨĂĐŝůŝƚĂŵ\u0003Ă\u0003ǀŝĚĂ\u0003ĚŽ\u0003ĚĞƐĞŶǀŽůǀĞĚŽƌ͘ \u0003KƵƚƌŽƐ\u0003 ĚĞĨĞŶĚĞŵ\u0003Ž\u0003ƵƐŽ\u0003ĚĞ\u0003ůŝŶŐƵĂŐĞŶƐ\u0003ŵĂŝƐ\u0003ďĄƐŝĐĂƐ͕ \u0003ƋƵĞ\u0003 ĨŽƌĕĂŵ\u0003Ž\u0003ĚĞƐĞŶǀŽůǀĞĚŽƌ\u0003Ă\u0003ŝŵƉůĞŵĞŶƚĂƌ\u0003ŵƵŝƚĂƐ\u0003ĚĂƐ\u0003 ĞƐƚƌƵƚƵƌĂƐ\u0003Ğ\u0003ĨƵŶĕƁĞƐ\u0003ƋƵĞ\u0003ŶĞĐĞƐƐŝƚĂ͘ \u0003 EĞƐƐĞ\u0003ĐŽŶƚĞǆƚŽ͕ \u0003ĂǀĂůŝĞ\u0003ĂƐ\u0003ĂĮƌŵĂĕƁĞƐ\u0003Ă\u0003ƐĞŐƵŝƌ͘ I. K\u0003 ƵƐŽ\u0003 ĚĂ\u0003 ůŝŶŐƵĂŐĞŵ\u0003 ĚĞ\u0003 ƉƌŽŐƌĂŵĂĕĆŽ\u0003 WĂƐĐĂů\u0003Ġ\u0003ĂĚĞƋƵĂĚŽ\u0003ĂŽ\u0003ƉƌŽĐĞƐƐŽ\u0003ĚĞ\u0003ĞŶƐŝŶŽͲ ĂƉƌĞŶĚŝǌĂŐĞŵ\u0003ĚĞ\u0003ĂůŐŽƌŝƚŵŽƐ\u0003ƉŽƌƋƵĞ͕ \u0003ĞŶƚƌĞ\u0003 ŽƵƚƌŽƐ\u0003ŵŽƟǀŽƐ͕ \u0003ƉĞƌŵŝƚĞ\u0003ĂŽ\u0003ĂůƵŶŽ\u0003ĞŶƚĞŶĚĞƌ\u0003 ŵĞůŚŽƌ\u0003ŽƐ\u0003ĚŝĨĞƌĞŶƚĞƐ\u0003ƟƉŽƐ\u0003ĚĞ\u0003ĚĂĚŽƐ͕ \u0003ƉŽŝƐ\u0003ĞůĂ\u0003 ǀĞƌŝĮĐĂ\u0003ŽƐ\u0003ƟƉŽƐ\u0003ĚĂƐ\u0003ǀĂƌŝĄǀĞŝƐ\u0003ŶŽ\u0003ŵŽŵĞŶƚŽ\u0003 ĚĂ\u0003 ĐŽŵƉŝůĂĕĆŽ͕ \u0003 ƐĞŶĚŽ\u0003 ĐŽŶƐŝĚĞƌĂĚĂ\u0003 ƵŵĂ\u0003 ůŝŶŐƵĂŐĞŵ\u0003ĨŽƌƚĞŵĞŶƚĞ\u0003ƟƉŝĮĐĂĚĂ͘ II. K\u0003 ƵƐŽ\u0003 ĚĂ\u0003 ůŝŶŐƵĂŐĞŵ\u0003 ĚĞ\u0003 ƉƌŽŐƌĂŵĂĕĆŽ\u0003 \u0012\u0003 ƉĂĚƌĆŽ\u0003Ġ\u0003ĂĚĞƋƵĂĚŽ\u0003ĂŽ\u0003ƉƌŽĐĞƐƐŽ\u0003ĚĞ\u0003ĞŶƐŝŶŽͲ ĂƉƌĞŶĚŝǌĂŐĞŵ\u0003ĚĞ\u0003ĂůŐŽƌŝƚŵŽƐ\u0003ƉŽƌƋƵĞ͕ \u0003ĞŶƚƌĞ\u0003 ŽƵƚƌŽƐ\u0003ŵŽƟǀŽƐ͕ \u0003ƉĞƌŵŝƚĞ\u0003ĂŽ\u0003ĂůƵŶŽ\u0003ĞŶƚĞŶĚĞƌ\u0003 ŵĞůŚŽƌ\u0003 ƐŽďƌĞ\u0003 ĂůŽĐĂĕĆŽ\u0003 Ğ\u0003 ĞŶĚĞƌĞĕĂŵĞŶƚŽ\u0003 ĚĞ\u0003 ŵĞŵſƌŝĂ\u0003 ƉĂƌĂ\u0003 ĂƐ\u0003 ǀĂƌŝĄǀĞŝƐ͕ \u0003 ƉŽŝƐ\u0003 ĞƐƐĞ\u0003 ĂƉƌĞŶĚŝǌĂĚŽ\u0003ŶĞĐĞƐƐŝƚĂ\u0003ĚŽ\u0003ƵƐŽ\u0003ĚĞ\u0003ƉŽŶƚĞŝƌŽƐ͘ III. K\u0003 ƵƐŽ\u0003 ĚĂ\u0003 ůŝŶŐƵĂŐĞŵ\u0003 ĚĞ\u0003 ƉƌŽŐƌĂŵĂĕĆŽ\u0003 WǇƚŚŽŶ\u0003 Ġ\u0003 ĂĚĞƋƵĂĚŽ\u0003 ĂŽ\u0003 ƉƌŽĐĞƐƐŽ\u0003 ĚĞ\u0003 ĞŶƐŝŶŽͲĂƉƌĞŶĚŝǌĂŐĞŵ\u0003 ĚĞ\u0003 ĂůŐŽƌŝƚŵŽƐ\u0003 ƉŽƌƋƵĞ͕ \u0003 ĞŶƚƌĞ\u0003 ŽƵƚƌŽƐ\u0003 ŵŽƚŝǀŽƐ͕ \u0003 ƉĞƌŵŝƚĞ\u0003 ĂŽ\u0003 ĂůƵŶŽ\u0003 ĐŽŶŚĞĐĞƌ\u0003 ĂƐ\u0003 ĞƐƚƌƵƚƵƌĂƐ\u0003 ĚĞ\u0003 ĚĂĚŽƐ\u0003 Ğ\u0003 ĂƐ\u0003 ĨŽƌŵĂƐ\u0003 ĚĞ\u0003 ŵĂŶŝƉƵůĂĕĆŽ͕ \u0003 ƐĞŵ\u0003 ƉƌĞĐŝƐĂƌ\u0003 ŝŵƉůĞŵĞŶƚĄͲůĂƐ͕ \u0003 ƉĞƌŵŝƚŝŶĚŽ\u0003 Ž\u0003 ĚĞƐĞŶǀŽůǀŝŵĞŶƚŽ\u0003 ĚĞ\u0003 ƉƌŽŐƌĂŵĂƐ\u0003 ŵĂŝƐ\u0003 ĞůĂďŽƌĂĚŽƐ͕ \u0003ŵĞƐŵŽ\u0003ƉŽƌ\u0003ĂůƵŶŽƐ\u0003ĐŽŵ\u0003ƉŽƵĐŽ\u0003 ĐŽŶŚĞĐŝŵĞŶƚŽ\u0003ĚĞ\u0003ĂůŐŽƌŝƚŵŽƐ͘ \u0003ĐŽƌƌĞƚŽ\u0003Ž\u0003ƋƵĞ\u0003ƐĞ\u0003ĂĮƌŵĂ\u0003Ğŵ",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A /͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "B",
+        "texto": "B ///͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "C",
+        "texto": "C /\u0003Ğ\u0003//͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "D",
+        "texto": "D //\u0003Ğ\u0003///͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "E",
+        "texto": "E /͕ \u0003//\u0003Ğ\u0003///͘"
+      }
+    ],
+    "gabarito": "E",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2014_Computacao_Licenciatura-24.png"
+  },
+  {
+    "id": "2011_CST_Analise_Desenvolvimento_Sistemas-35",
+    "ano": 2011,
+    "prova": "2011_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2011_CST_Analise_Desenvolvimento_Sistemas/2011_PV_ANALISE_E_DESENVOLVIMENTO_DE_SISTEMAS.pdf",
+    "numero": 35,
+    "discursiva": false,
+    "pagina": 18,
+    "enunciado": "A programação orientada a objeto não é apenas uma forma de programar, é também um jeito de pensar em um problema utilizando conceitos do mundo real e, não somente conceitos computacionais. Considerando os conceitos da programação orientada a objetos, analise as afirmações abaixo. I. O objeto tem determinadas propriedades que o caracterizam e que são armazenadas no próprio objeto. As propriedades de um objeto são chamadas de instâncias. II. As mensagens são informações enviadas ao objeto para que ele se comporte de uma determinada maneira. Um programa orientado a objetos em execução consiste em envios, interpretações e respostas às mensagens. São os métodos, os procedimentos residentes nos objetos, que determinam como eles irão atuar ao receber as mensagens. III. A herança é um mecanismo para o compartilhamento de métodos e atributos entre classes e subclasses, permitindo a criação de novas classes através da programação das diferenças entre a nova classe e a classe-pai. IV. O encapsulamento é um mecanismo que permite o acesso aos dados de um objeto somente através dos métodos desse. Nenhuma outra parte do programa pode operar sobre os dados do objeto. A comunicação entre os objetos é feita apenas através de troca de mensagens. É correto apenas o que afirma em A I e II. B I e III. C III e IV. D I, II e IV. E II, III e IV. TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS 2011 19",
+    "alternativas": [],
+    "gabarito": "E",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2011_CST_Analise_Desenvolvimento_Sistemas-35.png"
+  },
+  {
+    "id": "2021_Sistemas_de_Informacao_Bacharelado-32",
+    "ano": 2021,
+    "prova": "2021_Sistemas_de_Informacao_Bacharelado",
+    "pdf": "2021_Sistemas_de_Informacao_Bacharelado/2021_PV_bacharelado_sistema_informacao.pdf",
+    "numero": 32,
+    "discursiva": false,
+    "pagina": 35,
+    "enunciado": "No desenvolvimento do módulo de integração do sistema do SAMU com os sistemas de hospitais, um analista gerou o seguinte diagrama de sequência. 1: solicitarLeito() 3: veriﬁcarTodos() 5: procurarVaga() 10: deﬁnirVaga() 11: ok 13: ok 15: vaga 12: deﬁnirVaga() 6: disponibilidade 7: disponibilidade 2: procurarLeitos() 8: vagas disponiveis 9: escolherLeito(hosp) SAMU :Regulacao :hospitalA :hospitalB :API 4: procurarVaga() 14: vaga deﬁnida Com relação ao diagrama apresentado, avalie as asserções a seguir e a relação proposta entre elas. I. As chamadas 4: procurarVaga() e 5: procurarVaga() são feitas simultaneamente (em paralelo) pela API para minimizar o tempo de espera da chamada 2: procurarLeitos(). PORQUE II. As chamadas 10: definirVaga() e 12: definirVaga() são feitas simultaneamente (em paralelo), mas a espera do retorno é feita em sequência, o que aumentará o tempo de resposta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A respeito dessas asserções, assinale a opção correta. A As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I"
+      },
+      {
+        "letra": "B",
+        "texto": "B As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I"
+      },
+      {
+        "letra": "C",
+        "texto": "C A asserção I é uma proposição verdadeira, e a II é uma proposição falsa"
+      },
+      {
+        "letra": "D",
+        "texto": "D A asserção I é uma proposição falsa, e a II é uma proposição verdadeira"
+      },
+      {
+        "letra": "E",
+        "texto": "E As asserções I e II são proposições falsas. 36 Sistemas de informação"
+      }
+    ],
+    "gabarito": "C",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2021_Sistemas_de_Informacao_Bacharelado-32.png"
+  },
+  {
+    "id": "2017_CST_Analise_Desenvolvimento_Sistemas-30",
+    "ano": 2017,
+    "prova": "2017_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2017_CST_Analise_Desenvolvimento_Sistemas/2017_PV_41_TEC_ANA_DES_SIS_BAIXA.pdf",
+    "numero": 30,
+    "discursiva": false,
+    "pagina": 34,
+    "enunciado": "\u0004\u0003ĄƌĞĂ\u0003ĚĞ\u0003ĚĞƐĞŶǀŽůǀŝŵĞŶƚŽ\u0003ĚĞ\u0003ƐŽŌǁĂƌĞ\u0003ĞƐƚĄ\u0003ƐĞ\u0003ƚŽƌŶĂŶĚŽ\u0003ĐĂĚĂ\u0003ǀĞǌ\u0003ŵĂŝƐ\u0003ĐŽŵƉůĞǆĂ͘ \u0003WĂƌĂ\u0003ůŝĚĂƌ\u0003ĐŽŵ\u0003ĞƐƐĂ\u0003 ƌĞĂůŝĚĂĚĞ͕ \u0003 ŽƐ\u0003 ĚĞƐĞŶǀŽůǀĞĚŽƌĞƐ\u0003 ĐŽŶƚĂŵ\u0003 ĐŽŵ\u0003 ůŝŶŐƵĂŐĞŶƐ\u0003 ĚĞ\u0003 ƉƌŽŐƌĂŵĂĕĆŽ\u0003 ďĂƐĞĂĚĂƐ\u0003 ŶŽ\u0003 ƉĂƌĂĚŝŐŵĂ\u0003 ĚĞ\u0003 ŽƌŝĞŶƚĂĕĆŽ\u0003Ă\u0003ŽďũĞƚŽƐ͕ \u0003ĐƵũŽƐ\u0003ƉŝůĂƌĞƐ\u0003ƐĆŽ\u0003ĂďƐƚƌĂĕĆŽ͕ \u0003ĞŶĐĂƉƐƵůĂŵĞŶƚŽ͕ \u0003ŚĞƌĂŶĕĂ\u0003Ğ\u0003ƉŽůŝŵŽƌĮƐŵŽ͘ \u0003EŽ\u0003ĐſĚŝŐŽ\u0003Ă\u0003 ƐĞŐƵŝƌ͕ \u0003ŽďƐĞƌǀĂͲƐĞ\u0003Ă\u0003ŝŵƉůĞŵĞŶƚĂĕĆŽ\u0003ĚĞ\u0003ĐůĂƐƐĞƐ\u0003ƌĞůĂĐŝŽŶĂĚĂƐ͘ public abstract class Impressora { String nome; Impressora() {} Impressora(String n) { this.nome = n; } public void imprimir() {} } public class Laser extends Impressora { public Laser() {} public void imprimir() { System.out.println(“Imprimindo na Laser”); } } class Matricial extends Impressora { public Matricial () {} public void imprimir() { System.out.println(“Imprimindo na Matricial”); } } public class JatoDeTinta extends Impressora { public JatoDeTinta() {} public void imprimir(){ System.out.println(“Imprimindo na Jato de tinta”); } } public class Main { public static void main(String args[]) { Impressora imp[] = new Impressora[3]; imp[0] = new Laser(); imp[1] = new JatoDeTinta(); imp[2] = new Matricial(); for(int i = imp.length - 1; i >= 0; i--){ imp[i].imprimir(); } } } ϯϱ TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS \u0012Žŵ\u0003ďĂƐĞ\u0003ŶĂƐ\u0003ŝŶĨŽƌŵĂĕƁĞƐ\u0003ĚŽ\u0003ƚĞǆƚŽ\u0003Ğ\u0003ŶŽ\u0003ĐſĚŝŐŽ\u0003ĂƉƌĞƐĞŶƚĂĚŽ͕ \u0003ĂǀĂůŝĞ\u0003ĂƐ\u0003ĂĮƌŵĂĕƁĞƐ\u0003Ă\u0003ƐĞŐƵŝƌ͘ /͘ \u0003 \u0004\u0003ĞǆĞĐƵĕĆŽ\u0003ĚŽ\u0003ĐſĚŝŐŽ͕ \u0003ǀŝĂ\u0003ĐůĂƐƐĞ\u0003Main͕ \u0003ƌĞƐƵůƚĂ\u0003ŶĂ\u0003ƐĞŐƵŝŶƚĞ\u0003ƐĂşĚĂ͗ /ŵƉƌŝŵŝŶĚŽ\u0003ŶĂ\u0003>ĂƐĞƌ /ŵƉƌŝŵŝŶĚŽ\u0003ŶĂ\u0003DĂƚƌŝĐŝĂů /ŵƉƌŝŵŝŶĚŽ\u0003ŶĂ\u0003:ĂƚŽ\u0003ĚĞ\u0003ƟŶƚĂ //͘ \u0003 K\u0003ĐſĚŝŐŽ\u0003ĨĂǌ\u0003ƵƐŽ\u0003ĚĂ\u0003ƚĠĐŶŝĐĂ\u0003ĚĞŶŽŵŝŶĂĚĂ\u0003ƉŽůŝŵŽƌĮƐŵŽ͘ ///͘ \u0003 K\u0003ĐſĚŝŐŽ\u0003ŶĆŽ\u0003ƐĞƌĄ\u0003ĐŽŵƉŝůĂĚŽ͕ \u0003ƉŽŝƐ\u0003Ž\u0003ǀĞƚŽƌ imp\u0003ĨŽŝ\u0003ŝŶƐƚĂŶĐŝĂĚŽ\u0003ƉŽƌ\u0003ŵĞŝŽ\u0003ĚĂ\u0003ĐůĂƐƐĞ\u0003ĂďƐƚƌĂƚĂ\u0003 Impressora. \u0003ĐŽƌƌĞƚŽ\u0003Ž\u0003ƋƵĞ\u0003ƐĞ\u0003ĂĮƌŵĂ\u0003Ğŵ A \u0003//͕ \u0003ĂƉĞŶĂƐ͘ B \u0003///͕ \u0003ĂƉĞŶĂƐ͘ C \u0003/\u0003Ğ\u0003//͕ \u0003ĂƉĞŶĂƐ͘ D \u0003/\u0003Ğ\u0003///͕ \u0003ĂƉĞŶĂƐ͘ E \u0003/͕ \u0003//\u0003Ğ\u0003///͘",
+    "alternativas": [],
+    "gabarito": "A",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2017_CST_Analise_Desenvolvimento_Sistemas-30.png"
+  },
+  {
+    "id": "legado_Computacao_2005_2008_2011-80-D",
+    "ano": 2005,
+    "prova": "legado_Computacao_2005_2008_2011",
+    "pdf": "legado_Computacao_2005_2008_2011/2008_Computacao_PV.pdf",
+    "numero": 80,
+    "discursiva": true,
+    "pagina": 34,
+    "enunciado": "– DISCURSIVA 0..* Durante a análise de um sistema de controle de contas bancárias (SCCB), um analista elaborou o diagrama de classes acima, em que são especificados os objetos de negócio da aplicação, por meio do qual foram distribuídas as responsabilidades e colaborações entre os elementos do modelo. Foi atribuída a outro analista a tarefa de elaborar o diagrama de seqüência do caso de uso chamado DUPLA_CONTA, que apresenta o seguinte comportamento: cria um banco, cria uma agência bancária, cria um cliente e duas contas bancárias associadas ao cliente e agência bancária anteriormente criados, e, por fim, realiza uma transferência de valores entre essas duas contas bancárias. O diagrama de seqüência em UML apresentado abaixo foi elaborado com o intuito de corresponder ao caso de uso em questão. 34 COMPUTAÇÃO No diagrama de seqüência apresentado, há problemas conceituais, relativos à especificação do diagrama de classes e à descrição textual do caso de uso DUPLA-CONTA. Com relação a essa situação, faça o que se pede a seguir. A Descreva, textualmente, três falhas de tipos distintos presentes no diagrama de seqüência apresentado, relativas ao uso da sintaxe e(ou) da semântica da UML. (valor: 4,0 pontos)",
+    "alternativas": [],
+    "gabarito": null,
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/legado_Computacao_2005_2008_2011-80-D.png"
+  },
+  {
+    "id": "2017_Ciencia_Computacao_Licenciatura-10",
+    "ano": 2017,
+    "prova": "2017_Ciencia_Computacao_Licenciatura",
+    "pdf": "2017_Ciencia_Computacao_Licenciatura/2017_PV_04_CIE_COM_LICENCIATURA_BAIXA.pdf",
+    "numero": 10,
+    "discursiva": false,
+    "pagina": 17,
+    "enunciado": "\u0012ŽŶƐŝĚĞƌĞ\u0003 ŽƐ\u0003 ƐĞŐƵŝŶƚĞƐ\u0003 ƌĞƋƵŝƐŝƚŽƐ\u0003 ƉĂƌĂ\u0003 ĚĞƐĞŶǀŽůǀŝŵĞŶƚŽ\u0003 ĚĞ\u0003 ƵŵĂ\u0003 ƐŽůƵĕĆŽ\u0003 ƉĂƌĂ\u0003 ƵŵĂ\u0003 ƌĞĚĞ\u0003 ĚĞ\u0003ƌĞƐƚĂƵƌĂŶƚĞƐ\u0003fast-food͗ YƵĂŶĚŽ\u0003Ž\u0003ƐƚĂƚƵƐ\u0003ĚĞ\u0003Ƶŵ\u0003ƉĞĚŝĚŽ\u0003Ġ\u0003ĂƚƵĂůŝǌĂĚŽ͕ \u0003ƚŽĚŽƐ\u0003 ŽƐ\u0003 ĚŝƐƉŽƐŝƟǀŽƐ\u0003 ĚŽƐ\u0003 ĞŶǀŽůǀŝĚŽƐ\u0003 ĚĞǀĞŵ\u0003 ƌĞĐĞďĞƌ\u0003 Ă\u0003 ŝŶĨŽƌŵĂĕĆŽ͘ \u0003 KƐ\u0003 ƐŝƐƚĞŵĂƐ\u0003 Ă\u0003 ƐĞƌ\u0003 ĂƚƵĂůŝǌĂĚŽƐ\u0003 ŝŶĐůƵĞŵ\u0003ŽƐ\u0003ĂĐĞƐƐĂĚŽƐ\u0003ƉĞůŽ\u0003ĞŶƚƌĞŐĂĚŽƌ͕ \u0003ƉĞůĂ\u0003ůŝŶŚĂ\u0003 ĚĞ\u0003 ƉƌŽĚƵĕĆŽ\u0003 Ğ\u0003 ƉĞůĂ\u0003 ĐĞŶƚƌĂů\u0003 ĚĞ\u0003 ĂƚĞŶĚŝŵĞŶƚŽ͘ \u0003 ƐƉĞƌĂͲƐĞ\u0003ĂŝŶĚĂ\u0003ƋƵĞ\u0003ŽƵƚƌŽƐ\u0003ƐŝƐƚĞŵĂƐ\u0003ƉŽƐƐĂŵ\u0003ƐĞƌ\u0003 ŝŶĐůƵşĚŽƐ\u0003ĨƵƚƵƌĂŵĞŶƚĞ\u0003;ƉŽƌ\u0003ĞǆĞŵƉůŽ͕ \u0003ƐŝƐƚĞŵĂ\u0003ĚĞ\u0003 ƉĞĚŝĚŽ\u0003on-line\u0003ĚŽ\u0003ĐůŝĞŶƚĞͿ͕ \u0003ĚĞǀĞŶĚŽ\u0003ƐĞ\u0003ĐŽŵƉŽƌƚĂƌ\u0003 ĚĂ\u0003ŵĞƐŵĂ\u0003ĨŽƌŵĂ͘ \u0012ŽŶƐŝĚĞƌĂŶĚŽ\u0003ĞƐƐĞ\u0003ĐŽŶƚĞǆƚŽ͕ \u0003ĂǀĂůŝĞ\u0003ĂƐ\u0003ĂƐƐĞƌĕƁĞƐ\u0003Ă\u0003 ƐĞŐƵŝƌ\u0003Ğ\u0003Ă\u0003ƌĞůĂĕĆŽ\u0003ƉƌŽƉŽƐƚĂ\u0003ĞŶƚƌĞ\u0003ĞůĂƐ͘ /͘ \u0003 K\u0003 ƌĞƋƵŝƐŝƚŽ\u0003 ĂƉƌĞƐĞŶƚĂĚŽ\u0003 ƉŽĚĞ\u0003 ƐĞƌ\u0003 ŝŵƉůĞŵĞŶƚĂĚŽ\u0003 ĐŽŵ\u0003 Ă\u0003 ƵƟůŝǌĂĕĆŽ\u0003 ĚŽ\u0003 ƉĂĚƌĆŽ\u0003 ĚĞ\u0003ƉƌŽũĞƚŽ\u0003Observer. WKZYh //͘ \u0003 K\u0003 ƉĂĚƌĆŽ\u0003 ĚĞ\u0003 ƉƌŽũĞƚŽ\u0003 Observer\u0003 ƌĞĂůŝǌĂ\u0003 Ž\u0003 ĞƐƟůŽ\u0003 ĂƌƋƵŝƚĞƚƵƌĂů\u0003 ĐůŝĞŶƚĞͲƐĞƌǀŝĚŽƌ͕ \u0003 ŶŽ\u0003 ƋƵĂů\u0003 Ž\u0003 ƐĞƌǀŝĚŽƌ\u0003 Ġ\u0003 ƌĞƐƉŽŶƐĄǀĞů\u0003 ƉŽƌ\u0003 ĞŶǀŝĂƌ\u0003 ŶŽƟĮĐĂĕƁĞƐ\u0003ĂŽƐ\u0003ĐůŝĞŶƚĞƐ\u0003ƐĞŵƉƌĞ\u0003ƋƵĞ\u0003ŚŽƵǀĞƌ\u0003 ĂƚƵĂůŝǌĂĕĆŽ\u0003 Ğŵ\u0003 ĂůŐƵŵĂ\u0003 ŝŶĨŽƌŵĂĕĆŽ\u0003 ĚĞ\u0003 ŝŶƚĞƌĞƐƐĞ͘ \u0004\u0003ƌĞƐƉĞŝƚŽ\u0003ĚĞƐƐĂƐ\u0003ĂƐƐĞƌĕƁĞƐ͕ \u0003ĂƐƐŝŶĂůĞ\u0003Ă\u0003ŽƉĕĆŽ\u0003ĐŽƌƌĞƚĂ͘",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A \u0003\u0004Ɛ\u0003ĂƐƐĞƌĕƁĞƐ\u0003/\u0003Ğ\u0003//\u0003ƐĆŽ\u0003ƉƌŽƉŽƐŝĕƁĞƐ\u0003ǀĞƌĚĂĚĞŝƌĂƐ͕ \u0003 Ğ\u0003Ă\u0003//\u0003Ġ\u0003ƵŵĂ\u0003ũƵƐƟĮĐĂƟǀĂ\u0003ĐŽƌƌĞƚĂ\u0003ĚĂ\u0003/͘"
+      },
+      {
+        "letra": "B",
+        "texto": "B \u0003\u0004Ɛ\u0003ĂƐƐĞƌĕƁĞƐ\u0003/\u0003Ğ\u0003//\u0003ƐĆŽ\u0003ƉƌŽƉŽƐŝĕƁĞƐ\u0003ǀĞƌĚĂĚĞŝƌĂƐ͕ \u0003 ŵĂƐ\u0003Ă\u0003//\u0003ŶĆŽ\u0003Ġ\u0003ƵŵĂ\u0003ũƵƐƟĮĐĂƟǀĂ\u0003ĐŽƌƌĞƚĂ\u0003ĚĂ\u0003/͘"
+      },
+      {
+        "letra": "C",
+        "texto": "C \u0003\u0004\u0003ĂƐƐĞƌĕĆŽ\u0003/\u0003Ġ\u0003ƵŵĂ\u0003ƉƌŽƉŽƐŝĕĆŽ\u0003ǀĞƌĚĂĚĞŝƌĂ͕ \u0003Ğ\u0003Ă\u0003//\u0003 Ġ\u0003ƵŵĂ\u0003ƉƌŽƉŽƐŝĕĆŽ\u0003ĨĂůƐĂ͘"
+      },
+      {
+        "letra": "D",
+        "texto": "D \u0003\u0004\u0003ĂƐƐĞƌĕĆŽ\u0003/\u0003Ġ\u0003ƵŵĂ\u0003ƉƌŽƉŽƐŝĕĆŽ\u0003ĨĂůƐĂ͕ \u0003Ğ\u0003Ă\u0003//\u0003Ġ\u0003ƵŵĂ\u0003 ƉƌŽƉŽƐŝĕĆŽ\u0003ǀĞƌĚĂĚĞŝƌĂ͘"
+      },
+      {
+        "letra": "E",
+        "texto": "E \u0003\u0004Ɛ\u0003ĂƐƐĞƌĕƁĞƐ\u0003/\u0003Ğ\u0003//\u0003ƐĆŽ\u0003ƉƌŽƉŽƐŝĕƁĞƐ\u0003ĨĂůƐĂƐ͘ \u0006ƌĞĂ\u0003ůŝǀƌĞ"
+      }
+    ],
+    "gabarito": "C",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2017_Ciencia_Computacao_Licenciatura-10.png"
+  },
+  {
+    "id": "2008_CST_Analise_Desenvolvimento_Sistemas-17",
+    "ano": 2008,
+    "prova": "2008_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2008_CST_Analise_Desenvolvimento_Sistemas/2008_PV_TECNOLOGIA_DESENVOLVIMENTO_SISTEMAS.pdf",
+    "numero": 17,
+    "discursiva": false,
+    "pagina": 11,
+    "enunciado": "Os alunos de uma disciplina deveriam escolher um sistema de média complexidade, contendo no mínimo 100 funcionalidades, para ser modelado em UML e codificado em uma linguagem orientada a objetos. Um dos grupos de alunos estabeleceu a seguinte estratégia para identificação e seleção do sistema. I Cada integrante do grupo deveria criar um nickname (apelido) em um software de chat. II O grupo deveria se reunir em um horário predeterminado. III Durante o chat, os seguintes procedimentos deveriam ser realizados: • cada integrante deveria sugerir um ou mais sistemas e justificar sua escolha, e não poderia criticar as idéias dos outros; • à medida que as idéias fossem digitadas, o líder deveria copiá-las para um editor de texto e controlar o tempo de sugestão; • quando o limite de tempo fosse atingido, o líder disponibilizaria todas as sugestões para serem analisadas pelo grupo; • as 5 melhores idéias seriam selecionadas e colocadas em votação para a escolha da melhor idéia, segundo critérios predefinidos. Nessa situação, a estratégia utilizada pelo grupo de alunos é uma adaptação da técnica de levantamento e elicitação de requisitos denominada",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A joint application design"
+      },
+      {
+        "letra": "B",
+        "texto": "B PIECES (perfomance informação/dados economia controle eficiência e serviços"
+      },
+      {
+        "letra": "C",
+        "texto": "C facilitaded application specification techniques"
+      },
+      {
+        "letra": "D",
+        "texto": "D entrevista"
+      },
+      {
+        "letra": "E",
+        "texto": "E brainstorming"
+      }
+    ],
+    "gabarito": "E",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2008_CST_Analise_Desenvolvimento_Sistemas-17.png"
+  },
+  {
+    "id": "2011_CST_Analise_Desenvolvimento_Sistemas-12",
+    "ano": 2011,
+    "prova": "2011_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2011_CST_Analise_Desenvolvimento_Sistemas/2011_PV_ANALISE_E_DESENVOLVIMENTO_DE_SISTEMAS.pdf",
+    "numero": 12,
+    "discursiva": false,
+    "pagina": 10,
+    "enunciado": "Analise as seguintes afirmações sobre a UML (Linguagem de Modelagem Unificada). I.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A UML é uma metodologia para o desenvolvimento de software orientado a objetos, uma vez que fornece um conjunto de representações gráficas e sua semântica para a modelagem de software. II. O diagrama de casos de uso procura, por meio de uma linguagem simples, demonstrar o comportamento externo do sistema. Esse diagrama apresenta o sistema sob a perspectiva do usuário, e é dentre todos da UML, o mais abstrato, flexível e informal. III. Um relacionamento de extensão de um caso de uso “A” para um caso de uso “B” significa que toda vez que “A” for executado ele incorporará o comportamento definido em “B”. IV. Os diagramas de comportamento da UML demonstram como ocorrem as trocas de mensagens entre os objetos do sistema para se atingir um determinado objetivo. É correto apenas o que se afirma em A I e II"
+      },
+      {
+        "letra": "B",
+        "texto": "B II e IV"
+      },
+      {
+        "letra": "C",
+        "texto": "C III e IV"
+      },
+      {
+        "letra": "D",
+        "texto": "D I, II e III"
+      },
+      {
+        "letra": "E",
+        "texto": "E II, III e IV"
+      }
+    ],
+    "gabarito": "B",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2011_CST_Analise_Desenvolvimento_Sistemas-12.png"
+  },
+  {
+    "id": "2017_CST_Analise_Desenvolvimento_Sistemas-16",
+    "ano": 2017,
+    "prova": "2017_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2017_CST_Analise_Desenvolvimento_Sistemas/2017_PV_41_TEC_ANA_DES_SIS_BAIXA.pdf",
+    "numero": 16,
+    "discursiva": false,
+    "pagina": 22,
+    "enunciado": "K\u0003ƐĞŐƵŝŶƚĞ\u0003ĚŝĂŐƌĂŵĂ\u0003ĚĞ\u0003ĐůĂƐƐĞ\u0003ƌĞƉƌĞƐĞŶƚĂ\u0003Ă\u0003ŵŽĚĞůĂŐĞŵ\u0003ĚĞ\u0003Ƶŵ\u0003ƐĞƌǀŝĕŽ\u0003ĚĞ\u0003ƚƌĂŶƐĨĞƌġŶĐŝĂ\u0003ĚĞ\u0003ŵĂƚĞƌŝĂŝƐ\u0003ĞŶƚƌĞ\u0003 ĨƵŶĐŝŽŶĄƌŝŽƐ\u0003ĚĞ\u0003ƵŵĂ\u0003ĞŵƉƌĞƐĂ͘ \u0012ŽŶƐŝĚĞƌĂŶĚŽ\u0003Ž\u0003ĚŝĂŐƌĂŵĂ\u0003ĚĞ\u0003ĐůĂƐƐĞ\u0003ĂƉƌĞƐĞŶƚĂĚŽ͕ \u0003ĂǀĂůŝĞ\u0003ĂƐ\u0003ĂĮƌŵĂĕƁĞƐ\u0003Ă\u0003ƐĞŐƵŝƌ͘ /͘ \u0003 \u0004\u0003ĐůĂƐƐĞ\u0003&ƵŶĐŝŽŶĂƌŝŽ\u0003Ġ\u0003ĂďƐƚƌĂƚĂ͘ //͘ \u0003 hŵĂ\u0003ZĞƋƵŝƐŝĐĂŽdƌĂŶƐĨĞƌĞŶĐŝĂ\u0003Ɛſ\u0003ĞǆŝƐƚĞ\u0003ƐĞ\u0003ĞƐƟǀĞƌ\u0003ǀŝŶĐƵůĂĚĂ\u0003Ă\u0003Ƶŵ\u0003DĂƚĞƌŝĂů͘ ///͘ \u0003 \u0004\u0003ĐůĂƐƐĞ\u0003&ƵŶĐŝŽŶĂƌŝŽ͕ \u0003Ğŵ\u0003ƌĂǌĆŽ\u0003ĚĞ\u0003ƐƵĂ\u0003ĂƐƐŽĐŝĂĕĆŽ͕ \u0003ƉŽƐƐƵŝ\u0003Ƶŵ\u0003ĂƚƌŝďƵƚŽ\u0003ĚŽ\u0003ƟƉŽ\u0003ZĞƋƵŝƐŝĐĂŽdƌĂŶƐĨĞƌĞŶĐŝĂ͘ /s͘ \u0003 ŵ\u0003ƵŵĂ\u0003ŝŵƉůĞŵĞŶƚĂĕĆŽ\u0003ĚĂ\u0003ĐůĂƐƐĞ\u0003ZĞƋƵŝƐŝĐĂŽdƌĂŶƐĨĞƌĞŶĐŝĂ͕ \u0003Ġ\u0003ŶĞĐĞƐƐĄƌŝŽ\u0003ĂĚŝĐŝŽŶĂƌ\u0003Ƶŵ\u0003ĂƚƌŝďƵƚŽ\u0003 ƐŝŵƉůĞƐ\u0003ĚŽ\u0003ƟƉŽ\u0003DĂƚĞƌŝĂů͘ \u0003ĐŽƌƌĞƚŽ\u0003Ž\u0003ƋƵĞ\u0003ƐĞ\u0003ĂĮƌŵĂ\u0003Ğŵ",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A \u0003//͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "B",
+        "texto": "B \u0003/\u0003Ğ\u0003//͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "C",
+        "texto": "C \u0003///\u0003Ğ\u0003/s͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "D",
+        "texto": "D \u0003/͕ \u0003///\u0003Ğ\u0003/s͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "E",
+        "texto": "E \u0003/͕ \u0003//͕ \u0003///\u0003Ğ\u0003/s͘ \u0006ƌĞĂ\u0003ůŝǀƌĞ Funcionario - nome: string RequisicaoTransferencia - dataRequisicao: date Material - descricao: string - preco: double - destino - origem - material 0..1 1..* 1 Ϯϯ TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS"
+      }
+    ],
+    "gabarito": "A",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2017_CST_Analise_Desenvolvimento_Sistemas-16.png"
+  },
+  {
+    "id": "2008_CST_Analise_Desenvolvimento_Sistemas-39-D",
+    "ano": 2008,
+    "prova": "2008_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2008_CST_Analise_Desenvolvimento_Sistemas/2008_PV_TECNOLOGIA_DESENVOLVIMENTO_SISTEMAS.pdf",
+    "numero": 39,
+    "discursiva": true,
+    "pagina": 20,
+    "enunciado": "– DISCURSIVA Uma montadora de automóveis produz carros de luxo e esportivos. Um carro tem marca, modelo, chassi e ano de fabricação. As partes de um carro possuem características como: nome, quantidade, cor e preço. Um fornecedor da montadora tem CNPJ e razão social. O carro de luxo possui sistema GPS; o carro esporte não possui sistema GPS e somente pode ser fabricado na cor vermelha. Com base nessa situação, faça o que se pede a seguir. A Identifique e escreva o nome das classes correspondentes à situação apresentada. (valor: 2,0 pontos)",
+    "alternativas": [],
+    "gabarito": null,
+    "anulada": false,
+    "padrao": "a) A resposta correta é: Quesitos Avaliados: Valor correto atribuído a cada nodo da Matriz: 0,333 ponto. b) A resposta correta é: Quesitos Avaliados: Valor correto atribuído a cada nodo da Matriz: 0,5 ponto.",
+    "imagem": "/img/2008_CST_Analise_Desenvolvimento_Sistemas-39-D.png"
+  },
+  {
+    "id": "2021_CST_Analise_Desenvolvimento_Sistemas-4-D",
+    "ano": 2021,
+    "prova": "2021_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2021_CST_Analise_Desenvolvimento_Sistemas/2021_PV_tecnologia_analise_desenvolvimento_sistemas.pdf",
+    "numero": 4,
+    "discursiva": true,
+    "pagina": 15,
+    "enunciado": "Um analista de requisitos identificou as seguintes histórias de usuários para um sistema web de reserva de passagens de uma empresa aérea: HST 01: COMO cliente, GOSTARIA de me cadastrar no site da empresa informando meu e-mail, nome, CPF, telefone e endereço PARA poder usar os serviços web da empresa. HST 02: COMO cliente, GOSTARIA de pesquisar por preços das passagens aéreas informando data, hora, cidade e aeroporto de ida e de volta PARA poder escolher uma opção de reserva que me interessa. HST 03: COMO cliente, GOSTARIA de confirmar uma reserva de passagem aérea selecionada, escolhendo uma das formas de pagamento disponibilizada pela empresa PARA poder viajar para o local escolhido na reserva. HST 04: COMO cliente, GOSTARIA de fazer o check-in online da reserva PARA poder realizar meu embarque. Tendo por base essas histórias de usuários, elabore um diagrama de classes da UML (Unified Modeling Language) para o sistema, identificando as classes (máximo seis), atributos e associações entre as classes com as respectivas multiplicidades. Deverão ser representadas as reservas de ida e de volta como classes de uma associação do tipo generalização (herança) e também ser identificados pelo menos três métodos para a classe Reserva. Para as demais classes não é necessário identificar os métodos. Também não há necessidade de identificar a multiplicidade dos atributos nas classes. (valor: 10,0 pontos). 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+    "alternativas": [],
+    "gabarito": null,
+    "anulada": false,
+    "padrao": "Um analista de requisitos identificou as seguintes histórias de usuários para um sistema web de reserva de passagens de uma empresa aérea: HST 01: COMO cliente, GOSTARIA de me cadastrar no site da empresa informando meu e-mail, nome, CPF, telefone e endereço PARA poder usar os serviços web da empresa. HST 02: COMO cliente, GOSTARIA de pesquisar por preços das passagens aéreas informando data, hora, cidade e aeroporto de ida e de volta PARA poder escolher uma opção de reserva que me interessa. HST 03: COMO cliente, GOSTARIA de confirmar uma reserva de passagem aérea selecionada, escolhendo uma das formas de pagamento disponibilizada pela empresa PARA poder viajar para o local escolhido na reserva. HST 04: COMO cliente, GOSTARIA de fazer o check-in online da reserva PARA poder realizar meu embarque. Tendo por base essas histórias de usuários, elabore um diagrama de classes da UML (Unified Modeling Language) para o sistema, identificando as classes (máximo seis), atributos e associações entre as classes com as respectivas multiplicidades. Deverão ser representadas as reservas de ida e de volta como classes de uma associação do tipo generalização (herança) e também ser identificados pelo menos três métodos para a classe Reserva. Para as demais classes não é necessário identificar os métodos. Também não há necessidade de identificar a multiplicidade dos atributos nas classes. (valor: 10,0 pontos). PADRÃO DE RESPOSTA O respondente deve elaborar um diagrama da UML para o sistema, contendo no mínimo, as classes, atributos, métodos e associações a seguir: QUESTÃO",
+    "imagem": "/img/2021_CST_Analise_Desenvolvimento_Sistemas-4-D.png"
+  },
+  {
+    "id": "2021_CST_Analise_Desenvolvimento_Sistemas-11",
+    "ano": 2021,
+    "prova": "2021_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2021_CST_Analise_Desenvolvimento_Sistemas/2021_PV_tecnologia_analise_desenvolvimento_sistemas.pdf",
+    "numero": 11,
+    "discursiva": false,
+    "pagina": 20,
+    "enunciado": "O código Java, a seguir, contém a implementação de uma Pilha utilizando a estratégia encadeada. public class No{ public int dado; public No prox; public No(int dado){ this.dado = dado; } } public class PilhaEncadeada{ private No topo; public int pop(){ if (topo == null) return -1; No lixo = topo; topo = topo.prox; lixo.prox = null; return lixo.dado; } public int top(){ if (topo == null) return -1; return (topo.dado); } } Com base no exposto, assinale a opção que possui a implementação correta do método push para essa Pilha.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A public void push(int elemento){ No novo = new No(elemento); if(topo == null) topo = novo; else topo.prox = novo; }"
+      },
+      {
+        "letra": "B",
+        "texto": "B public void push(int elemento){ No novo = new No(elemento); topo = novo; }"
+      },
+      {
+        "letra": "C",
+        "texto": "C public void push(int elemento){ topo.dado = elemento; }"
+      },
+      {
+        "letra": "D",
+        "texto": "D public void push(int elemento){ No novo = new No(elemento); while (topo != null) topo = topo.prox; topo.prox = novo; }"
+      },
+      {
+        "letra": "E",
+        "texto": "E public void push(int elemento){ No novo = new No(elemento); novo.prox = topo; topo = novo; }"
+      }
+    ],
+    "gabarito": "E",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2021_CST_Analise_Desenvolvimento_Sistemas-11.png"
+  },
+  {
+    "id": "2017_Ciencia_Computacao_Licenciatura-28",
+    "ano": 2017,
+    "prova": "2017_Ciencia_Computacao_Licenciatura",
+    "pdf": "2017_Ciencia_Computacao_Licenciatura/2017_PV_04_CIE_COM_LICENCIATURA_BAIXA.pdf",
+    "numero": 28,
+    "discursiva": false,
+    "pagina": 27,
+    "enunciado": "hŵ\u0003ĚŽƐ\u0003ĐŽŶĐĞŝƚŽƐ\u0003ďĄƐŝĐŽƐ\u0003ĚĞ\u0003ŽƌŝĞŶƚĂĕĆŽ\u0003Ă\u0003ŽďũĞƚŽƐ\u0003 Ġ\u0003Ž\u0003ĐŽŶĐĞŝƚŽ\u0003ĚĞ\u0003ŚĞƌĂŶĕĂ͘ \u0003\u0018ƵƌĂŶƚĞ\u0003Ă\u0003ŝŵƉůĞŵĞŶƚĂĕĆŽ\u0003 ĚĞ\u0003Ƶŵ\u0003ƐŝƐƚĞŵĂ͕ \u0003Ž\u0003ŵĞĐĂŶŝƐŵŽ\u0003ĚĞ\u0003ŚĞƌĂŶĕĂ\u0003ƐƵƉŽƌƚĂ\u0003Ă\u0003 ĚĞĮŶŝĕĆŽ\u0003ĚĞ\u0003ƵŵĂ\u0003ŶŽǀĂ\u0003ĐůĂƐƐĞ\u0003\u0004\u0003Ă\u0003ƉĂƌƟƌ\u0003ĚĞ\u0003ŽƵƚƌĂ\u0003\u0011͕ \u0003 ƉƌĞĞǆŝƐƚĞŶƚĞ\u0003;ƉŽƌ\u0003ĞǆĞŵƉůŽ͕ \u0003Ğŵ\u0003:ĂǀĂ͕ \u0003ƉŽĚĞͲƐĞ\u0003ĚĞĮŶŝƌ\u0003 Ă\u0003ĐůĂƐƐĞ\u0003\u0004\u0003ŚĞƌĚĞŝƌĂ\u0003ĚĂ\u0003ĐůĂƐƐĞ\u0003\u0011\u0003ĐŽŵŽ\u0003Ηclass",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A extends BΗͿ͘ \u0003\u0004ůĠŵ\u0003ĚŝƐƐŽ͕ \u0003ƚĂů\u0003ŵĞĐĂŶŝƐŵŽ\u0003ƉŽĚĞ\u0003 ŝŵƉůĞŵĞŶƚĂƌ\u0003ƉŽůŝŵŽƌĮƐŵŽ\u0003ĚĞ\u0003ƟƉŽƐ\u0003ĚĞ\u0003ŽďũĞƚŽƐ͘ \u0018 /d >͕ \u0003W͖͘ \u0003\u0018 /d >͕ \u0003,͘ \u0003:ĂǀĂ - ĐŽŵŽ\u0003ƉƌŽŐƌĂŵĂƌ͘ \u0003ϴ͘ \u0003ĞĚ͘ \u0003^ĆŽ\u0003WĂƵůŽ͗ \u0003 WƌĞŶƟĐĞ\u0003,Ăůů͕ \u0003ϮϬϭϬ\u0003;ĂĚĂƉƚĂĚŽͿ͘ \u0003 \u0004\u0003ƌĞƐƉĞŝƚŽ\u0003ĚĞ\u0003ŚĞƌĂŶĕĂ\u0003Ğ\u0003ƐƵĂ\u0003ƌĞůĂĕĆŽ\u0003ĐŽŵ\u0003ŽƌŝĞŶƚĂĕĆŽ\u0003 Ă\u0003ŽďũĞƚŽƐ͕ \u0003ĂǀĂůŝĞ\u0003ĂƐ\u0003ĂĮƌŵĂĕƁĞƐ\u0003Ă\u0003ƐĞŐƵŝƌ͘ /͘ \u0003 ,ĞƌĂŶĕĂ\u0003 Ġ\u0003 Ƶŵ\u0003 ŵĞĐĂŶŝƐŵŽ\u0003 ƋƵĞ\u0003 ƉŽĚĞ\u0003 ƐĞƌ\u0003 ƵƐĂĚŽ\u0003ƉĂƌĂ\u0003ŝŵƉůĞŵĞŶƚĂƌ\u0003ƉŽůŝŵŽƌĮƐŵŽ͘ //͘ \u0003 ,ĞƌĂŶĕĂ\u0003 ƉĞƌŵŝƚĞ\u0003 Ž\u0003 ƌĞĂƉƌŽǀĞŝƚĂŵĞŶƚŽ\u0003 ĚĞ\u0003 ĐſĚŝŐŽ\u0003ĐŽŵƵŵ\u0003ĞŶƚƌĞ\u0003ĂůŐƵŵĂƐ\u0003ĐůĂƐƐĞƐ͘ ///͘ \u0003 DĠƚŽĚŽƐ\u0003 ŚĞƌĚĂĚŽƐ\u0003 ĞƋƵŝǀĂůĞŵ\u0003 Ă\u0003 ŵĠƚŽĚŽƐ\u0003 ƉŽůŝŵſƌĮĐŽƐ͘ \u0003 \u0003ĐŽƌƌĞƚŽ\u0003Ž\u0003ƋƵĞ\u0003ƐĞ\u0003ĂĮƌŵĂ\u0003Ğŵ A \u0003/͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "B",
+        "texto": "B ///͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "C",
+        "texto": "C \u0003/\u0003Ğ\u0003//͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "D",
+        "texto": "D \u0003//\u0003Ğ\u0003///͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "E",
+        "texto": "E \u0003/͕ \u0003//\u0003Ğ\u0003///͘"
+      }
+    ],
+    "gabarito": "C",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2017_Ciencia_Computacao_Licenciatura-28.png"
+  },
+  {
+    "id": "2014_Sistemas_de_Informacao-5-D",
+    "ano": 2014,
+    "prova": "2014_Sistemas_de_Informacao",
+    "pdf": "2014_Sistemas_de_Informacao/2014_PV_39_sistemas_informacao.pdf",
+    "numero": 5,
+    "discursiva": true,
+    "pagina": 11,
+    "enunciado": "hŵĂ\u0003ĞŵƉƌĞƐĂ\u0003ĚĞƐĞũĂ\u0003ůĂŶĕĂƌ\u0003Ƶŵ\u0003ƐŝƐƚĞŵĂ\u0003ĚĞ\u0003ĐŽŵĠƌĐŝŽ\u0003ĞůĞƚƌƀŶŝĐŽ\u0003ƉĂƌĂ\u0003ǀĞŶĚĞƌ\u0003ƐĞƵƐ\u0003ƉƌŽĚƵƚŽƐ͘ \u0003 ƐƐĂ\u0003ĞŵƉƌĞƐĂ\u0003 ǀĞŶĚĞ\u0003ƉƌŽĚƵƚŽƐ\u0003ĚĞ\u0003ĚŝǀĞƌƐĂƐ\u0003ĐĂƚĞŐŽƌŝĂƐ͕ \u0003ĐŽŵŽ\u0003ƌŽƵƉĂƐ͕ \u0003ƉĞƌĨƵŵĞƐ\u0003Ğ\u0003ĞůĞƚƌƀŶŝĐŽƐ͕ \u0003Ğ\u0003ĂĐĞŝƚĂ\u0003ĚŝǀĞƌƐĂƐ\u0003ĨŽƌŵĂƐ\u0003ĚĞ\u0003 ƉĂŐĂŵĞŶƚŽ͕ \u0003ĐŽŵŽ\u0003ĐĂƌƚĆŽ\u0003ĚĞ\u0003ĐƌĠĚŝƚŽ\u0003Ğ\u0003ďŽůĞƚŽ\u0003ďĂŶĐĄƌŝŽ͘ \u0003EŽ\u0003ƐŝƐƚĞŵĂ\u0003ĚĞ\u0003ǀĞŶĚĂƐ\u0003ŝŵƉůĞŵĞŶƚĂĚŽ͕ \u0003ĐĂĚĂ\u0003ƉƌŽĚƵƚŽ\u0003 ĚĞǀĞ\u0003ƐĞƌ\u0003ĐĂĚĂƐƚƌĂĚŽ\u0003ĐŽŵ\u0003ƐƵĂ\u0003ĚĞƐĐƌŝĕĆŽ͕ \u0003ƉƌĞĕŽ\u0003ĚĞ\u0003ǀĞŶĚĂ͕ \u0003ƋƵĂŶƟĚĂĚĞ\u0003Ğŵ\u0003ĞƐƚŽƋƵĞ\u0003Ğ\u0003ƌĞƐƉĞĐƟǀĂ\u0003ĐĂƚĞŐŽƌŝĂ͘ \u0003 \u0012ĂĚĂ\u0003ĐůŝĞŶƚĞ\u0003ƋƵĞ\u0003ĚĞƐĞũĂ\u0003ƌĞĂůŝǌĂƌ\u0003ĐŽŵƉƌĂƐ\u0003ƚĞŵ\u0003ĚĞ\u0003ƐĞ\u0003ĐĂĚĂƐƚƌĂƌ\u0003ŶŽ\u0003ƐŝƐƚĞŵĂ\u0003ŝŶĚŝĐĂŶĚŽ\u0003ƐĞƵ\u0003ŶŽŵĞ͕ \u0003ĞŶĚĞƌĞĕŽ\u0003Ğ\u0003 e-mail.\u0003^Ğ\u0003Ž\u0003ĐůŝĞŶƚĞ\u0003ĨŽƌ\u0003ĐŽƌƉŽƌĂƟǀŽ͕ \u0003ĚĞǀĞ\u0003ĐĂĚĂƐƚƌĂƌ\u0003ƐĞƵ\u0003\u0012EW:\u0003Ğ͕ \u0003ƐĞ\u0003ĨŽƌ\u0003ŝŶĚŝǀŝĚƵĂů͕ \u0003ƐĞƵ\u0003\u0012W&͘ \u0003K\u0003ĐůŝĞŶƚĞ\u0003ĐĂĚĂƐƚƌĂĚŽ\u0003 ƉŽĚĞ\u0003ƌĞĂůŝǌĂƌ\u0003Ƶŵ\u0003ƉĞĚŝĚŽ\u0003ĚĞ\u0003ĐŽŵƉƌĂ\u0003ĚŽƐ\u0003ƉƌŽĚƵƚŽƐ\u0003Ğŵ\u0003ĞƐƚŽƋƵĞ\u0003ŶĂ\u0003ƋƵĂŶƟĚĂĚĞ\u0003ƋƵĞ\u0003ĚĞƐĞũĂƌ͘ \u0003K\u0003ĐůŝĞŶƚĞ\u0003ĞƐĐŽůŚĞ\u0003 ƵŵĂ\u0003ĨŽƌŵĂ\u0003ĚĞ\u0003ƉĂŐĂŵĞŶƚŽ\u0003ĚŝƐƉŽŶşǀĞů\u0003Ğ\u0003ƌĞĐĞďĞ͕ \u0003ƉŽƌ\u0003e-mail, Ž\u0003ŶƷŵĞƌŽ\u0003ĚŽ\u0003ƉĞĚŝĚŽ\u0003Ğ\u0003ŝŶĨŽƌŵĂĕƁĞƐ\u0003ĚŽ\u0003status ĚŽ\u0003ƉĞĚŝĚŽ͘ \u0003\u0004ƉſƐ\u0003Ă\u0003ĐŽŶĮƌŵĂĕĆŽ\u0003ĚŽ\u0003ƉĂŐĂŵĞŶƚŽ͕ \u0003Ă\u0003ůŽũĂ\u0003ƌĞĂůŝǌĂ\u0003Ă\u0003ĞŶƚƌĞŐĂ\u0003ĚŽƐ\u0003ŝƚĞŶƐ\u0003ƐŽůŝĐŝƚĂĚŽƐ\u0003ŶŽ\u0003ĞŶĚĞƌĞĕŽ\u0003ĚŽ\u0003 ĐůŝĞŶƚĞ\u0003Ğ\u0003ĞŶǀŝĂ͕ \u0003ƉŽƌ\u0003e-mail,\u0003Ă\u0003ŶŽƚĂ\u0003ĮƐĐĂů\u0003ĞůĞƚƌƀŶŝĐĂ͘ \u0003dĞŶĚŽ\u0003Ğŵ\u0003ǀŝƐƚĂ\u0003ƋƵĞ\u0003ŽƐ\u0003ƉƌĞĕŽƐ\u0003ĚŽƐ\u0003ƉƌŽĚƵƚŽƐ\u0003ƉŽĚĞŵ\u0003ƐĞƌ\u0003 ĂƚƵĂůŝǌĂĚŽƐ\u0003Ă\u0003ƋƵĂůƋƵĞƌ\u0003ŵŽŵĞŶƚŽ͕ \u0003Ž\u0003ƐŝƐƚĞŵĂ\u0003ƚĞŵ\u0003ĚĞ\u0003ƐĞƌ\u0003ĐĂƉĂǌ\u0003ĚĞ\u0003ƌĞĞŵŝƟƌ\u0003ƵŵĂ\u0003ŶŽƚĂ\u0003ĮƐĐĂů\u0003ĚĞ\u0003Ƶŵ\u0003ƉĞĚŝĚŽ\u0003ĚĞ\u0003 ĐŽŵƉƌĂ\u0003ĚĞ\u0003ƋƵĂůƋƵĞƌ\u0003ƉƌŽĚƵƚŽ\u0003Ğ\u0003ƌĞƐƉĞĐƟǀŽ\u0003ƉƌĞĕŽ\u0003ŶĂ\u0003ĚĂƚĂ\u0003ĚĂ\u0003ĐŽŵƉƌĂ\u0003ƌĞĂůŝǌĂĚĂ\u0003ƉĞůŽ\u0003ĐůŝĞŶƚĞ͘ \u0012ŽŶƐŝĚĞƌĂŶĚŽ\u0003ĞƐƐĞ\u0003ĐĞŶĄƌŝŽ͕ \u0003ƉƌŽƉŽŶŚĂ\u0003Ƶŵ\u0003\u0018ŝĂŐƌĂŵĂ\u0003ĚĞ\u0003\u0012ůĂƐƐĞƐ͕ \u0003ƐĞŐƵŶĚŽ\u0003Ă\u0003hD>\u0003;hŶŝĮĞĚ\u0003DŽĚĞůŝŶŐ\u0003>ĂŶŐƵĂŐĞͿ͕ \u0003 ŝŶĚŝĐĂŶĚŽ\u0003ŶŽŵĞ\u0003ĚĞ\u0003ĐĂĚĂ\u0003ĐůĂƐƐĞ͕ \u0003ƌĞƐƉĞĐƟǀŽƐ\u0003ĂƚƌŝďƵƚŽƐ\u0003Ğ\u0003ƌĞůĂĐŝŽŶĂŵĞŶƚŽƐ\u0003ĞŶƚƌĞ\u0003ĂƐ\u0003ĐůĂƐƐĞƐ\u0003ĐŽŵ\u0003ĂƐ\u0003ƌĞƐƉĞĐƟǀĂƐ\u0003 ĐĂƌĚŝŶĂůŝĚĂĚĞƐ͘ \u0003 ŵ\u0003 ƐƵĂ\u0003 ƉƌŽƉŽƐƚĂ͕ \u0003 ŝĚĞŶƟĮƋƵĞ͕ \u0003 ƉĞůŽ\u0003 ŵĞŶŽƐ͕ \u0003 Ƶŵ\u0003 ƌĞůĂĐŝŽŶĂŵĞŶƚŽ\u0003 ĚĞ\u0003 ŐĞŶĞƌĂůŝǌĂĕĆŽ\u0003 Ğ\u0003 Ƶŵ\u0003 ƌĞůĂĐŝŽŶĂŵĞŶƚŽ\u0003ĚĞ\u0003ĐŽŵƉŽƐŝĕĆŽ͕ \u0003ŶĆŽ\u0003ƐĞŶĚŽ\u0003ŶĞĐĞƐƐĄƌŝŽ\u0003ŝŶĚŝĐĂƌ\u0003ĂƐ\u0003ŽƉĞƌĂĕƁĞƐ\u0003ĚĞ\u0003ĐĂĚĂ\u0003ĐůĂƐƐĞ͘ \u0003;ǀĂůŽƌ͗ \u0003ϭϬ͕ Ϭ\u0003ƉŽŶƚŽƐͿ 1 2 ϯ 4 5 6 7 ϴ 9 10 11 12 ϭϯ 14 15 12 ^/^d D\u0004^\u0003\u0018 \u0003/E&KZD\u0004\u0017\bK",
+    "alternativas": [],
+    "gabarito": null,
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2014_Sistemas_de_Informacao-5-D.png"
+  },
+  {
+    "id": "2021_Ciencia_Computacao_Licenciatura-10",
+    "ano": 2021,
+    "prova": "2021_Ciencia_Computacao_Licenciatura",
+    "pdf": "2021_Ciencia_Computacao_Licenciatura/2021_PV_licenciatura_ciencia_computacao.pdf",
+    "numero": 10,
+    "discursiva": false,
+    "pagina": 18,
+    "enunciado": "A biblioteca de coleções da linguagem Java disponibiliza implementações de propósito geral para estruturas de dados elementares, como listas, filas e pilhas. Considere as seguintes definições de classes que representam implementações de estruturas de dados disponíveis na biblioteca da linguagem: • Classe A: os objetos são organizados em uma ordem linear e podem ser inseridos somente no início ou no final dessa sequência; • Classe B: os objetos são organizados em uma ordem linear determinada por uma referência ao próximo objeto; • Classe C: os objetos são removidos na ordem oposta em que foram inseridos; • Classe D: os objetos são inseridos e removidos respeitando a seguinte regra: o elemento a ser removido é sempre aquele que foi inserido primeiro. Nesse contexto, assinale a alternativa que representa, respectivamente, as estruturas de dados implementadas pelas classes A, B, C e D. A Lista circular, lista simplesmente ligada, pilha e fila. B Deque, lista simplesmente ligada, pilha e fila. C Lista duplamente ligada, lista simplesmente ligada, fila e pilha. D Pilha, fila, deque e lista simplesmente encadeada. E Deque, pilha, lista ligada e fila. 19 CIÊNCIA DA COMPUTAÇÃO",
+    "alternativas": [],
+    "gabarito": "B",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2021_Ciencia_Computacao_Licenciatura-10.png"
+  },
+  {
+    "id": "2014_Computacao_Bacharelado-21",
+    "ano": 2014,
+    "prova": "2014_Computacao_Bacharelado",
+    "pdf": "2014_Computacao_Bacharelado/2014_PV_03_computacao_bacharelado.pdf",
+    "numero": 21,
+    "discursiva": false,
+    "pagina": 19,
+    "enunciado": "K\u0003ĨƌĂŐŵĞŶƚŽ\u0003ĚĞ\u0003ĐſĚŝŐŽ\u0003Ă\u0003ƐĞŐƵŝƌ͕ \u0003ĞƐĐƌŝƚŽ\u0003Ğŵ\u0003:ĂǀĂ͕ \u0003ĚĞƐĐƌĞǀĞ\u0003ĚƵĂƐ\u0003ŝŵƉůĞŵĞŶƚĂĕƁĞƐ\u0003ĚŝĨĞƌĞŶƚĞƐ\u0003ƉĂƌĂ\u0003Ƶŵ\u0003lock. \u0004ŵďĂƐ\u0003ƉŽƐƐƵĞŵ\u0003Ƶŵ\u0003ŵĠƚŽĚŽ\u0003ĚĞŶŽŵŝŶĂĚŽ\u0003acquire\u0003Ğ\u0003Ƶŵ\u0003ŵĠƚŽĚŽ\u0003ĚĞŶŽŵŝŶĂĚŽ\u0003release. class LockA { private int turn = 0 public void acquire(int tid) { while (turn == (1 - tid)); } public void release(int tid) { turn = (1 - tid); } } class LockB { public void acquire() { disableInterrupts(); } public void release() { enableInterrupts(); } } \u0012ŽŶƐŝĚĞƌĂͲƐĞ\u0003ƋƵĞ͗ ͻ\u0003 ĂƐ\u0003ĚƵĂƐ\u0003ŝŵƉůĞŵĞŶƚĂĕƁĞƐ\u0003ĚĞ\u0003lock ƐĆŽ\u0003ƵƟůŝǌĂĚĂƐ\u0003ƉŽƌ\u0003ĂƉůŝĐĂĕƁĞƐ\u0003ĐŽŵ͕ \u0003ŶŽ\u0003ŵĄǆŝŵŽ͕ \u0003ĚƵĂƐ\u0003threads; ͻ\u0003 ƵŵĂ\u0003ĂƉůŝĐĂĕĆŽ\u0003ƋƵĞ\u0003ƵƟůŝǌĂƌ\u0003ƋƵĂůƋƵĞƌ\u0003ƵŵĂ\u0003ĚĞƐƚĂƐ\u0003ŝŵƉůĞŵĞŶƚĂĕƁĞƐ\u0003ŝŶǀŽĐĂƌĄ\u0003Ž\u0003ŵĠƚŽĚŽ\u0003acquire\u0003ĂŶƚĞƐ\u0003ĚĞ\u0003 ĞŶƚƌĂƌ\u0003Ğŵ\u0003ƐƵĂ\u0003ƐĞĕĆŽ\u0003ĐƌşƟĐĂ\u0003Ğ\u0003Ž\u0003ŵĠƚŽĚŽ\u0003release\u0003ĂƉſƐ\u0003ĚĞŝǆĂƌ\u0003Ă\u0003ƐĞĕĆŽ\u0003ĐƌşƟĐĂ͖ ͻ\u0003 ƚĂŶƚŽ\u0003Ž\u0003ŵĠƚŽĚŽ\u0003acquire\u0003ƋƵĂŶƚŽ\u0003Ž\u0003ŵĠƚŽĚŽ\u0003release\u0003ƐĆŽ\u0003ŽƉĞƌĂĕƁĞƐ\u0003ĂƚƀŵŝĐĂƐ\u0003ŶĂƐ\u0003ĚƵĂƐ\u0003ŝŵƉůĞŵĞŶƚĂĕƁĞƐ\u0003 ĚĞ\u0003lock͖ ͻ\u0003 ƉĂƌĂ\u0003Ă\u0003ŝŵƉůĞŵĞŶƚĂĕĆŽ\u0003ƋƵĞ\u0003ƌĞƋƵĞƌ\u0003Ƶŵ\u0003tid\u0003;thread idͿ͕ \u0003ĂƐƐƵŵĞͲƐĞ\u0003ƋƵĞ\u0003ĞůĞ\u0003ƐĞŵƉƌĞ\u0003ƐĞƌĄ\u0003Ϭ\u0003ŽƵ\u0003ϭ͖ ͻ\u0003 ŽƐ\u0003ŵĠƚŽĚŽƐ\u0003disableInterrupts e enableInterrupts\u0003ƐĆŽ\u0003ƵƟůŝǌĂĚŽƐ\u0003ƉĂƌĂ\u0003ĚĞƐĂďŝůŝƚĂƌ\u0003Ğ\u0003ŚĂďŝůŝƚĂƌ\u0003 ƌĞƐƉĞĐƟǀĂŵĞŶƚĞ\u0003ĂƐ\u0003ŝŶƚĞƌƌƵƉĕƁĞƐ\u0003ĚŽ\u0003ƉƌŽĐĞƐƐĂĚŽƌ\u0003ŽŶĚĞ\u0003Ž\u0003ĐſĚŝŐŽ\u0003ĨŽƌ\u0003ĞǆĞĐƵƚĂĚŽ͘ \u0003K\u0003ĐſĚŝŐŽ\u0003ĚĞƐƐĞƐ\u0003ĚŽŝƐ\u0003 ŵĠƚŽĚŽƐ\u0003ĨŽŝ\u0003ĚĞƐĞŶǀŽůǀŝĚŽ\u0003ƉĂƌĂ\u0003ƐĞƌ\u0003ƵƟůŝǌĂĚŽ\u0003Ğŵ\u0003ƵŵĂ\u0003ŵĄƋƵŝŶĂ\u0003ĐŽŵ\u0003Ƶŵ\u0003ŽƵ\u0003ĚŽŝƐ\u0003ƉƌŽĐĞƐƐĂĚŽƌĞƐ͘ \u0004\u0003ƉĂƌƟƌ\u0003ĚĂƐ\u0003ŝŶĨŽƌŵĂĕƁĞƐ\u0003ĂƉƌĞƐĞŶƚĂĚĂƐ͕ \u0003ĂǀĂůŝĞ\u0003ĂƐ\u0003ĂĮƌŵĂĕƁĞƐ\u0003Ă\u0003ƐĞŐƵŝƌ͘ /͘ \u0003 \u0004\u0003ŝŵƉůĞŵĞŶƚĂĕĆŽ\u0003ĚĞ\u0003LockA\u0003ŐĂƌĂŶƚĞ\u0003ƉƌŽŐƌĞƐƐŽ͘ //͘ \u0003 \u0004\u0003ŝŵƉůĞŵĞŶƚĂĕĆŽ\u0003ĚĞ\u0003LockB\u0003ŐĂƌĂŶƚĞ\u0003ƉƌŽŐƌĞƐƐŽ͘ ///͘ \u0003 \u0004\u0003ŝŵƉůĞŵĞŶƚĂĕĆŽ\u0003ĚĞ\u0003LockA\u0003ŐĂƌĂŶƚĞ\u0003ĞǆĐůƵƐĆŽ\u0003ŵƷƚƵĂ͘ /s͘ \u0003 \u0004\u0003ŝŵƉůĞŵĞŶƚĂĕĆŽ\u0003ĚĞ\u0003LockB\u0003ŐĂƌĂŶƚĞ\u0003ĞǆĐůƵƐĆŽ\u0003ŵƷƚƵĂ͘ \u0003ĐŽƌƌĞƚŽ\u0003ĂƉĞŶĂƐ\u0003Ž\u0003ƋƵĞ\u0003ƐĞ\u0003ĂĮƌŵĂ\u0003Ğŵ",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A /\u0003Ğ\u0003//͘"
+      },
+      {
+        "letra": "B",
+        "texto": "B //\u0003Ğ\u0003///͘"
+      },
+      {
+        "letra": "C",
+        "texto": "C ///\u0003Ğ\u0003/s͘"
+      },
+      {
+        "letra": "D",
+        "texto": "D /͕ \u0003//\u0003Ğ\u0003/s͘"
+      },
+      {
+        "letra": "E",
+        "texto": "E /͕ \u0003///\u0003Ğ\u0003/s͘ 20 \u0012/ E\u0012/\u0004\u0003\u0018\u0004\u0003\u0012KDWhd\u0004\u0017\bK"
+      }
+    ],
+    "gabarito": "B",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2014_Computacao_Bacharelado-21.png"
+  },
+  {
+    "id": "legado_Computacao_2005_2008_2011-50",
+    "ano": 2005,
+    "prova": "legado_Computacao_2005_2008_2011",
+    "pdf": "legado_Computacao_2005_2008_2011/2005_Computacao_PV.pdf",
+    "numero": 50,
+    "discursiva": false,
+    "pagina": 18,
+    "enunciado": "Acerca de paradigmas de linguagens de programação, julgue os itens a seguir. I Linguagens procedurais facilitam a legibilidade e a documentação do software. II Linguagens declarativas facilitam o desenvolvimento de sistemas de apoio à decisão. III Linguagens funcionais facilitam a definição de requisitos e a decomposição funcional. IV Linguagens estruturadas promovem o forte acoplamento entre dados e funções. V Linguagens orientadas a objeto permitem reduzir custos de desenvolvimento e manutenção. Estão certos apenas os itens A I e II. D III e V. B I e IV. E IV e V. C II e III.",
+    "alternativas": [],
+    "gabarito": "D",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/legado_Computacao_2005_2008_2011-50.png"
+  },
+  {
+    "id": "2014_Computacao_Bacharelado-25",
+    "ano": 2014,
+    "prova": "2014_Computacao_Bacharelado",
+    "pdf": "2014_Computacao_Bacharelado/2014_PV_03_computacao_bacharelado.pdf",
+    "numero": 25,
+    "discursiva": false,
+    "pagina": 21,
+    "enunciado": "hŵĂ\u0003 ŐƌĂŵĄƟĐĂ\u0003 ůŝǀƌĞ\u0003 ĚŽ\u0003 ĐŽŶƚĞǆƚŽ\u0003 ;'>\u0012Ϳ\u0003 Ġ\u0003 Ƶŵ\u0003 ŵŽĚĞůŽ\u0003 ĐŽŵƉƵƚĂĐŝŽŶĂů\u0003 ŐĞƌĂůŵĞŶƚĞ\u0003 ƵƟůŝǌĂĚŽ\u0003 ƉĂƌĂ\u0003 ĚĞĮŶŝƌ\u0003 ůŝŶŐƵĂŐĞŶƐ\u0003ĚĞ\u0003ƉƌŽŐƌĂŵĂĕĆŽ\u0003Ğ͕ \u0003ƋƵĂŶĚŽ\u0003ĞƐƚĄ\u0003ĚĞ\u0003ĂĐŽƌĚŽ\u0003ĐŽŵ\u0003Ă\u0003&ŽƌŵĂ\u0003ĚĞ\u0003\u0011ĂĐŬƵƐͲEĂƵƌ\u0003;\u0011E&Ϳ͕ \u0003ƉĞƌŵŝƚĞ\u0003ƋƵĞ\u0003 ĂůŐƵŶƐ\u0003ŽƉĞƌĂĚŽƌĞƐ\u0003ƐĞũĂŵ\u0003ƵƟůŝǌĂĚŽƐ\u0003ŶŽ\u0003ůĂĚŽ\u0003ĚŝƌĞŝƚŽ\u0003ĚĞ\u0003ƐƵĂƐ\u0003ƉƌŽĚƵĕƁĞƐ͕ \u0003ĐŽŵŽ\u0003Ž\u0003ŽƉĞƌĂĚŽƌ\u0003ͮ \u0003;pipeͿ\u0003ƋƵĞ\u0003ŝŶĚŝĐĂ\u0003 ƐĞůĞĕĆŽ͕ \u0003Ž\u0003ŽƉĞƌĂĚŽƌ\u0003΀\u0003΁\u0003ƋƵĞ\u0003ŝŶĚŝĐĂ\u0003ƋƵĞ\u0003Ž\u0003ŽƉĞƌĂŶĚŽ\u0003Ğŵ\u0003ƋƵĞƐƚĆŽ\u0003Ġ\u0003ŽƉĐŝŽŶĂů͕ \u0003Ğ\u0003Ž\u0003ŽƉĞƌĂĚŽƌ\u0003Ύ\u0003ƋƵĞ\u0003ŝŶĚŝĐĂ\u0003ƌĞƉĞƟĕĆŽ\u0003 ĚĞ\u0003Ϭ\u0003ŽƵ\u0003ŵĂŝƐ\u0003ǀĞǌĞƐ͘ WƌŽũĞƚĂƌ\u0003Ƶŵ\u0003ĐŽŵƉŝůĂĚŽƌ\u0003ƉĂƌĂ\u0003ƵŵĂ\u0003ĚĞƚĞƌŵŝŶĂĚĂ\u0003ůŝŶŐƵĂŐĞŵ\u0003ĞŶǀŽůǀĞ͕ \u0003ĞŶƚƌĞ\u0003ŽƵƚƌĂƐ\u0003ĐŽŝƐĂƐ͕ \u0003ĞƐƉĞĐŝĮĐĂƌ\u0003ƋƵĂŝƐ\u0003ƐĆŽ\u0003 ŽƐ\u0003ƐşŵďŽůŽƐ\u0003ǀĄůŝĚŽƐ\u0003ŶĞƐƚĂ\u0003ůŝŶŐƵĂŐĞŵ͕ \u0003ďĞŵ\u0003ĐŽŵŽ\u0003ƋƵĂŝƐ\u0003ƐĆŽ\u0003ĂƐ\u0003ƌĞŐƌĂƐ\u0003ƐŝŶƚĄƟĐĂƐ\u0003ƋƵĞ\u0003Ă\u0003ĚĞĮŶĞŵ͘ \u0004\u0003ůŝŶŐƵĂŐĞŵ\u0003ĚĞ\u0003ƉƌŽŐƌĂŵĂĕĆŽ\u0003:ĂǀĂ\u0003Ġ\u0003ƵŵĂ\u0003ůŝŶŐƵĂŐĞŵ\u0003ĐŽŵ\u0003ƐƵƉŽƌƚĞ\u0003ă\u0003ŽƌŝĞŶƚĂĕĆŽ\u0003Ă\u0003ŽďũĞƚŽƐ\u0003ƋƵĞ\u0003ŶĆŽ\u0003ƉĞƌŵŝƚĞ\u0003 ŚĞƌĂŶĕĂ\u0003ŵƷůƟƉůĂ\u0003Ğ\u0003ƋƵĞ\u0003ƉĞƌŵŝƚĞ\u0003ƋƵĞ\u0003ƵŵĂ\u0003ĐůĂƐƐĞ\u0003ŝŵƉůĞŵĞŶƚĞ\u0003ŵƷůƟƉůĂƐ\u0003ŝŶƚĞƌĨĂĐĞƐ͘ \u0003\u0004\u0003ƐĞŐƵŝƌ͕ \u0003ĞǆŝďĞŵͲƐĞ\u0003ƚƌĞĐŚŽƐ\u0003 ĚĞ\u0003ĐſĚŝŐŽ\u0003ƐŝŶƚĂƟĐĂŵĞŶƚĞ\u0003ǀĄůŝĚŽƐ\u0003\u0003ŶĂ\u0003ůŝŶŐƵĂŐĞŵ\u0003:ĂǀĂ͘ dƌĞĐŚŽ\u0003ϭ͗ class",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A extends"
+      },
+      {
+        "letra": "B",
+        "texto": "B { } dƌĞĐŚŽ\u0003Ϯ͗ class F implements"
+      },
+      {
+        "letra": "C",
+        "texto": "C { } dƌĞĐŚŽ\u0003ϯ͗ class J extends A implements C,"
+      },
+      {
+        "letra": "D",
+        "texto": "D { } EŽ\u0003ƚƌĞĐŚŽ\u0003ϭ͕ \u0003ĐƌŝĂͲƐĞ\u0003ƵŵĂ\u0003ĐůĂƐƐĞ\u0003ĐŚĂŵĂĚĂ\u0003\u0004\u0003ƋƵĞ\u0003ŚĞƌĚĂ\u0003ĚĞ\u0003ƵŵĂ\u0003ĐůĂƐƐĞ\u0003ĐŚĂŵĂĚĂ\u0003\u0011͘ \u0003EŽ\u0003ƚƌĞĐŚŽ\u0003Ϯ͕ \u0003ĐƌŝĂͲƐĞ\u0003ƵŵĂ\u0003 ĐůĂƐƐĞ\u0003ĐŚĂŵĂĚĂ\u0003&\u0003ƋƵĞ\u0003ŝŵƉůĞŵĞŶƚĂ\u0003ƵŵĂ\u0003ŝŶƚĞƌĨĂĐĞ\u0003ĐŚĂŵĂĚĂ\u0003\u0012͘ \u0003EŽ\u0003ƚƌĞĐŚŽ\u0003ϯ͕ \u0003ĐƌŝĂͲƐĞ\u0003ƵŵĂ\u0003ĐůĂƐƐĞ\u0003ĐŚĂŵĂĚĂ\u0003:\u0003ƋƵĞ\u0003 ŚĞƌĚĂ\u0003ĚĞ\u0003ƵŵĂ\u0003ĐůĂƐƐĞ\u0003ĐŚĂŵĂĚĂ\u0003\u0004\u0003Ğ\u0003ŝŵƉůĞŵĞŶƚĂ\u0003ĚƵĂƐ\u0003ŝŶƚĞƌĨĂĐĞƐ͕ \u0003ĐŚĂŵĂĚĂƐ\u0003\u0012\u0003Ğ\u0003\u0018͘ \u0012ŽŶƐŝĚĞƌĞ\u0003ƋƵĞ͗ ͻ\u0003 фĐůĂƐƐĚĞĐůх\u0003Ġ\u0003Ƶŵ\u0003ŶĆŽ\u0003ƚĞƌŵŝŶĂů\u0003ĐƵũŽ\u0003ŝŶƚƵŝƚŽ\u0003Ġ\u0003ĚĂƌ\u0003ŽƌŝŐĞŵ\u0003Ă\u0003ĚĞĐůĂƌĂĕƁĞƐ\u0003ĚĞ\u0003ĐůĂƐƐĞƐ͖ ͻ\u0003 фĐůĂƐƐďŽĚǇх\u0003Ġ\u0003Ƶŵ\u0003ŶĆŽ\u0003ƚĞƌŵŝŶĂů\u0003ĐƵũŽ\u0003ŝŶƚƵŝƚŽ\u0003Ġ\u0003ĚĂƌ\u0003ŽƌŝŐĞŵ\u0003ĂŽ\u0003ĐŽƌƉŽ\u0003ĚĞ\u0003ĐůĂƐƐĞƐ͖ ͻ\u0003 ŽƐ\u0003ƚĞƌŵŝŶĂŝƐ\u0003ĂƉĂƌĞĐĞŵ\u0003ĞŶƚƌĞ\u0003ĂƐƉĂƐ\u0003ĚƵƉůĂƐ͖ ͻ\u0003͞ ŝĚ͟ \u0003Ġ\u0003Ƶŵ\u0003ƐşŵďŽůŽ\u0003ƋƵĞ\u0003ƌĞƉƌĞƐĞŶƚĂ\u0003ƋƵĂůƋƵĞƌ\u0003ŝĚĞŶƟĮĐĂĚŽƌ\u0003ǀĄůŝĚŽ͕ \u0003ĐŽŵŽ\u0003ŶŽŵĞƐ\u0003ĚĞ\u0003ĐůĂƐƐĞƐ\u0003ŽƵ\u0003ǀĂƌŝĄǀĞŝƐ͘ \u0004\u0003ŐƌĂŵĄƟĐĂ\u0003ƋƵĞ\u0003ĞƐƉĞĐŝĮĐĂ\u0003ƵŵĂ\u0003ůŝŶŐƵĂŐĞŵ\u0003ƋƵĞ\u0003ŶĆŽ\u0003ƉĞƌŵŝƚĂ\u0003ŚĞƌĂŶĕĂ\u0003ŵƷůƟƉůĂ\u0003Ğ\u0003ƋƵĞ\u0003ŝŵƉůĞŵĞŶƚĞ\u0003ǌĞƌŽ\u0003ŽƵ\u0003ŵĂŝƐ\u0003 ŝŶƚĞƌĨĂĐĞƐ\u0003Ġ A фĐůĂƐƐĚĞĐůх\u0003͞ ĐůĂƐƐ͟ \u0003͞ ŝĚ͟ \u0003΀\u0003͞ ĞǆƚĞŶĚƐ\u0003͞ \u0003΁\u0003͞ ŝĚ͟ \u0003фĐůĂƐƐďŽĚǇх B фĐůĂƐƐĚĞĐůх\u0003\u0003͞ ĐůĂƐƐ͟ \u0003͞ ŝĚ͟ \u0003\u0003;͞ ĞǆƚĞŶĚƐ\u0003͞ \u0003\u0003͞ ŝĚ͟ ͿΎ\u0003\u0003фĐůĂƐƐďŽĚǇх C фĐůĂƐƐĚĞĐůх\u0003\u0003\u0003͞ ĐůĂƐƐ͟ \u0003͞ ŝĚ͟ \u0003΀\u0003͞ ĞǆƚĞŶĚƐ\u0003͞ \u0003΁\u0003͞ ŝĚ͟ \u0003΀͞ ŝŵƉůĞŵĞŶƚƐ͟ \u0003\u0003;\u0003͕ \u0003ͮ͞ ŝĚ͟ ͿΎ΁\u0003\u0003фĐůĂƐƐďŽĚǇх D фĐůĂƐƐĚĞĐůх\u0003͞ ĐůĂƐƐ͟ \u0003͞ ŝĚ͟ \u0003΀\u0003͞ ĞǆƚĞŶĚƐ\u0003͞ \u0003͞ ŝĚ͟ ΁\u0003΀͞ ŝŵƉůĞŵĞŶƚƐ͟ \u0003\u0003͞ ŝĚ͟ \u0003;͕͟͞ \u0003͞ ŝĚ͟ ͿΎ΁\u0003фĐůĂƐƐďŽĚǇх"
+      },
+      {
+        "letra": "E",
+        "texto": "E фĐůĂƐƐĚĞĐůх\u0003͞ ĐůĂƐƐ͟ \u0003͞ ŝĚ͟ \u0003\u0003΀͞ ĞǆƚĞŶĚƐ\u0003͞ \u0003͞ ŝĚ͟ ΁\u0003͞ ŝŵƉůĞŵĞŶƚƐ͟ \u0003\u0003͞ ŝĚ͟ \u0003;͕͟͞ \u0003͞ ŝĚ͟ ͿΎ\u0003фĐůĂƐƐďŽĚǇх 22 \u0012/ E\u0012/\u0004\u0003\u0018\u0004\u0003\u0012KDWhd\u0004\u0017\bK"
+      }
+    ],
+    "gabarito": "D",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2014_Computacao_Bacharelado-25.png"
+  },
+  {
+    "id": "legado_Computacao_2005_2008_2011-28",
+    "ano": 2005,
+    "prova": "legado_Computacao_2005_2008_2011",
+    "pdf": "legado_Computacao_2005_2008_2011/2005_Computacao_PV.pdf",
+    "numero": 28,
+    "discursiva": false,
+    "pagina": 11,
+    "enunciado": "O gerente de tecnologia de uma empresa de TI recebeu a incumbência de especificar a arquitetura de um sistema de informação para atender a um cliente na área de diagnóstico por imagem (raio X, tomografia computadorizada e ressonância magnética). O cliente está interessado em agilizar o diagnóstico por armazenamento e recuperação de imagens digitalizadas e em se manter na vanguarda do mercado, dada a melhoria contínua de sua solução em TI. O cliente pretende iniciar digitalizando 1.000 imagens por mês, cada imagem com tamanho médio de 20 kilobytes, até chegar, em 12 meses, a 20.000 imagens por mês. Considerando essas informações, julgue os seguintes itens. I Um SBD orientado a objeto é adequado para a arquitetura do SI do cliente porque é voltado justamente para aplicações que tratam objetos complexos e tem alta integração com linguagens de programação orientadas a objetos. II Um SBD relacional não é adequado para a arquitetura do SI do cliente porque não constitui ainda uma tecnologia bem estabelecida e bem testada, apesar de ser uma linguagem de consulta poderosa. III Um SBD objeto-relacional é adequado para a arquitetura do SI do cliente porque alia estruturas não-normalizadas, capazes de representar objetos complexos, a uma linguagem de consulta poderosa. Assinale a opção correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A Apenas um item está certo"
+      },
+      {
+        "letra": "B",
+        "texto": "B Apenas os itens I e II estão certos"
+      },
+      {
+        "letra": "C",
+        "texto": "C Apenas os itens I e III estão certos"
+      },
+      {
+        "letra": "D",
+        "texto": "D Apenas os itens II e III estão certos"
+      },
+      {
+        "letra": "E",
+        "texto": "E Todos os itens estão certos"
+      }
+    ],
+    "gabarito": "C",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/legado_Computacao_2005_2008_2011-28.png"
+  },
+  {
+    "id": "legado_Computacao_2005_2008_2011-37",
+    "ano": 2005,
+    "prova": "legado_Computacao_2005_2008_2011",
+    "pdf": "legado_Computacao_2005_2008_2011/2011_Computacao_PV.pdf",
+    "numero": 37,
+    "discursiva": false,
+    "pagina": 24,
+    "enunciado": "Escopo dinâmico: para as linguagens com escopo dinâmico, a vinculação das variáveis ao escopo é realizada em tempo de execução. (...) Se uma variável é local ao bloco, então o uso da dada variável no bloco será sempre vinculado àquela local. Contudo, se a variável for não- local, a sua vinculação depende da ordem de execução, a última vinculada na execução.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A consequência disso é que, em um mesmo bloco de comandos, um identificador pode ter significados diferentes, e o programador precisa ter a ideia precisa de qual variável está sendo usada. de MELO, A. C. V.; da SILVA, F. S. C. Princípios de Linguagens de Programação. São Paulo: Edgard Blücher, 2003. p.65. Suponha que uma linguagem de programação tenha sido projetada com vinculação e verificação estáticas para tipos de variáveis, além de passagem de parâmetros por valor. Também é exigido pela especificação da linguagem que programas sejam compilados integralmente e que não é permitido compilar bibliotecas separadamente. Durante uma revisão da especificação da linguagem, alguém propôs que seja adicionado um mecanismo para suporte a variáveis com escopo dinâmico. A respeito da proposta de modificação da linguagem, analise as seguintes afirmações. I. As variáveis com escopo dinâmico podem ser tratadas como se fossem parâmetros para os subprogramas que as utilizam, sem que o programador tenha que especificá-las ou declarar seu tipo (o compilador fará isso). Assim, elimina- se a necessidade de polimorfismo e é possível verificar tipos em tempo de compilação. II. Como diferentes subprogra"
+      },
+      {
+        "letra": "B",
+        "texto": "B II"
+      },
+      {
+        "letra": "C",
+        "texto": "C I e III"
+      },
+      {
+        "letra": "D",
+        "texto": "D II e III"
+      },
+      {
+        "letra": "E",
+        "texto": "E I, II e III. CIÊNCIA DA COMPUTAÇÃO 2011 25"
+      }
+    ],
+    "gabarito": "D",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/legado_Computacao_2005_2008_2011-37.png"
+  },
+  {
+    "id": "2011_CST_Analise_Desenvolvimento_Sistemas-21",
+    "ano": 2011,
+    "prova": "2011_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2011_CST_Analise_Desenvolvimento_Sistemas/2011_PV_ANALISE_E_DESENVOLVIMENTO_DE_SISTEMAS.pdf",
+    "numero": 21,
+    "discursiva": false,
+    "pagina": 12,
+    "enunciado": "O paradigma de programação orientado a objetos tem sido largamente utilizado no desenvolvimento de sistemas. Considerando o conceito de herança, avalie as afirma- ções abaixo. I. Herança é uma propriedade que facilita a implementação de reuso. II. Quando uma subclasse é criada, essa herda todas as características da superclasse, não podendo possuir propriedades e métodos próprios. III. Herança múltipla é uma propriedade na qual uma superclasse possui diversas subclasses. IV. Extensão é uma das formas de se implementar herança. É correto apenas o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A I"
+      },
+      {
+        "letra": "B",
+        "texto": "B III"
+      },
+      {
+        "letra": "C",
+        "texto": "C I e IV"
+      },
+      {
+        "letra": "D",
+        "texto": "D II e III"
+      },
+      {
+        "letra": "E",
+        "texto": "E II e IV. TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS 2011 13"
+      }
+    ],
+    "gabarito": "C",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2011_CST_Analise_Desenvolvimento_Sistemas-21.png"
+  },
+  {
+    "id": "2021_Ciencia_Computacao_Bacharelado-10",
+    "ano": 2021,
+    "prova": "2021_Ciencia_Computacao_Bacharelado",
+    "pdf": "2021_Ciencia_Computacao_Bacharelado/2021_PV_bacharelado_ciencia_computacao.pdf",
+    "numero": 10,
+    "discursiva": false,
+    "pagina": 19,
+    "enunciado": "A biblioteca de coleções da linguagem Java disponibiliza implementações de propósito geral para estruturas de dados elementares, como listas, filas e pilhas. Considere as seguintes definições de classes que representam implementações de estruturas de dados disponíveis na biblioteca da linguagem: • Classe A: os objetos são organizados em uma ordem linear e podem ser inseridos somente no início ou no final dessa sequência; • Classe B: os objetos são organizados em uma ordem linear determinada por uma referência ao próximo objeto; • Classe C: os objetos são removidos na ordem oposta em que foram inseridos; • Classe D: os objetos são inseridos e removidos respeitando a seguinte regra: o elemento a ser removido é sempre aquele que foi inserido primeiro. Nesse contexto, assinale a alternativa que representa, respectivamente, as estruturas de dados implementadas pelas classes A, B, C e D. A Lista circular, lista simplesmente ligada, pilha e fila. B Deque, lista simplesmente ligada, pilha e fila. C Lista duplamente ligada, lista simplesmente ligada, fila e pilha. D Pilha, fila, deque e lista simplesmente encadeada. E Deque, pilha, lista ligada e fila. 20 CIÊNCIA DA COMPUTAÇÃO",
+    "alternativas": [],
+    "gabarito": "B",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2021_Ciencia_Computacao_Bacharelado-10.png"
+  },
+  {
+    "id": "legado_Computacao_2005_2008_2011-21",
+    "ano": 2005,
+    "prova": "legado_Computacao_2005_2008_2011",
+    "pdf": "legado_Computacao_2005_2008_2011/2005_Computacao_PV.pdf",
+    "numero": 21,
+    "discursiva": false,
+    "pagina": 10,
+    "enunciado": "No modo recursivo de representação, a descrição de um conceito faz referência ao próprio conceito. Julgue os itens abaixo, com relação à recursividade como paradigma de programação. I São elementos fundamentais de uma definição recursiva: o caso-base (base da recursão) e a reaplicação da definição. II O uso da recursão não é possível em linguagens com estruturas para orientação a objetos. III As linguagens de programação funcionais têm, na recursão, seu principal elemento de repetição. IV No que diz respeito ao poder computacional, as estruturas iterativas e recursivas são equivalentes. V Estruturas iterativas e recursivas não podem ser misturadas em um mesmo programa. Estão certos apenas os itens",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A I e IV"
+      },
+      {
+        "letra": "B",
+        "texto": "B II e III"
+      },
+      {
+        "letra": "C",
+        "texto": "C I, III e IV"
+      },
+      {
+        "letra": "D",
+        "texto": "D I, III e V"
+      },
+      {
+        "letra": "E",
+        "texto": "E II, IV e V"
+      }
+    ],
+    "gabarito": "C",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/legado_Computacao_2005_2008_2011-21.png"
+  },
+  {
+    "id": "2017_Sistemas_de_Informacao-5-D",
+    "ano": 2017,
+    "prova": "2017_Sistemas_de_Informacao",
+    "pdf": "2017_Sistemas_de_Informacao/2017_PV_40_SIS_INFORMACAO_BAIXA.pdf",
+    "numero": 5,
+    "discursiva": true,
+    "pagina": 15,
+    "enunciado": "15 SISTEMAS DE INFORMAÇÃO Yh ^d\bK\u0003\u0018/^\u0012hZ^/s\u0004\u0003Ϭϱ\u0003 \u0018ƵƌĂŶƚĞ\u0003 ĂƐ\u0003 KůŝŵƉşĂĚĂƐ\u0003 ĚĞ\u0003 ϮϬϭϲ͕ \u0003 ĨŽƌĂŵ\u0003 ĚŝƐƉƵƚĂĚĂƐ\u0003 ŶŽǀĞ\u0003 ĐŽŵƉĞƟĕƁĞƐ\u0003 ŵĂƐĐƵůŝŶĂƐ\u0003 Ğ\u0003 ƐĞŝƐ\u0003 ĐŽŵƉĞƟĕƁĞƐ\u0003 ĨĞŵŝŶŝŶĂƐ\u0003 ĚĞ\u0003 ƟƌŽ\u0003 ĞƐƉŽƌƟǀŽ͘ \u0003 WĂƌĂ\u0003 ŽƐ\u0003 :ŽŐŽƐ\u0003 KůşŵƉŝĐŽƐ\u0003 ĚĞ\u0003 ϮϬϮϬ͕ \u0003 ƉƌŽƉƁĞͲƐĞ\u0003 Ž\u0003 ĚĞƐĞŶǀŽůǀŝŵĞŶƚŽ\u0003 ĚĞ\u0003 Ƶŵ\u0003 ƐŝƐƚĞŵĂ\u0003ĚĞ\u0003ĂŐĞŶĚĂŵĞŶƚŽ\u0003ĚĞ\u0003ĐŽŵƉĞƟĕƁĞƐ\u0003ĚĞ\u0003ƟƌŽ\u0003ĞƐƉŽƌƟǀŽ͕ \u0003ĐŽŵ\u0003ďĂƐĞ\u0003ŶĂƐ\u0003ĐŽŵƉĞƟĕƁĞƐ\u0003ƌĞĂůŝǌĂĚĂƐ\u0003ŶŽƐ\u0003 ƷůƟŵŽƐ\u0003ũŽŐŽƐ͘ EŽ\u0003ƟƌŽ\u0003ĞƐƉŽƌƟǀŽ͕ \u0003ĐĂĚĂ\u0003ĐŽŵƉĞƟĕĆŽ\u0003Ġ\u0003ĐŽŵƉŽƐƚĂ\u0003ƉŽƌ\u0003ĞǀĞŶƚŽƐ͕ \u0003ƋƵĞ\u0003ƉŽĚĞŵ\u0003ƐĞƌ\u0003Ă\u0003ĨĂƐĞ\u0003ĐůĂƐƐŝĮĐĂƚſƌŝĂ͕ \u0003Ă\u0003ĨĂƐĞ\u0003 ĮŶĂů\u0003ŽƵ\u0003Ă\u0003ĐĞƌŝŵƀŶŝĂ\u0003ĚĞ\u0003ĞŶƚƌĞŐĂ\u0003ĚĞ\u0003ŵĞĚĂůŚĂƐ͘ \u0003WĂƌĂ\u0003ĐĂĚĂ\u0003ĞǀĞŶƚŽ͕ \u0003Ġ\u0003ƉƌĞĐŝƐŽ\u0003ƐĂďĞƌ\u0003Ă\u0003ĚĂƚĂ\u0003ĚĞ\u0003ƌĞĂůŝǌĂĕĆŽ͕ \u0003Ž\u0003 ŚŽƌĄƌŝŽ\u0003ĚĞ\u0003ŝŶşĐŝŽ͕ \u0003Ž\u0003ŚŽƌĄƌŝŽ\u0003ĞƐƟŵĂĚŽ\u0003ĚĞ\u0003ƚĠƌŵŝŶŽ\u0003Ğ\u0003Ž\u0003ůŽĐĂů͕ \u0003ƋƵĞ\u0003ƉŽĚĞ\u0003ƐĞƌ\u0003ƵŵĂ\u0003ĚĂƐ\u0003ĚŝǀĞƌƐĂƐ\u0003ƐĂůĂƐ\u0003ĚĞ\u0003ƟƌŽ\u0003 ŽƵ\u0003Ž\u0003ĐĂŵƉŽ\u0003ĚĞ\u0003ƟƌŽ\u0003ĞǆƚĞƌŶŽ͕ \u0003ĚĞƐƟŶĂĚŽ\u0003ăƐ\u0003ĐŽŵƉĞƟĕƁĞƐ\u0003ĚĞ\u0003ĨŽƐƐĂ\u0003ŽůşŵƉŝĐĂ\u0003Ğ\u0003skeet͘ \u0003\u0004Ɛ\u0003ĐŽŵƉĞƟĕƁĞƐ\u0003ƐĞ\u0003 ĚŝĨĞƌĞŶĐŝĂŵ\u0003Ğŵ\u0003ĨƵŶĕĆŽ\u0003ĚĞ\u0003ƚƌġƐ\u0003ĐĂƌĂĐƚĞƌşƐƟĐĂƐ͗ ͻ\u0003 Ž\u0003ĞƋƵŝƉĂŵĞŶƚŽ\u0003ƵƟůŝǌĂĚŽ͕ \u0003ƋƵĞ\u0003ƉŽĚĞ\u0003ƐĞƌ\u0003ƉŝƐƚŽůĂ͕ \u0003ĐĂƌĂďŝŶĂ\u0003ŽƵ\u0003ĞƐƉŝŶŐĂƌĚĂ͖ ͻ\u0003 Ž\u0003ƟƉŽ\u0003ĚĞ\u0003ĂůǀŽ\u0003Ğ\u0003Ă\u0003ĚŝƐƚąŶĐŝĂ͕ \u0003ƋƵĞ\u0003ƉŽĚĞ\u0003ƐĞƌ\u0003Ƶŵ\u0003ĂůǀŽ\u0003ĮǆŽ\u0003Ğŵ\u0003ĚŝƐƚąŶĐŝĂƐ\u0003ĚĞ\u0003ϭϬ\u0003ŵ͕ \u0003Ϯϱ\u0003ŵ\u0003ŽƵ\u0003ϱϬ\u0003ŵ\u0003ŽƵ\u0003 ƉƌĂƚŽƐ\u0003ůĂŶĕĂĚŽƐ\u0003ƋƵĞ\u0003ĚĞǀĞŵ\u0003ƐĞƌ\u0003ĂƟŶŐŝĚŽƐ\u0003ŶŽ\u0003Ăƌ͖ ͻ\u0003 Ă\u0003ƉŽƐŝĕĆŽ\u0003ĚŽ\u0003ĂƟƌĂĚŽƌ\u0003ĂŽ\u0003ĚŝƐƉĂƌĂƌ͕ \u0003ƋƵĞ\u0003ƉŽĚĞ\u0003ƐĞƌ\u0003ĚĞŝƚĂĚŽ͕ \u0003ĂũŽĞůŚĂĚŽ\u0003ŽƵ\u0003Ğŵ\u0003ƉĠ͘ \u0004Ɛ\u0003ĐŽŵƉĞƟĕƁĞƐ\u0003ĚĞ\u0003ƟƌŽ\u0003ĞƐƉŽƌƟǀŽ\u0003ƌĞĂůŝǌĂĚĂƐ\u0003ŶŽƐ\u0003ƷůƟŵŽƐ\u0003:ŽŐŽƐ\u0003KůşŵƉŝĐŽƐ\u0003ĚĞ\u0003ϮϬϭϲ\u0003ĞƐƚĆŽ\u0003ĂƉƌĞƐĞŶƚĂĚĂƐ\u0003ŶŽ\u0003 ƋƵĂĚƌŽ\u0003Ă\u0003ƐĞŐƵŝƌ͘ \u0012ŽŵƉĞƟĕƁĞƐ\u0003ŵĂƐĐƵůŝŶĂƐ \u0012ŽŵƉĞƟĕƁĞƐ\u0003ĨĞŵŝŶŝŶĂƐ WŝƐƚŽůĂ\u0003ĚĞ\u0003Ăƌ\u0003ϭϬ\u0003ŵ WŝƐƚŽůĂ\u0003ĚĞ\u0003Ăƌ\u0003ϭϬ\u0003ŵ \u0012ĂƌĂďŝŶĂ\u0003ĚĞ\u0003Ăƌ\u0003ϭϬ\u0003ŵ \u0012ĂƌĂďŝŶĂ\u0003ĚĞ\u0003Ăƌ\u0003ϭϬ\u0003ŵ WŝƐƚŽůĂ\u0003ƌĄƉŝĚĂ\u0003Ϯϱ\u0003ŵ WŝƐƚŽůĂ\u0003Ϯϱ\u0003ŵ WŝƐƚŽůĂ\u0003ϱϬ\u0003ŵ \u0012ĂƌĂďŝŶĂ\u0003ƚƌġƐ\u0003ƉŽƐŝĕƁĞƐ\u0003ϱϬ\u0003ŵ \u0012ĂƌĂďŝŶĂ\u0003ĚĞŝƚĂĚŽ\u0003ϱϬ\u0003ŵ Skeet \u0012ĂƌĂďŝŶĂ\u0003ƚƌġƐ\u0003ƉŽƐŝĕƁĞƐ\u0003ϱϬ\u0003ŵ &ŽƐƐĂ\u0003ŽůşŵƉŝĐĂ Skeet &ŽƐƐĂ\u0003ŽůşŵƉŝĐĂ &ŽƐƐĂ\u0003ŽůşŵƉŝĐĂ\u0003ĚƵƉůĂ \u0004Ɛ\u0003ĐŽŵƉĞƟĕƁĞƐ\u0003ĚĞƐƐĂ\u0003ŵŽĚĂůŝĚĂĚĞ\u0003ĐŽŶƚĂŵ\u0003ĐŽŵ\u0003ĂƚůĞƚĂƐ\u0003ĚĞ\u0003ĚŝǀĞƌƐŽƐ\u0003ƉĂşƐĞƐ͕ \u0003ƐĞŶĚŽ\u0003ƋƵĞ\u0003ĐĂĚĂ\u0003ĂƚůĞƚĂ\u0003ƉŽĚĞ\u0003 ƉĂƌƟĐŝƉĂƌ\u0003ĚĞ\u0003ƵŵĂ\u0003ŽƵ\u0003ŵĂŝƐ\u0003ĐŽŵƉĞƟĕƁĞƐ͕ \u0003ĚĞƐĚĞ\u0003ƋƵĞ\u0003ĞƐƚĞũĂ\u0003ĚĞǀŝĚĂŵĞŶƚĞ\u0003ĐůĂƐƐŝĮĐĂĚŽ͘ \u0003WĂƌĂ\u0003ĐĂĚĂ\u0003ĂƚůĞƚĂ͕ \u0003Ġ\u0003 ƉƌĞĐŝƐŽ\u0003ƌĞŐŝƐƚƌĂƌ\u0003Ž\u0003ŶŽŵĞ͕ \u0003Ž\u0003ƉĂşƐ\u0003Ğ\u0003Ž\u0003ĐŽŵŝƚġ\u0003ŽůşŵƉŝĐŽ\u0003ŶĂĐŝŽŶĂů\u0003ƋƵĞ\u0003ƌĞƉƌĞƐĞŶƚĂ͕ \u0003ĂůĠŵ\u0003ĚĂƐ\u0003ĐŽŵƉĞƟĕƁĞƐ\u0003ƋƵĞ\u0003 ŝƌĄ\u0003ĚŝƐƉƵƚĂƌ͘ \u0012ŽŶƐŝĚĞƌĂŶĚŽ\u0003Ž\u0003ĚŽŵşŶŝŽ\u0003ĂƉƌĞƐĞŶƚĂĚŽ\u0003ŶŽ\u0003ƚĞǆƚŽ͕ \u0003ĞůĂďŽƌĞ\u0003Ƶŵ\u0003ĚŝĂŐƌĂŵĂ\u0003ĚĞ\u0003ĐůĂƐƐĞ\u0003ĚĂ\u0003hD>\u0003ƉĂƌĂ\u0003ĞƐƐĞ\u0003ƐŝƐƚĞŵĂ͕ \u0003 ŝĚĞŶƟĮĐĂŶĚŽ\u0003ĂƐ\u0003ĐůĂƐƐĞƐ\u0003;ŶŽ\u0003ŵĄǆŝŵŽ\u0003ƐĞŝƐͿ͕ \u0003ŽƐ\u0003ĂƚƌŝďƵƚŽƐ\u0003Ğ\u0003ŽƐ\u0003ƌĞůĂĐŝŽŶĂŵĞŶƚŽƐ͘ \u0003;ǀĂůŽƌ͗ \u0003ϭϬ͕ Ϭ\u0003ƉŽŶƚŽƐͿ",
+    "alternativas": [],
+    "gabarito": null,
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2017_Sistemas_de_Informacao-5-D.png"
+  },
+  {
+    "id": "2008_CST_Analise_Desenvolvimento_Sistemas-32",
+    "ano": 2008,
+    "prova": "2008_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2008_CST_Analise_Desenvolvimento_Sistemas/2008_PV_TECNOLOGIA_DESENVOLVIMENTO_SISTEMAS.pdf",
+    "numero": 32,
+    "discursiva": false,
+    "pagina": 16,
+    "enunciado": "Com relação a conceitos de orientação a objetos, julgue os seguintes itens. I As variáveis ou métodos declarados com modificador de acesso private só são acessíveis a métodos da classe em que são declarados. II Uma classe deve possuir uma única declaração de método construtor. III Uma instância de uma classe abstrata herda atributos e métodos de sua superclasse direta. IV O polimorfismo permite substituir a lógica condicional múltipla (lógica switch ou faça caso). Estão certos apenas os itens",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A I e II"
+      },
+      {
+        "letra": "B",
+        "texto": "B I e III"
+      },
+      {
+        "letra": "C",
+        "texto": "C I e IV"
+      },
+      {
+        "letra": "D",
+        "texto": "D II e III"
+      },
+      {
+        "letra": "E",
+        "texto": "E II e IV"
+      }
+    ],
+    "gabarito": "C",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2008_CST_Analise_Desenvolvimento_Sistemas-32.png"
+  },
+  {
+    "id": "legado_Computacao_2005_2008_2011-25",
+    "ano": 2005,
+    "prova": "legado_Computacao_2005_2008_2011",
+    "pdf": "legado_Computacao_2005_2008_2011/2011_Computacao_PV.pdf",
+    "numero": 25,
+    "discursiva": false,
+    "pagina": 15,
+    "enunciado": "Um Padrão de Projeto nomeia, abstrai e identifica os aspectos-chave de uma estrutura de projeto comum para torná-la útil para a criação de um projeto orientado a objetos reutilizáveis. GAMMA, E., HELM, R., JOHNSON, R., VLISSIDES, J. Padrões de Projeto-Soluções Reutilizáveis de Software Orientado a Objetos. Porto Alegre: Bookman, 2000. Em relação a Padrões de Projeto, analise as afirmações a seguir. I. Prototype é um tipo de padrão estrutural. II. Singleton tem por objetivos garantir que uma classe tenha ao menos uma instância e fornecer um ponto global de acesso para ela. III. Template Method tem por objetivo definir o esqueleto de um algoritmo em uma operação, postergando a definição de alguns passos para subclasses. IV. Iterator fornece uma maneira de acessar sequencialmente os elementos de um objeto agregado sem expor sua representação subjacente. É correto apenas o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A I"
+      },
+      {
+        "letra": "B",
+        "texto": "B II"
+      },
+      {
+        "letra": "C",
+        "texto": "C I e IV"
+      },
+      {
+        "letra": "D",
+        "texto": "D II e III"
+      },
+      {
+        "letra": "E",
+        "texto": "E III e IV"
+      }
+    ],
+    "gabarito": "E",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/legado_Computacao_2005_2008_2011-25.png"
+  },
+  {
+    "id": "2021_CST_Analise_Desenvolvimento_Sistemas-16",
+    "ano": 2021,
+    "prova": "2021_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2021_CST_Analise_Desenvolvimento_Sistemas/2021_PV_tecnologia_analise_desenvolvimento_sistemas.pdf",
+    "numero": 16,
+    "discursiva": false,
+    "pagina": 24,
+    "enunciado": "Uma ONG decidiu construir um hospital de campanha para tratamento de pacientes diagnosticados com a Covid-19. Para auxiliar na gerência hospitalar, a ONG contratou alguns programadores voluntários para desenvolver um Sistema de Suporte à Decisão para Gestão Hospitalar. Esse sistema irá auxiliar no registro de todos os procedimentos diários realizados no paciente que dá entrada no hospital, desde sua internação até a saída, seja essa saída por recebimento de alta, por transferência ou óbito. O sistema foi todo desenvolvido em Java de acordo com o Paradigma Orientado a Objetos. Durante o curto processo de análise, devido à urgência, foram construídos diversos diagramas em UML (Unified Modeling Language). Um desses diagramas relaciona a interação entre os objetos do sistema, o Diagrama de Sequência. Esse diagrama é apresentado a seguir. Considerando o Diagrama de Sequência apresentado, assinale a opção correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A Leito é uma subclasse de UTI"
+      },
+      {
+        "letra": "B",
+        "texto": "B O método registraPaciente() é implementado por Paciente"
+      },
+      {
+        "letra": "C",
+        "texto": "C Todos os objetos foram criados no instante de execução do Caso de Uso representado"
+      },
+      {
+        "letra": "D",
+        "texto": "D O diagrama apresenta um erro ao não representar as mensagens de retorno depois da destruição dos objetos"
+      },
+      {
+        "letra": "E",
+        "texto": "E A mensagem 4 pode ser substituída pelo estereótipo <<create>> sem causar prejuízo à interpretação correta do Diagrama de Sequência representado. 3: Consulta existência de leitos : consultaLeitos() 1: Registro do Paciente: registraPaciente() 4: Consulta disponibilidade de UTI : consultaUTI() UTI Intervencao Leito Registro Paciente 5: UTI gerada 6: Leito Gerado 2: Retorna o número do paciente. 7: Realiza Intervenção : realizaIntervencao() 10: Intervenção Realizada 11: Liberação do Paciente: liberaPaciente() 12: Libera Leito 8: realizaIntervencao() 9: Intervenção Realizada Laço Proﬁssional 25 TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS"
+      }
+    ],
+    "gabarito": "E",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2021_CST_Analise_Desenvolvimento_Sistemas-16.png"
+  },
+  {
+    "id": "2014_CST_Analise_Desenvolvimento_Sistemas-31",
+    "ano": 2014,
+    "prova": "2014_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2014_CST_Analise_Desenvolvimento_Sistemas/2014_PV_40_tecnologia_analise_desenv_sistemas.pdf",
+    "numero": 31,
+    "discursiva": false,
+    "pagina": 24,
+    "enunciado": "\u0004ŶĂůŝƐĞ\u0003Ž\u0003ŇƵǆŽŐƌĂŵĂ\u0003Ă\u0003ƐĞŐƵŝƌ͘ Início 1 2 7 4 3 9 8 5 6 Fim ŵ\u0003 ƌĞůĂĕĆŽ\u0003 ă\u0003 ĞǆĞĐƵĕĆŽ\u0003 ĚĞ\u0003 ƚĞƐƚĞƐ\u0003 ĚĞ\u0003 ĐĂŝǆĂ\u0003 ďƌĂŶĐĂ\u0003 ƐŽďƌĞ\u0003ĞƐƚĞ\u0003ŇƵǆŽŐƌĂŵĂ͕ \u0003ĂǀĂůŝĞ\u0003ĂƐ\u0003ĂĮƌŵĂĕƁĞƐ\u0003Ă\u0003ƐĞŐƵŝƌ͘ \u0003 /͘ \u0003 KƐ\u0003ĐĂŵŝŶŚŽƐ\u0003ϭͲϮͲϯͲϰͲϱ͕ \u0003ϭͲϮͲϯͲϰͲϲ͕ \u0003ϭͲϮͲϯͲϳͲϵ͕ \u0003 ϭͲϮͲϯͲϳͲϴͲϵ\u0003ĨŽƌŵĂŵ\u0003Ƶŵ\u0003ĐŽŶũƵŶƚŽ\u0003ĚĞ\u0003ĐĂŵŝŶŚŽƐ\u0003 ĚĞ\u0003ĞǆĞĐƵĕĆŽ\u0003ŝŶĚĞƉĞŶĚĞŶƚĞƐ͘ //͘ \u0003 K\u0003ĐĄůĐƵůŽ\u0003ĚĞ\u0003ĐŽŵƉůĞǆŝĚĂĚĞ\u0003ĐŝĐůŽŵĄƟĐĂ\u0003ĨŽƌŶĞĐĞ\u0003 Ă\u0003ƋƵĂŶƟĚĂĚĞ\u0003ĚĞ\u0003ĐĂŵŝŶŚŽƐ\u0003ŝŶĚĞƉĞŶĚĞŶƚĞƐ\u0003Ă\u0003 ƚĞƐƚĂƌ͘ \u0003 ///͘ \u0003 dĞƐƚĞƐ\u0003ƐŽďƌĞ\u0003ĐĂŵŝŶŚŽƐ\u0003ŝŶĚĞƉĞŶĚĞŶƚĞƐ\u0003ƉŽĚĞŵ\u0003 ƐĞƌ\u0003 ĞǆĞĐƵƚĂĚŽƐ\u0003 Ğŵ\u0003 ƉƌŽŐƌĂŵĂƐ\u0003 ƉƌŽĐĞĚƵƌĂŝƐ͕ \u0003 ŵĂƐ\u0003ŶĆŽ\u0003ƉŽĚĞŵ\u0003ƐĞƌ\u0003ĞǆĞĐƵƚĂĚŽƐ\u0003Ğŵ\u0003ƉƌŽŐƌĂŵĂƐ\u0003 ŽƌŝĞŶƚĂĚŽƐ\u0003Ă\u0003ŽďũĞƚŽƐ͘ \u0003 \u0003ĐŽƌƌĞƚŽ\u0003Ž\u0003ƋƵĞ\u0003ƐĞ\u0003ĂĮƌŵĂ\u0003Ğŵ",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A /͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "B",
+        "texto": "B ///͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "C",
+        "texto": "C /\u0003Ğ\u0003//͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "D",
+        "texto": "D //\u0003Ğ\u0003///͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "E",
+        "texto": "E /͕ \u0003//\u0003Ğ\u0003///͘ 25 d \u0012EK>K'/\u0004\u0003 D\u0003\u0004E\u0006>/^ \u0003 \u0003\u0018 ^ EsK>s/D EdK\u0003\u0018 \u0003^/^d D\u0004^"
+      }
+    ],
+    "gabarito": "C",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2014_CST_Analise_Desenvolvimento_Sistemas-31.png"
+  },
+  {
+    "id": "2017_Ciencia_Computacao_Licenciatura-11",
+    "ano": 2017,
+    "prova": "2017_Ciencia_Computacao_Licenciatura",
+    "pdf": "2017_Ciencia_Computacao_Licenciatura/2017_PV_04_CIE_COM_LICENCIATURA_BAIXA.pdf",
+    "numero": 11,
+    "discursiva": false,
+    "pagina": 17,
+    "enunciado": "K\u0003 ĞŶĐĂƉƐƵůĂŵĞŶƚŽ\u0003 Ġ\u0003 Ƶŵ\u0003 ŵĞĐĂŶŝƐŵŽ\u0003 ĚĂ\u0003 ƉƌŽŐƌĂŵĂĕĆŽ\u0003 ŽƌŝĞŶƚĂĚĂ\u0003 Ă\u0003 ŽďũĞƚŽƐ\u0003 ŶŽ\u0003 ƋƵĂů\u0003 ŽƐ\u0003 ŵĞŵďƌŽƐ\u0003 ĚĞ\u0003 ƵŵĂ\u0003 ĐůĂƐƐĞ\u0003 ;ĂƚƌŝďƵƚŽƐ\u0003 Ğ\u0003 ŵĠƚŽĚŽƐͿ\u0003 ĐŽŶƐƟƚƵĞŵ\u0003 ƵŵĂ\u0003 ĐĂŝǆĂ\u0003 ƉƌĞƚĂ͘ \u0003 K\u0003 ŶşǀĞů\u0003 ĚĞ\u0003 ǀŝƐŝďŝůŝĚĂĚĞ\u0003ĚŽƐ\u0003ŵĞŵďƌŽƐ\u0003ƉŽĚĞ\u0003ƐĞƌ\u0003ĚĞĮŶŝĚŽ\u0003ƉĞůŽƐ\u0003 ŵŽĚŝĮĐĂĚŽƌĞƐ\u0003ĚĞ\u0003ǀŝƐŝďŝůŝĚĂĚĞ\u0003ΗƉƌŝǀĂĚŽΗ͕ \u0003ΗƉƷďůŝĐŽΗ\u0003 Ğ\u0003ΗƉƌŽƚĞŐŝĚŽΗ͘ \u0012Žŵ\u0003 ƌĞůĂĕĆŽ\u0003 ĂŽ\u0003 ĐŽŵƉŽƌƚĂŵĞŶƚŽ\u0003 ŐĞƌĂĚŽ\u0003 ƉĞůŽƐ\u0003 ŵŽĚŝĮĐĂĚŽƌĞƐ\u0003 ĚĞ\u0003 ǀŝƐŝďŝůŝĚĂĚĞ͕ \u0003 ĂƐƐŝŶĂůĞ\u0003 Ă\u0003 ŽƉĕĆŽ\u0003 ĐŽƌƌĞƚĂ͘",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A hŵ\u0003 ĂƚƌŝďƵƚŽ\u0003 ƉƌŝǀĂĚŽ\u0003 ƉŽĚĞ\u0003 ƐĞƌ\u0003 ĂĐĞƐƐĂĚŽ\u0003 ƉĞůŽƐ\u0003 ŵĠƚŽĚŽƐ\u0003 ƉƌŝǀĂĚŽƐ\u0003 ĚĂ\u0003 ƉƌſƉƌŝĂ\u0003 ĐůĂƐƐĞ\u0003 Ğ\u0003 ƉĞůŽƐ\u0003 ŵĠƚŽĚŽƐ\u0003 ƉƌŽƚĞŐŝĚŽƐ\u0003 ĚĂƐ\u0003 ƐƵĂƐ\u0003 ĐůĂƐƐĞƐ\u0003 ĚĞƐĐĞŶĚĞŶƚĞƐ͘"
+      },
+      {
+        "letra": "B",
+        "texto": "B hŵ\u0003 ĂƚƌŝďƵƚŽ\u0003 ƉƌŝǀĂĚŽ\u0003 ƉŽĚĞ\u0003 ƐĞƌ\u0003 ĂĐĞƐƐĂĚŽ\u0003 ƉĞůŽƐ\u0003 ŵĠƚŽĚŽƐ\u0003 ƉƷďůŝĐŽƐ\u0003 ĚĂ\u0003 ƉƌſƉƌŝĂ\u0003 ĐůĂƐƐĞ\u0003 Ğ\u0003 ƉĞůŽƐ\u0003 ŵĠƚŽĚŽƐ\u0003 ƉƷďůŝĐŽƐ\u0003 ĚĂƐ\u0003 ƐƵĂƐ\u0003 ĐůĂƐƐĞƐ\u0003 ĚĞƐĐĞŶĚĞŶƚĞƐ͘"
+      },
+      {
+        "letra": "C",
+        "texto": "C hŵ\u0003ŵĞŵďƌŽ\u0003ƉƷďůŝĐŽ\u0003Ġ\u0003ǀŝƐşǀĞů\u0003ŶĂ\u0003ĐůĂƐƐĞ\u0003ă\u0003ƋƵĂů\u0003 ĞůĞ\u0003ƉĞƌƚĞŶĐĞ͕ \u0003ŵĂƐ\u0003ŶĆŽ\u0003Ġ\u0003ǀŝƐşǀĞů\u0003ŶĂƐ\u0003ƐƵĂƐ\u0003ĐůĂƐƐĞƐ\u0003 ĚĞƐĐĞŶĚĞŶƚĞƐ͘"
+      },
+      {
+        "letra": "D",
+        "texto": "D hŵ\u0003 ŵĠƚŽĚŽ\u0003 ƉƌŽƚĞŐŝĚŽ\u0003 ŶĆŽ\u0003 ƉŽĚĞ\u0003 ĂĐĞƐƐĂƌ\u0003 ŽƐ\u0003 ĂƚƌŝďƵƚŽƐ\u0003 ƉƌŝǀĂĚŽƐ\u0003 Ğ\u0003 ĚĞĐůĂƌĂĚŽƐ\u0003 ŶĂ\u0003 ƉƌſƉƌŝĂ\u0003 ĐůĂƐƐĞ͘"
+      },
+      {
+        "letra": "E",
+        "texto": "E \u0003hŵ\u0003ŵĞŵďƌŽ\u0003ƉƌŽƚĞŐŝĚŽ\u0003Ġ\u0003ǀŝƐşǀĞů\u0003ŶĂ\u0003ĐůĂƐƐĞ\u0003ă\u0003ƋƵĂů\u0003 ƉĞƌƚĞŶĐĞ\u0003Ğ\u0003Ğŵ\u0003ƐƵĂƐ\u0003ĐůĂƐƐĞƐ\u0003ĚĞƐĐĞŶĚĞŶƚĞƐ͘ \u0006ƌĞĂ\u0003ůŝǀƌĞ CIÊNCIA DA COMPUTAÇÃO ϭϴ"
+      }
+    ],
+    "gabarito": "E",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2017_Ciencia_Computacao_Licenciatura-11.png"
+  },
+  {
+    "id": "2017_Ciencia_Computacao_Bacharelado-4-D",
+    "ano": 2017,
+    "prova": "2017_Ciencia_Computacao_Bacharelado",
+    "pdf": "2017_Ciencia_Computacao_Bacharelado/2017_PV_03_CIE_COM_BACHAREL_BAIXA.pdf",
+    "numero": 4,
+    "discursiva": true,
+    "pagina": 14,
+    "enunciado": "CIÊNCIA DA COMPUTAÇÃO 14 Yh ^d\bK\u0003\u0018/^\u0012hZ^/s\u0004\u0003Ϭϰ\u0003 hŵĂ\u0003ĞŵƉƌĞƐĂ\u0003ƉƌĞƚĞŶĚĞ\u0003ĚĞƐĞŶǀŽůǀĞƌ\u0003Ƶŵ\u0003ƐŝƐƚĞŵĂ\u0003ĚĞ\u0003ĨŽůŚĂ\u0003ĚĞ\u0003ƉĂŐĂŵĞŶƚŽ\u0003ĐƵũŽ\u0003ƉƌŽĐĞƐƐŽ\u0003ĚĞ\u0003ŵŽĚĞůĂŐĞŵ\u0003 ƵƟůŝǌĂƌĄ\u0003hD>\u0003;hŶŝĮĞĚ\u0003DŽĚĞůŝŶŐ\u0003>ĂŶŐƵĂŐĞͿ͘ \u0003 ƐƐĂ\u0003ĞŵƉƌĞƐĂ\u0003ƚĞŵ\u0003ƚƌġƐ\u0003ƟƉŽƐ\u0003ĚĞ\u0003ĐŽůĂďŽƌĂĚŽƌ͗ \u0003Ž\u0003ĐŽŵŝƐƐŝŽŶĂĚŽ͕ \u0003 Ž\u0003ŚŽƌŝƐƚĂ\u0003Ğ\u0003Ž\u0003ĂƐƐĂůĂƌŝĂĚŽ͘ \u0003dŽĚŽƐ\u0003ŽƐ\u0003ĐŽůĂďŽƌĂĚŽƌĞƐ\u0003ƌĞŐŝƐƚƌĂŵ͕ \u0003ƉĂƌĂ\u0003ĞĨĞŝƚŽ\u0003ĚĞ\u0003ĐŽŶƚƌŽůĞ͕ \u0003Ž\u0003ŶƷŵĞƌŽ\u0003ĚĞ\u0003ŚŽƌĂƐ\u0003 ƚƌĂďĂůŚĂĚĂƐ\u0003ŶŽ\u0003ŵġƐ͘ \u0003\u0004ĚŝĐŝŽŶĂůŵĞŶƚĞ͕ \u0003ŽƐ\u0003ĐŽŵŝƐƐŝŽŶĂĚŽƐ\u0003ƌĞŐŝƐƚƌĂŵ\u0003Ž\u0003ǀĂůŽƌ\u0003ĚŽ\u0003ƉĞƌĐĞŶƚƵĂů\u0003ĚĞ\u0003ĐŽŵŝƐƐĆŽ\u0003 Ğ\u0003Ž\u0003ǀĂůŽƌ\u0003ƚŽƚĂů\u0003ĚĞ\u0003ǀĞŶĚĂƐ\u0003ĂĐƵŵƵůĂĚŽ\u0003ŶŽ\u0003ŵġƐ͖ \u0003ŽƐ\u0003ŚŽƌŝƐƚĂƐ\u0003ƌĞŐŝƐƚƌĂŵ\u0003Ž\u0003ǀĂůŽƌ\u0003ƌĞĐĞďŝĚŽ\u0003ƉŽƌ\u0003ŚŽƌĂ͖ \u0003Ğ\u0003ŽƐ\u0003 ĂƐƐĂůĂƌŝĂĚŽƐ\u0003ƌĞŐŝƐƚƌĂŵ\u0003Ž\u0003ǀĂůŽƌ\u0003ĚŽ\u0003ƐĂůĄƌŝŽ͘ \u0012ĂĚĂ\u0003ĐŽůĂďŽƌĂĚŽƌ\u0003ƉĞƌƚĞŶĐĞ\u0003Ă\u0003Ƶŵ\u0003ĚĞƉĂƌƚĂŵĞŶƚŽ\u0003Ğ\u0003ĐĂĚĂ\u0003ĚĞƉĂƌƚĂŵĞŶƚŽ\u0003ƉŽƐƐƵŝ\u0003ƉĞůŽ\u0003ŵĞŶŽƐ\u0003Ƶŵ\u0003ĐŽůĂďŽƌĂĚŽƌ͘ \u0003 EŽ\u0003ĮŶĂů\u0003ĚĞ\u0003ĐĂĚĂ\u0003ŵġƐ͕ \u0003ĐĂĚĂ\u0003ĚĞƉĂƌƚĂŵĞŶƚŽ\u0003ĚĞǀĞ\u0003ĐĂůĐƵůĂƌ\u0003Ž\u0003ƐĂůĄƌŝŽ\u0003ĚŽƐ\u0003ƐĞƵƐ\u0003ĐŽůĂďŽƌĂĚŽƌĞƐ\u0003ĚĂ\u0003ƐĞŐƵŝŶƚĞ\u0003 ĨŽƌŵĂ͗ \u0003 ŽƐ\u0003 ĐŽŵŝƐƐŝŽŶĂĚŽƐ\u0003 ĚĞǀĞŵ\u0003 ƌĞĐĞďĞƌ\u0003 Ž\u0003 ǀĂůŽƌ\u0003 ƚŽƚĂů\u0003 ĚĂƐ\u0003 ǀĞŶĚĂƐ\u0003 ŵƵůƟƉůŝĐĂĚŽ\u0003 ƉĞůĂ\u0003 ƉĞƌĐĞŶƚĂŐĞŵ͕ \u0003 ŝŶĚĞƉĞŶĚĞŶƚĞŵĞŶƚĞ\u0003 ĚŽ\u0003 ŶƷŵĞƌŽ\u0003 ĚĞ\u0003 ŚŽƌĂƐ\u0003 ƚƌĂďĂůŚĂĚĂƐ͖ \u0003 ŽƐ\u0003 ŚŽƌŝƐƚĂƐ\u0003 ĚĞǀĞŵ\u0003 ƌĞĐĞďĞƌ\u0003 Ž\u0003 ǀĂůŽƌ\u0003 ĚĂ\u0003 ŚŽƌĂ\u0003 ƚƌĂďĂůŚĂĚĂ\u0003ŵƵůƟƉůŝĐĂĚŽ\u0003ƉĞůŽ\u0003ŶƷŵĞƌŽ\u0003ĚĞ\u0003ŚŽƌĂƐ\u0003ƚƌĂďĂůŚĂĚĂƐ͖ \u0003Ğ\u0003ŽƐ\u0003ĂƐƐĂůĂƌŝĂĚŽƐ\u0003ĚĞǀĞŵ\u0003ƌĞĐĞďĞƌ\u0003Ž\u0003ǀĂůŽƌ\u0003 ŶŽŵŝŶĂů\u0003ĚŽ\u0003ƐĂůĄƌŝŽ͘ \u0012ŽŶƐŝĚĞƌĂŶĚŽ\u0003ĞƐƐĂ\u0003ƐŝƚƵĂĕĆŽ\u0003Ğ\u0003ƋƵĞ\u0003Ž\u0003ŵŽĚĞůŽ\u0003ƋƵĞ\u0003ƐĞƌĄ\u0003ĞůĂďŽƌĂĚŽ\u0003ƉĂƌĂ\u0003ƌĞƉƌĞƐĞŶƚĄͲůĂ\u0003ƵƟůŝǌĂƌĄ\u0003ŚĞƌĂŶĕĂ\u0003Ğ\u0003 ƉŽůŝŵŽƌĮƐŵŽ͕ \u0003ĚĞƐĞŶŚĞ\u0003Ƶŵ\u0003ĚŝĂŐƌĂŵĂ\u0003ĚĞ\u0003ĐůĂƐƐĞ\u0003hD>\u0003ƋƵĞ\u0003ĐŽŶƚĞŶŚĂ͗ ͻ\u0003 ĂƐ\u0003ĐůĂƐƐĞƐ\u0003ƋƵĞ\u0003ƌĞƉƌĞƐĞŶƚĂŵ\u0003ĂƐ\u0003ĞŶƟĚĂĚĞƐ\u0003ŵĞŶĐŝŽŶĂĚĂƐ\u0003;ĚĞƉĂƌƚĂŵĞŶƚŽ͕ \u0003ĐŽůĂďŽƌĂĚŽƌ\u0003Ğ\u0003ƐĞƵƐ\u0003ƟƉŽƐͿ͖ ͻ\u0003 ĂƐ\u0003ƌĞƐƉĞĐƟǀĂƐ\u0003ĂƐƐŽĐŝĂĕƁĞƐ͕ \u0003ĂƚƌŝďƵƚŽƐ\u0003Ğ\u0003ŵĠƚŽĚŽƐ͕ \u0003ŶĆŽ\u0003ƐĞŶĚŽ\u0003ŶĞĐĞƐƐĄƌŝŽ\u0003ƟƉĂƌ\u0003ŽƐ\u0003ĂƚƌŝďƵƚŽƐ͖ ͻ\u0003 ĞǀĞŶƚƵĂŝƐ\u0003ĐůĂƐƐĞƐ\u0003ĂďƐƚƌĂƚĂƐ\u0003ĐŽŵ\u0003Ă\u0003ŝŶĚŝĐĂĕĆŽ\u0003ĚĂ\u0003ƌĞƐƚƌŝĕĆŽ\u0003΂abstract΃͖ ͻ\u0003 Ă\u0003ŵƵůƟƉůŝĐŝĚĂĚĞ\u0003ĚĞ\u0003ƉĂƉĞů\u0003ĚĂƐ\u0003ĂƐƐŽĐŝĂĕƁĞƐ͖ ͻ\u0003 ĂŽ\u0003ůĂĚŽ\u0003ĚĞ\u0003ĐĂĚĂ\u0003ŽĐŽƌƌġŶĐŝĂ\u0003ĚŽ\u0003ŵĠƚŽĚŽ\u0003ƉĂƌĂ\u0003ĐĄůĐƵůŽ\u0003ĚŽ\u0003ƉĂŐĂŵĞŶƚŽ͕ \u0003ƐƵĂ\u0003ĚĞĮŶŝĕĆŽ\u0003ŶĂ\u0003ĨŽƌŵĂ\u0003ĚĞ\u0003ƵŵĂ\u0003 ĞǆƉƌĞƐƐĆŽ\u0003ƋƵĞ\u0003ĐŽŵďŝŶĞ\u0003ŽƐ\u0003ǀĂůŽƌĞƐ\u0003ĚŽƐ\u0003ĂƚƌŝďƵƚŽƐ\u0003ĚĂ\u0003ĐůĂƐƐĞ͘ ;ǀĂůŽƌ͗ \u0003ϭϬ͕ Ϭ\u0003ƉŽŶƚŽƐͿ 1 2 ϯ 4 5 6 7 ϴ 9 10 11 12 ϭϯ 14 15",
+    "alternativas": [],
+    "gabarito": null,
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2017_Ciencia_Computacao_Bacharelado-4-D.png"
+  },
+  {
+    "id": "2019_Engenharia_de_Computacao-27",
+    "ano": 2019,
+    "prova": "2019_Engenharia_de_Computacao",
+    "pdf": "2019_Engenharia_de_Computacao/2019_PV_ENGENHARIA_COMPUTACAO.pdf",
+    "numero": 27,
+    "discursiva": false,
+    "pagina": 31,
+    "enunciado": "Padrões de projeto são soluções gerais para problemas frequentes de projetos de software. O diagrama de classes UML abaixo ilustra a estrutura do padrão Strategy: GAMMA, E. et al. Padrões de projeto: Soluções reutilizáveis de software orientado a objetos. 2. ed. Porto Alegre: Bookman, 2000 (adaptado).",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A partir do modelo UML apresentado e acerca dos padrões de projeto, avalie as afirmações a seguir. I. A Classe Strategy pode ser implementada como uma classe abstrata ou uma interface, pois corresponde unicamente a uma abstração dos diversos tipos de estratégias definidas. II. O padrão Strategy pode ser utilizado na implementação de classes para, por exemplo, permitir que métodos de ordenação de coleções possam ser usados com diferentes critérios de comparação. III. O baixo acoplamento permite que estratégias sejam incluídas ou retiradas da aplicação sem alterar a estrutura das demais classes do sistema. IV. O uso do padrão Singleton para criação das instâncias, permitiria centralizar em um método de criação a lógica de seleção da estratégia a ser utilizada. É correto apenas o que se afirma em A I e II"
+      },
+      {
+        "letra": "B",
+        "texto": "B I e IV"
+      },
+      {
+        "letra": "C",
+        "texto": "C III e IV"
+      },
+      {
+        "letra": "D",
+        "texto": "D I, II e III"
+      },
+      {
+        "letra": "E",
+        "texto": "E II, III e IV. Context Strategy ConcreteStrategyA ConcreteStrategyB ConcreteStrategyC +ContextInterface() +AlgorithmInterface() -strategy +AlgorithmInterface() +AlgorithmInterface() +AlgorithmInterface() ENGENHARIA DE COMPUTAÇÃO 32"
+      }
+    ],
+    "gabarito": "D",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2019_Engenharia_de_Computacao-27.png"
+  },
+  {
+    "id": "2011_CST_Analise_Desenvolvimento_Sistemas-3-D",
+    "ano": 2011,
+    "prova": "2011_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2011_CST_Analise_Desenvolvimento_Sistemas/2011_PV_ANALISE_E_DESENVOLVIMENTO_DE_SISTEMAS.pdf",
+    "numero": 3,
+    "discursiva": true,
+    "pagina": 19,
+    "enunciado": "Um jogo consiste de dois dados, cada um deles com 6 faces. As faces dos dados são numeradas de 1 até 6. Para ganhar uma partida, o jogador deverá fazer 3 lançamentos de dados, vencendo ao menos 2 deles. O jogador vence um lançamento se a soma dos dados for igual a 7 ou 11. Para iniciar um novo jogo, deve-se pressionar o botão “JOGAR”. Quando pressionado, ele imediatamente fica desabilitado e os dois dados aparecem girando na frente do jogador. Ao se pressionar o botão “LANÇAR”, os dados começam a girar mais lentamente até parar, mostrando os valores das suas faces em um sistema tridimensional. Nesse momento, encerra-se o lançamento e aparece “VENCEU” ou “PERDEU” na tela da aplicação, juntamente com um sinal sonoro de alerta e a quantidade de lançamentos restantes. Somente quando o jogador pressiona novamente o botão “LANÇAR” é que se inicia novo lançamento de dados. A qualquer momento, o jogador poderá encerrar o jogo: pressionando o botão “PARAR”. Tal ação reabilita o botão “JOGAR”. (LARMAN, C. Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development. Prentice Hall, 3.ed, 2004. (com adaptações) Considerando a caracterização do jogo de dados, elabore os seguintes artefatos da análise de requisitos. a) Desenhe um diagrama de classes de domínio (UML) para o problema apresentado. (valor: 6,0 pontos) b) Liste três requisitos funcionais referentes ao comportamento funcional essencial do jogo. (valor: 4,0 pontos) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS 2011 20",
+    "alternativas": [],
+    "gabarito": null,
+    "anulada": false,
+    "padrao": "Padrão de resposta a) O estudante deve destacar as classes \"JogoDados\" e \"Dado\". Esta última deve ser vista como parte do \"JogoDados\". \"Face\" é um atributo de negócio importante na classe \"Dado\". Uma anotação UML pode ser utilizada para registrar requisitos não‐funcionais, tais como \"Girar lentamente até parar\" (em relação ao \"Dado\"), \"tocar por 2s\" (em relação ao \"JogoDados\"). Outras classes que não forem de negócio deverão ser ignoradas. b) o aluno deve listar pelo menos três das seguintes funcionalidades, podendo ser aceitas variações na descrição das funcionalidades apresentadas no padrão de respostas. RF1: Iniciar jogo RF2: Lançar dados RF3: Verificar resultado RF4: Mostrar valores das faces RF5: Parar jogo RF6: Calcular ou exibir lançamentos restantes QUESTÃO",
+    "imagem": "/img/2011_CST_Analise_Desenvolvimento_Sistemas-3-D.png"
+  },
+  {
+    "id": "2014_CST_Analise_Desenvolvimento_Sistemas-24",
+    "ano": 2014,
+    "prova": "2014_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2014_CST_Analise_Desenvolvimento_Sistemas/2014_PV_40_tecnologia_analise_desenv_sistemas.pdf",
+    "numero": 24,
+    "discursiva": false,
+    "pagina": 21,
+    "enunciado": "K\u0003ZhW\u0003;ZĂƟŽŶĂů\u0003hŶŝĮĞĚ\u0003WƌŽĐĞƐƐͿ\u0003Ġ\u0003ƐƵďĚŝǀŝĚŝĚŽ\u0003Ğŵ\u0003 &ĂƐĞƐ͕ \u0003ƋƵĞ\u0003ŝŶĚŝĐĂŵ\u0003Ă\u0003ġŶĨĂƐĞ\u0003ƋƵĞ\u0003Ġ\u0003ĚĂĚĂ\u0003ĂŽ\u0003ƉƌŽũĞƚŽ\u0003 Ğŵ\u0003Ƶŵ\u0003ĚĂĚŽ\u0003ŝŶƐƚĂŶƚĞ͕ \u0003Ğ\u0003Ğŵ\u0003&ůƵǆŽƐ\u0003ĚĞ\u0003ƚƌĂďĂůŚŽ͕ \u0003ƋƵĞ\u0003 ĚĞĮŶĞŵ\u0003ŽƐ\u0003ŐƌƵƉŽƐ\u0003ĚĞ\u0003ĂƟǀŝĚĂĚĞƐ\u0003Ă\u0003ƐĞƌĞŵ\u0003ƌĞĂůŝǌĂĚĂƐ\u0003 ĂŽ\u0003ůŽŶŐŽ\u0003ĚĂƐ\u0003ĨĂƐĞƐ͘ \u0012ŽŶƐŝĚĞƌĂŶĚŽ\u0003ƋƵĞ\u0003ŶŽ\u0003ĚĞƐĞŶǀŽůǀŝŵĞŶƚŽ\u0003ĚĞ\u0003ƐŽŌǁĂƌĞ ƵƟůŝǌĂŵͲƐĞ\u0003 ƚĠĐŶŝĐĂƐ\u0003 ĚĞ\u0003 ĂŶĄůŝƐĞ\u0003 Ğ\u0003 ƉƌŽũĞƚŽ\u0003 ŽƌŝĞŶƚĂĚŽ\u0003 Ă\u0003 ŽďũĞƚŽƐ\u0003 Ğ\u0003 ƋƵĞ\u0003 ĂƐ\u0003 ĂƟǀŝĚĂĚĞƐ\u0003 ƐĞũĂŵ\u0003 ĚŝƐƚƌŝďƵşĚĂƐ\u0003 ĚĞ\u0003ĂĐŽƌĚŽ\u0003ĐŽŵ\u0003Ž\u0003ZhW͕\u0003Ž\u0003ŵŽŵĞŶƚŽ\u0003ƋƵĞ\u0003ĚĞǀĞŵ\u0003ƐĞƌ\u0003 ĞůĂďŽƌĂĚŽƐ\u0003ŽƐ\u0003ĚŝĂŐƌĂŵĂƐ\u0003ĚĞ\u0003ĐůĂƐƐĞƐ\u0003Ğ\u0003ĚĞ\u0003ŝŶƚĞƌĂĕĆŽ\u0003 ĞŶƚƌĞ\u0003ŽƐ\u0003ŽďũĞƚŽƐ\u0003ĚŽ\u0003ƐŝƐƚĞŵĂ\u0003Ġ",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A ŶĂ\u0003ĨĂƐĞ\u0003ĚĞ\u0003\u0012ŽŶĐĞƉĕĆŽ͕ \u0003ŶŽ\u0003ŇƵǆŽ\u0003ĚĞ\u0003DŽĚĞůĂŐĞŵ\u0003ĚĞ\u0003 ŶĞŐſĐŝŽƐ͘"
+      },
+      {
+        "letra": "B",
+        "texto": "B ŶĂ\u0003 ĨĂƐĞ\u0003 ĚĞ\u0003 ůĂďŽƌĂĕĆŽ͕ \u0003 ŶŽ\u0003 ŇƵǆŽ\u0003 ĚĞ\u0003 \u0004ŶĄůŝƐĞ\u0003 Ğ\u0003 Design"
+      },
+      {
+        "letra": "C",
+        "texto": "C ŶĂ\u0003 ĨĂƐĞ\u0003 ĚĞ\u0003 \u0012ŽŶĐĞƉĕĆŽ͕ \u0003 ŶŽ\u0003 ŇƵǆŽ\u0003 ĚĞ\u0003 \u0004ŶĄůŝƐĞ\u0003 Ğ\u0003 Design"
+      },
+      {
+        "letra": "D",
+        "texto": "D ŶĂ\u0003ĨĂƐĞ\u0003ĚĞ\u0003 ůĂďŽƌĂĕĆŽ͕ \u0003ŶŽ\u0003ŇƵǆŽ\u0003ĚĞ\u0003ZĞƋƵŝƐŝƚŽƐ͘"
+      },
+      {
+        "letra": "E",
+        "texto": "E ŶĂ\u0003ĨĂƐĞ\u0003ĚĞ\u0003\u0012ŽŶĐĞƉĕĆŽ͕ \u0003ŶŽ\u0003ŇƵǆŽ\u0003ĚĞ\u0003ZĞƋƵŝƐŝƚŽƐ͘"
+      }
+    ],
+    "gabarito": "B",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2014_CST_Analise_Desenvolvimento_Sistemas-24.png"
+  },
+  {
+    "id": "2008_CST_Analise_Desenvolvimento_Sistemas-24",
+    "ano": 2008,
+    "prova": "2008_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2008_CST_Analise_Desenvolvimento_Sistemas/2008_PV_TECNOLOGIA_DESENVOLVIMENTO_SISTEMAS.pdf",
+    "numero": 24,
+    "discursiva": false,
+    "pagina": 14,
+    "enunciado": "A figura acima mostra um diagrama de A comunicação, pois modela o comportamento do sistema e ilustra as interações entre atores e objetos. B estados, pois apresenta os possíveis estados do objeto Urna eletrônica, além dos eventos que dão início à transição de um estado para outro. C estados, pois, a partir de um estado inicial, descreve a seqüência de possíveis estados que todos os objetos podem assumir. D atividades, pois as ações ilustram a forma como o ator Eleitor interage com os objetos em um caso de uso. E atividades, pois modela o fluxo de controle de um processo composto por ações seqüencias e paralelas partindo de um estado inicial.",
+    "alternativas": [],
+    "gabarito": "E",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2008_CST_Analise_Desenvolvimento_Sistemas-24.png"
+  },
+  {
+    "id": "2017_CST_Analise_Desenvolvimento_Sistemas-27",
+    "ano": 2017,
+    "prova": "2017_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2017_CST_Analise_Desenvolvimento_Sistemas/2017_PV_41_TEC_ANA_DES_SIS_BAIXA.pdf",
+    "numero": 27,
+    "discursiva": false,
+    "pagina": 30,
+    "enunciado": "K\u0003ĚŝĂŐƌĂŵĂ\u0003ĚĞ\u0003ĐůĂƐƐĞ\u0003ĂƉƌĞƐĞŶƚĂĚŽ\u0003ŶĂ\u0003ĮŐƵƌĂ\u0003Ă\u0003ƐĞŐƵŝƌ\u0003ŵĂƉĞŝĂ\u0003Ƶŵ\u0003ƉƌŽĐĞƐƐŽ\u0003ĚĞ\u0003Ƶŵ\u0003ƐŝŵƵůĂĚŽƌ\u0003ĚĞ\u0003ǀŽŽ͘ \u0003 EĞƐƐĞ\u0003 ĚŝĂŐƌĂŵĂ͕ \u0003 Ġ\u0003 ƵƟůŝǌĂĚŽ\u0003 Ž\u0003 ƉĂĚƌĆŽ\u0003 ĚĞ\u0003 ƉƌŽũĞƚŽ\u0003 Strategy͕ \u0003 ƋƵĞ\u0003 ĚĞĮŶĞ\u0003 ƵŵĂ\u0003 ĨĂŵşůŝĂ\u0003 ĚĞ\u0003 ĂůŐŽƌŝƚŵŽƐ͕ \u0003 ĞŶĐĂƉƐƵůĂ\u0003ĐĂĚĂ\u0003Ƶŵ\u0003ĚĞůĞƐ\u0003Ğ\u0003ŽƐ\u0003ƚŽƌŶĂ\u0003ŝŶƚĞƌĐĂŵďŝĄǀĞŝƐ͘ \u0003K\u0003ƉĂĚƌĆŽ\u0003Strategy,\u0003ƋƵĞ\u0003ĚĞŝǆĂ\u0003Ž\u0003ĂůŐŽƌŝƚŵŽ\u0003ǀĂƌŝĂƌ\u0003 ŝŶĚĞƉĞŶĚĞŶƚĞŵĞŶƚĞ\u0003ĚŽƐ\u0003ĐůŝĞŶƚĞƐ\u0003ƋƵĞ\u0003Ž\u0003ƵƟůŝǌĂŵ͕ \u0003ĂƉůŝĐĂ\u0003Ž\u0003ƉƌŝŶĐşƉŝŽ\u0003ĚĞ\u0003ƉƌŽũĞƚŽ͗ \u0003͞ ƉƌŽŐƌĂŵĂƌ\u0003ƉĂƌĂ\u0003ƵŵĂ\u0003 ŝŶƚĞƌĨĂĐĞ͕ \u0003ŶĆŽ\u0003ƉĂƌĂ\u0003ƵŵĂ\u0003ŝŵƉůĞŵĞŶƚĂĕĆŽ͘͟ >\u0004ZD\u0004E͕ \u0003\u0012͘ \u0003hƟůŝǌĂŶĚŽ\u0003hD>\u0003Ğ\u0003ƉĂĚƌƁĞƐ͗ \u0003ƵŵĂ\u0003ŝŶƚƌŽĚƵĕĆŽ\u0003ă\u0003ĂŶĄůŝƐĞ\u0003Ğ\u0003ĂŽ\u0003ƉƌŽũĞƚŽ\u0003ŽƌŝĞŶƚĂĚŽƐ\u0003Ă\u0003 ŽďũĞƚŽƐ\u0003Ğ\u0003ĂŽ\u0003ĚĞƐĞŶǀŽůǀŝŵĞŶƚŽ\u0003ŝƚĞƌĂƟǀŽ͘ \u0003WŽƌƚŽ\u0003\u0004ůĞŐƌĞ͗ \u0003\u0011ŽŽŬŵĂŶ͕ \u0003ϮϬϬϳ\u0003;ĂĚĂƉƚĂĚŽͿ͘ \u0012ŽŶƐŝĚĞƌĞ\u0003Ž\u0003ĚŝĂŐƌĂŵĂ\u0003ĚĞ\u0003ĐůĂƐƐĞ\u0003Ă\u0003ƐĞŐƵŝƌ\u0003ƋƵĞ\u0003ĚĞƐĐƌĞǀĞ\u0003Ƶŵ\u0003ƐŝŵƵůĂĚŽƌ\u0003ĚĞ\u0003ǀŽŽ͘ Aviao Voar voarForma Pousar pousarForma perfomanceVoar() performancePousar() setVoar() setPousar() informarDados() voar() voar() VoarDia VoarNoite voar() <<interface>> Pousar pousar() pousar() PousarNoite PousarDia pousar() SimuladorBoeing757 main() Boeing757 informarDados() <<interface>> Voar \u0012ŽŶƐŝĚĞƌĞ\u0003ĂŝŶĚĂ\u0003Ž\u0003ƐĞŐƵŝŶƚĞ\u0003ĐſĚŝŐŽ\u0003Ğŵ\u0003ůŝŶŐƵĂŐĞŵ\u0003:ĂǀĂ\u0003ĐŽŵŽ\u0003ŝŵƉůĞŵĞŶƚĂĕĆŽ\u0003ĚŽ\u0003ƐŝŵƵůĂĚŽƌ͘ public interface Voar { public void voar(); } public interface Pousar { public void pousar(); } public class VoarDia implements Voar { public void voar() { System.out.println(“Voar durante o dia.”); } } public class VoarNoite implements Voar { public void voar() { System.out.println(“Voar durante a noite.”); } } public class PousarDia implements Pousar { public void pousar() { System.out.println(“Pousar durante o dia.”); } } ϯϭ TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS public class PousarNoite implements Pousar { public void pousar() { System.out.println(“Pousar durante a noite.”); } } public abstract class Aviao { Voar voarForma; Pousar pousarForma; public Aviao() {} public abstract void informarDados(); public void performanceVoar() { voarForma.voar(); } public void performancePousar() { pousarForma.pousar(); } public void setVoar(Voar v) { voarForma = v; } public void setPousar(Pousar p) { pousarForma = p; } } public class Boeing757 extends Aviao { public Boeing757() { voarForma = new VoarDia(); pousarForma = new PousarDia(); } public void informarDados() { System.out.println(“Informando dados de um Boeing 757.”); } } public class SimuladorBoeing757 { public static void main(String[] args) { Boeing757 b757 = new Boeing757(); b757.performanceVoar(); b757.performancePousar(); b757.setVoar(new VoarNoite()); b757.setPousar(new PousarNoite()); b757.performanceVoar(); b757.performancePousar(); } } \u0012Žŵ\u0003ďĂƐĞ\u0003ŶŽ\u0003ĚŝĂŐƌĂŵĂ\u0003ĚĞ\u0003ĐůĂƐƐĞ͕ \u0003ŶŽ\u0003ĐſĚŝŐŽ\u0003Ğŵ\u0003ůŝŶŐƵĂŐĞŵ\u0003:ĂǀĂ\u0003Ğ\u0003ŶŽ\u0003ĐŽŶĐĞŝƚŽ\u0003ĚŽ\u0003ƉĂĚƌĆŽ\u0003ĚĞ\u0003ƉƌŽũĞƚŽ\u0003 Strategy,\u0003ĂƐƐŝŶĂůĞ\u0003Ă\u0003ŽƉĕĆŽ\u0003ĐŽƌƌĞƚĂ͘ A \u0003\u0004\u0003ĐůĂƐƐĞ\u0003Aviao\u0003ŝŵƉůĞŵĞŶƚĂ\u0003ĂƐ\u0003ŝŶƚĞƌĨĂĐĞƐ\u0003Voar e Pousar. B \u0003\u0004\u0003ĐůĂƐƐĞ\u0003Boeing757\u0003ŶĆŽ\u0003ĂƉůŝĐĂ\u0003Ž\u0003ƉƌŝŶĐşƉŝŽ\u0003ĚĞ\u0003ŚĞƌĂŶĕĂ͕ \u0003ƵŵĂ\u0003ǀĞǌ\u0003ƋƵĞ\u0003ĞƐƐĞ\u0003ƉƌŝŶĐşƉŝŽ\u0003ũĄ\u0003ĨŽŝ\u0003ĂƉůŝĐĂĚŽ\u0003 ƉĞůĂ\u0003ĐůĂƐƐĞ\u0003Aviao͕ \u0003ŶĂƐ\u0003ŝŶƚĞƌĨĂĐĞƐ\u0003Voar e Pousar. C \u0003WŽƌ\u0003ŝŵƉůĞŵĞŶƚĂƌĞŵ\u0003ĂƐ\u0003ŝŶƚĞƌĨĂĐĞƐ\u0003Voar e Pousar,\u0003ĂƐ\u0003ĐůĂƐƐĞƐ\u0003VoarDia͕ \u0003VoarNoite͕ \u0003PousarDia e PousarNoite\u0003ƚĂŵďĠŵ\u0003ƐĆŽ\u0003ƵŵĂ\u0003ŝŶƚĞƌĨĂĐĞ͘ D \u0003EĂ\u0003ĐůĂƐƐĞ\u0003SimuladorBoeing757͕ \u0003ŽƐ\u0003ŵĠƚŽĚŽƐ\u0003setVoar e setPousar\u0003ƐĆŽ\u0003ŽƐ\u0003ƌĞƐƉŽŶƐĄǀĞŝƐ\u0003ƉŽƌ\u0003 ĂƉůŝĐĂƌ͕ \u0003ƌĞƐƉĞĐƟǀĂŵĞŶƚĞ͕ \u0003ĂƐ\u0003ƐĂşĚĂƐ\u0003͞ sŽĂƌ\u0003ĚƵƌĂŶƚĞ\u0003Ž\u0003ĚŝĂ͟ \u0003Ğ\u0003͞ WŽƵƐĂƌ\u0003ĚƵƌĂŶƚĞ\u0003Ž\u0003ĚŝĂ͟ \u0003ƉĂƌĂ\u0003ĂƐ\u0003ƐĂşĚĂƐ\u0003͞ sŽĂƌ\u0003ĚƵƌĂŶƚĞ\u0003Ă\u0003ŶŽŝƚĞ͟ \u0003Ğ\u0003͞ WŽƵƐĂƌ\u0003ĚƵƌĂŶƚĞ\u0003Ă\u0003ŶŽŝƚĞ͘͟ E \u0003YƵĂŶĚŽ\u0003ĨŽƌ\u0003ĞǆĞĐƵƚĂĚĂ͕ \u0003Ă\u0003ĐůĂƐƐĞ\u0003SimuladorBoeing757\u0003ĂƉƌĞƐĞŶƚĂƌĄ\u0003Ƶŵ\u0003ĞƌƌŽ\u0003Ğŵ\u0003ƚĞŵƉŽ\u0003ĚĞ\u0003ĞǆĞĐƵĕĆŽ\u0003 ƉŽƌƋƵĞ\u0003ŽƐ\u0003ŵĠƚŽĚŽƐ\u0003setVoar e setPousar\u0003ƌĞĐĞďĞŵ\u0003ƌĞƐƉĞĐƟǀĂŵĞŶƚĞ͕ \u0003ĐŽŵŽ\u0003ƉĂƌąŵĞƚƌŽƐ͕ \u0003ǀĂƌŝĄǀĞŝƐ\u0003 ĚŽ\u0003ƟƉŽ\u0003ĐůĂƐƐĞ͕ \u0003Ž\u0003ƋƵĞ\u0003ŶĆŽ\u0003Ġ\u0003ƉĞƌŵŝƟĚŽ\u0003ŶĂ\u0003ŽƌŝĞŶƚĂĕĆŽ\u0003Ă\u0003ŽďũĞƚŽƐ͘ ϯϮ TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+    "alternativas": [],
+    "gabarito": "D",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2017_CST_Analise_Desenvolvimento_Sistemas-27.png"
+  },
+  {
+    "id": "2017_CST_Analise_Desenvolvimento_Sistemas-26",
+    "ano": 2017,
+    "prova": "2017_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2017_CST_Analise_Desenvolvimento_Sistemas/2017_PV_41_TEC_ANA_DES_SIS_BAIXA.pdf",
+    "numero": 26,
+    "discursiva": false,
+    "pagina": 29,
+    "enunciado": "WĂƌĂ\u0003 ƋƵĞ\u0003 ƐĞ\u0003 ƌĞĂůŝǌĞ\u0003 Ă\u0003 ŵƵůƚŝƉůŝĐĂĕĆŽ\u0003 ĚĞ\u0003 ƉƌŽďĂďŝůŝĚĂĚĞƐ\u0003 ĐŽŵ\u0003 ŵĂŝŽƌ\u0003 ĨĂĐŝůŝĚĂĚĞ͕ \u0003 ĨŽŝ\u0003 ĚĞƐĞŶǀŽůǀŝĚĂ͕ \u0003 ƵƚŝůŝǌĂŶĚŽͲƐĞ\u0003 Ž\u0003 ƉĂĚƌĆŽ\u0003 Ds\u0012\u0003 ;DŽĚĞůͲsŝĞǁͲ\u0012ŽŶƚƌŽůůĞƌͿ͕ \u0003 ƵŵĂ\u0003 ĐĂůĐƵůĂĚŽƌĂ\u0003 ƋƵĞ\u0003 ƉŽĚĞ\u0003 ƐĞƌ\u0003 ĐŽŶĨŝŐƵƌĂĚĂ\u0003 ĚĞ\u0003ĚŽŝƐ\u0003ŵŽĚŽƐ͗ \u0003ĐŽŵƵŵ\u0003Ğ\u0003ƉƌŽďĂďŝůŝƐƚĂ͘ \u0003EŽ\u0003ƉƌŝŵĞŝƌŽ͕ \u0003ĂƐ\u0003ŵƵůƚŝƉůŝĐĂĕƁĞƐ\u0003ŽĐŽƌƌĞŵ\u0003ĚĞ\u0003ĨŽƌŵĂ\u0003ŽƌĚŝŶĄƌŝĂ͘ \u0003 EŽ\u0003ƐĞŐƵŶĚŽ͕ \u0003ĂƐ\u0003ŵƵůƚŝƉůŝĐĂĕƁĞƐ\u0003ƐĆŽ\u0003ĨĞŝƚĂƐ\u0003ƵƚŝůŝǌĂŶĚŽͲƐĞ\u0003ƵŵĂ\u0003ĨſƌŵƵůĂ\u0003ĞƐƉĞĐşĨŝĐĂ͘ \u0004\u0003ĐůĂƐƐĞ\u0003Ă\u0003ƐĞŐƵŝƌ͕ \u0003ĞƐĐƌŝƚĂ\u0003ŶĂ\u0003ůŝŶŐƵĂŐĞŵ\u0003:ĂǀĂ͕ \u0003ĚĞĮŶĞ\u0003Ž\u0003ŵĠƚŽĚŽ\u0003multiplica͘ \u0003 ůĞ\u0003Ġ\u0003ĞǆĞĐƵƚĂĚŽ\u0003ƋƵĂŶĚŽ\u0003Ž\u0003 ďŽƚĆŽ\u0003ĚĂ\u0003ŵƵůƟƉůŝĐĂĕĆŽ\u0003Ġ\u0003ƉƌĞƐƐŝŽŶĂĚŽ͕ \u0003Ğ\u0003ƌĞĐĞďĞ\u0003ĐŽŵŽ\u0003ƉĂƌąŵĞƚƌŽ\u0003ŽƐ\u0003ǀĂůŽƌĞƐ\u0003ƋƵĞ\u0003Ž\u0003ƵƐƵĄƌŝŽ\u0003ĚĞƐĞũĂ\u0003ƵƐĂƌ\u0003ŶĂ\u0003 ŽƉĞƌĂĕĆŽ͕ \u0003ĂůĠŵ\u0003ĚĞ\u0003ƉŽƐƐƵŝƌ\u0003ƵŵĂ\u0003ǀĂƌŝĄǀĞů\u0003ĚĞ\u0003ŝŶƐƚąŶĐŝĂ\u0003ĚŽ\u0003ƟƉŽ\u0003CalculadoraController͘ \u0003K\u0003ŵĠƚŽĚŽ\u0003 alteraModo\u0003Ġ\u0003ĞŶĐĂƌƌĞŐĂĚŽ\u0003ĚĞ\u0003ĂůƚĞƌĂƌ\u0003Ă\u0003ŝŶƐƚąŶĐŝĂ\u0003ƉĂƌĂ\u0003Ă\u0003ƋƵĂů\u0003ĞƐƐĂ\u0003ǀĂƌŝĄǀĞů\u0003ĨĂǌ\u0003ƌĞĨĞƌġŶĐŝĂ\u0003ĐŽŶĨŽƌŵĞ\u0003Ž\u0003 ŵŽĚŽ\u0003ƐĞůĞĐŝŽŶĂĚŽ\u0003ƉĞůŽ\u0003ƵƐƵĄƌŝŽ͘ \u0003\u0004\u0003ŝŶƐƚąŶĐŝĂ\u0003ŝŶƚĞƌĂŐĞ\u0003ĐŽŵ\u0003ĂƐ\u0003ƉĂƌƚĞƐ\u0003ĚŽ\u0003model\u0003ĂƉƌŽƉƌŝĂĚĂƐ\u0003ă\u0003ƐŽůŝĐŝƚĂĕĆŽ\u0003 ƌĞĂůŝǌĂĚĂ\u0003ƉĞůŽ\u0003ƵƐƵĄƌŝŽ͘ \u0003YƵĂŶĚŽ\u0003Ž\u0003ƵƐƵĄƌŝŽ\u0003ĚĞƐĞũĂ\u0003ƵƐĂƌ\u0003Ž\u0003ŵŽĚŽ\u0003ƉƌŽďĂďŝůŝƐƚĂ͕ \u0003Ă\u0003ǀĂƌŝĄǀĞů\u0003modo\u0003ƚĞŵ\u0003Ž\u0003ǀĂůŽƌ\u0003ϭ͕ \u0003 ĐĂƐŽ\u0003ĐŽŶƚƌĄƌŝŽ͕ \u0003ĞůĂ\u0003ƚĞŵ\u0003Ž\u0003ǀĂůŽƌ\u0003Ϭ͘ public class Calculadora { private CalculadoraController c; private int modo; public double multiplica (double[] valores) { return c.multiplica (valores); } public void alteraModo () { if ( modo == 1) c = new ProbabilistaController(); else c = new OrdinarioController(); } } K\u0003ĚŝĂŐƌĂŵĂ\u0003ĚĞ\u0003ĐůĂƐƐĞ\u0003ƋƵĞ\u0003ƐĞ\u0003ƐĞŐƵĞ\u0003ŵŽƐƚƌĂ\u0003Ă\u0003ŚŝĞƌĂƌƋƵŝĂ\u0003ĚĞ\u0003controllers\u0003ĚĞĮŶŝĚĂ\u0003ƉĂƌĂ\u0003Ă\u0003ŝŵƉůĞŵĞŶƚĂĕĆŽ\u0003 ĚĂ\u0003 ĐĂůĐƵůĂĚŽƌĂ\u0003 ĚĞƐĐƌŝƚĂ͘ \u0003 \u0004\u0003 ŚŝĞƌĂƌƋƵŝĂ\u0003 ĚĞ\u0003 ĐůĂƐƐĞƐ\u0003 ĚĞ\u0003 ĐŽŶƚƌŽůĞ\u0003 ƌĞƉƌĞƐĞŶƚĂ\u0003 ƵŵĂ\u0003 ĨĂŵşůŝĂ\u0003 ĚĞ\u0003 ĂůŐŽƌŝƚŵŽƐ\u0003 ŝŶƚĞƌĐĂŵďŝĄǀĞŝƐ͕ \u0003 ƉŽƌ\u0003 ŝƐƐŽ͕ \u0003 Ž\u0003 ĐŽŵƉŽƌƚĂŵĞŶƚŽ\u0003 ĚŽƐ\u0003 ĐŽŵƉŽŶĞŶƚĞƐ\u0003 ĚĂ\u0003 ǀŝĞǁ͕ \u0003 Ă\u0003 ĐĂĚĂ\u0003 ŝŶƐƚĂŶƚĞ͕ \u0003 ƉŽĚĞ\u0003 ƐĞƌ\u0003 ĚŝŶĂŵŝĐĂŵĞŶƚĞ\u0003ĂůƚĞƌĂĚŽ͕ \u0003ďĂƐƚĂŶĚŽ\u0003ƚƌŽĐĂƌ\u0003Ž\u0003ƟƉŽ\u0003ĚĂ\u0003ŝŶƐƚąŶĐŝĂ\u0003ƌĞĨĞƌĞŶĐŝĂĚĂ\u0003ƉĞůĂ\u0003ǀĂƌŝĄǀĞů\u0003c. CalculadoraController + multiplica(valores : double[ ]) : double ProbabilistaController + multiplica(valores : double[ ]) : double OrdinarioController + multiplica(valores : double[ ]) : double \u0012ŽŶƐŝĚĞƌĂŶĚŽ\u0003ĞƐƐĞ\u0003ĐĞŶĄƌŝŽ͕ \u0003ĂǀĂůŝĞ\u0003ĂƐ\u0003ĂĮƌŵĂĕƁĞƐ\u0003Ă\u0003ƐĞŐƵŝƌ͘ /͘ \u0003 \u0004\u0003ŚŝĞƌĂƌƋƵŝĂ\u0003ĞǆŝďŝĚĂ\u0003ŝůƵƐƚƌĂ\u0003Ž\u0003ƵƐŽ\u0003ĚŽ\u0003ƉĂĚƌĆŽ\u0003ĚĞ\u0003ƉƌŽũĞƚŽƐ\u0003Strategy. //͘ \u0003 K\u0003ƉĂĚƌĆŽ\u0003ĐŽŵƉŽƐƚŽ\u0003Ds\u0012\u0003ĚĞĮŶĞ\u0003Ă\u0003ĞǆŝƐƚġŶĐŝĂ\u0003ĚĞ\u0003Ƶŵ\u0003ƷŶŝĐŽ\u0003controller\u0003Ğ͕ \u0003ƉŽƌƚĂŶƚŽ͕ \u0003Ă\u0003ƐŽůƵĕĆŽ\u0003ƉƌŽƉŽƐƚĂ\u0003 ŶĆŽ\u0003ĐĂƌĂĐƚĞƌŝǌĂ\u0003Ž\u0003ƵƐŽ\u0003ĚĞƐƐĞ\u0003ƉĂĚƌĆŽ͘ ///͘ \u0003 K\u0003 ŵĠƚŽĚŽ\u0003 multiplica\u0003 ĚĂ\u0003 ĐůĂƐƐĞ\u0003 Calculadora ĐŚĂŵĂ\u0003Ž\u0003ŵĠƚŽĚŽ\u0003 multiplica\u0003 ĚĞ\u0003 CalculadoraController͕ \u0003Ž\u0003ƋƵĞ\u0003ĐĂƌĂĐƚĞƌŝǌĂ\u0003ƵŵĂ\u0003ĐŽŶǀĞƌƐĆŽ\u0003ĚĞ\u0003ŝŶƚĞƌĨĂĐĞƐ\u0003Ğ͕ \u0003ƉŽƌƚĂŶƚŽ͕ \u0003Ž\u0003ƵƐŽ\u0003 ĚŽ\u0003ƉĂĚƌĆŽ\u0003ĚĞ\u0003ƉƌŽũĞƚŽƐ\u0003Adapter. \u0003ĐŽƌƌĞƚŽ\u0003Ž\u0003ƋƵĞ\u0003ƐĞ\u0003ĂĮƌŵĂ\u0003Ğŵ",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A \u0003/͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "B",
+        "texto": "B \u0003//͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "C",
+        "texto": "C \u0003/\u0003Ğ\u0003///͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "D",
+        "texto": "D \u0003//\u0003Ğ\u0003///͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "E",
+        "texto": "E \u0003/͕ \u0003//\u0003Ğ\u0003///͘ ϯϬ TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS"
+      }
+    ],
+    "gabarito": "A",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2017_CST_Analise_Desenvolvimento_Sistemas-26.png"
+  },
+  {
+    "id": "2014_CST_Analise_Desenvolvimento_Sistemas-18",
+    "ano": 2014,
+    "prova": "2014_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2014_CST_Analise_Desenvolvimento_Sistemas/2014_PV_40_tecnologia_analise_desenv_sistemas.pdf",
+    "numero": 18,
+    "discursiva": false,
+    "pagina": 18,
+    "enunciado": "EŽƐ\u0003 ĂŶŽƐ\u0003 ϳϬ͕ \u0003 ŽƐ\u0003 ƐŝƐƚĞŵĂƐ\u0003 ĞǆĞĐƵƚĂǀĂŵ\u0003 Ğŵ\u0003 ŵĂŝŶĨƌĂŵĞƐ\u0003ĐŽŵ\u0003ĂƉůŝĐĂƟǀŽƐ\u0003ĞƐĐƌŝƚŽƐ\u0003Ğŵ\u0003ůŝŶŐƵĂŐĞŶƐ\u0003 ĞƐƚƌƵƚƵƌĂĚĂƐ\u0003 Ğ\u0003 ĐŽŵ\u0003 ƚŽĚĂƐ\u0003 ĂƐ\u0003 ĨƵŶĐŝŽŶĂůŝĚĂĚĞƐ\u0003 Ğŵ\u0003 Ƶŵ\u0003 ƷŶŝĐŽ\u0003 ŵſĚƵůŽ͕ \u0003 ĐŽŵ\u0003 ŐƌĂŶĚĞ\u0003 ƋƵĂŶƟĚĂĚĞ\u0003 ĚĞ\u0003 ůŝŶŚĂƐ\u0003ĚĞ\u0003ĐſĚŝŐŽ͘ \u0003\u0004ĐĞƐƐŽƐ\u0003Ă\u0003ďĂŶĐŽƐ\u0003ĚĞ\u0003ĚĂĚŽƐ\u0003ŶĆŽ\u0003 ƌĞůĂĐŝŽŶĂŝƐ͕ \u0003 ƌĞŐƌĂƐ\u0003 ĚĞ\u0003 ŶĞŐſĐŝŽƐ\u0003 Ğ\u0003 ƚƌĂƚĂŵĞŶƚŽ\u0003 ĚĞ\u0003 ƚĞůĂƐ\u0003 ƉĂƌĂ\u0003 ƚĞƌŵŝŶĂŝƐ\u0003͞ ďƵƌƌŽƐ͟ \u0003 ĮĐĂǀĂŵ\u0003 ŶŽ\u0003 ŵĞƐŵŽ\u0003 ƉƌŽŐƌĂŵĂ͘ \u0003 WŽƐƚĞƌŝŽƌŵĞŶƚĞ͕ \u0003 ƵŵĂ\u0003 ŝŵƉŽƌƚĂŶƚĞ\u0003 ŵƵĚĂŶĕĂ\u0003 ŽĐŽƌƌĞƵ͗ \u0003 Ă\u0003 ƐƵďƐƟƚƵŝĕĆŽ\u0003 ĚŽƐ\u0003 ƚĞƌŵŝŶĂŝƐ\u0003͞ ďƵƌƌŽƐ͟ \u0003 ƉŽƌ\u0003 ŵŝĐƌŽĐŽŵƉƵƚĂĚŽƌĞƐ͕ \u0003 ƉĞƌŵŝƟŶĚŽ\u0003 ƋƵĞ\u0003ƚŽĚŽ\u0003Ž\u0003ƚƌĂƚĂŵĞŶƚŽ\u0003ĚĂ\u0003ŝŶƚĞƌĨĂĐĞ͕ \u0003Ğ\u0003ĚĞ\u0003ĂůŐƵŵĂƐ\u0003 ƌĞŐƌĂƐ\u0003 ĚĞ\u0003 ŶĞŐſĐŝŽƐ͕ \u0003 ƉĂƐƐĂƐƐĞŵ\u0003 Ă\u0003 ƐĞƌ\u0003 ĨĞŝƚĂƐ\u0003 ŶĂƐ\u0003 ĞƐƚĂĕƁĞƐ\u0003 ĐůŝĞŶƚĞƐ͘ \u0003 ^ƵƌŐŝĂŵ\u0003 ĂƐ\u0003 ĂƉůŝĐĂĕƁĞƐ\u0003 ĐůŝĞŶƚĞͲ ƐĞƌǀŝĚŽƌ͘ \u0003\u0004\u0003ƉĂƌƟƌ\u0003ĚŽƐ\u0003ĂŶŽƐ\u0003ϵϬ͕ \u0003ĂƚĠ\u0003ŽƐ\u0003ĚŝĂƐ\u0003ĂƚƵĂŝƐ͕ \u0003 ĂƐ\u0003 ŵƵĚĂŶĕĂƐ\u0003 ĨŽƌĂŵ\u0003 ŵĂŝƐ\u0003 ƌĂĚŝĐĂŝƐ͕ \u0003 ŽƐ\u0003 ďĂŶĐŽƐ\u0003 ĚĞ\u0003 ĚĂĚŽƐ\u0003 ƉĂƐƐĂƌĂŵ\u0003 Ă\u0003 ƐĞƌ\u0003 ƌĞůĂĐŝŽŶĂŝƐ\u0003 Ğ\u0003 ĚŝƐƚƌŝďƵşĚŽƐ͘ \u0003 \u0004Ɛ\u0003ůŝŶŐƵĂŐĞŶƐ\u0003ƉĂƐƐĂƌĂŵ\u0003Ă\u0003ƐĞƌ\u0003ŽƌŝĞŶƚĂĚĂƐ\u0003Ă\u0003ŽďũĞƚŽƐ͕ \u0003 ĐƵũĂ\u0003 ŵŽĚĞůĂŐĞŵ\u0003 ĞŶĐĂƉƐƵůĂ\u0003 ĚĂĚŽƐ\u0003 Ğ\u0003 ŽĨĞƌĞĐĞ\u0003 ĨƵŶĐŝŽŶĂůŝĚĂĚĞƐ\u0003 ĂƚƌĂǀĠƐ\u0003 ĚĞ\u0003 ŵĠƚŽĚŽƐ͘ \u0003 \u0004\u0003 ŝŶƚĞƌĨĂĐĞ\u0003 ƉĂƐƐŽƵ\u0003Ă\u0003ƐĞƌ\u0003web͘ \u0003sŝǀĞͲƐĞ\u0003Ă\u0003ĞƌĂ\u0003ĚĂƐ\u0003ĂƉůŝĐĂĕƁĞƐ\u0003Ğŵ\u0003 ƚƌġƐ\u0003ĐĂŵĂĚĂƐ͘ \u0012ŽŶƐŝĚĞƌĂŶĚŽ\u0003Ă\u0003ĞǀŽůƵĕĆŽ\u0003ĚĂ\u0003ĂƌƋƵŝƚĞƚƵƌĂ\u0003ĚĞ\u0003ƐŽŌǁĂƌĞ ĚĞ\u0003ƐŝƐƚĞŵĂƐ\u0003ĚĞ\u0003ŝŶĨŽƌŵĂĕĆŽ͕ \u0003ĐŽŶĨŽƌŵĞ\u0003ĐŝƚĂĚŽ\u0003ŶŽ\u0003ƚĞǆƚŽ\u0003 ĂĐŝŵĂ͕ \u0003ĂǀĂůŝĞ\u0003ĂƐ\u0003ƐĞŐƵŝŶƚĞƐ\u0003ĂĮƌŵĂĕƁĞƐ͘ /͘ \u0003 \u0004\u0003 ƐĞƉĂƌĂĕĆŽ\u0003 ĚŽƐ\u0003 ƐŝƐƚĞŵĂƐ\u0003 Ğŵ\u0003 ƚƌġƐ\u0003 ĐĂŵĂĚĂƐ\u0003 ůſŐŝĐĂƐ\u0003 ƚŽƌŶĂ\u0003 ŽƐ\u0003 ƐŝƐƚĞŵĂƐ\u0003 ŵĂŝƐ\u0003 ĐŽŵƉůĞǆŽƐ͕ \u0003 ƌĞƋƵĞƌĞŶĚŽ\u0003ƉĞƐƐŽĂů\u0003ŵĂŝƐ\u0003ĞƐƉĞĐŝĂůŝǌĂĚŽ͘ //͘ \u0003 \u0004\u0003 ƐĞƉĂƌĂĕĆŽ\u0003 ĚŽƐ\u0003 ƐŝƐƚĞŵĂƐ\u0003 Ğŵ\u0003 ƚƌġƐ\u0003 ĐĂŵĂĚĂƐ\u0003 ůſŐŝĐĂƐ\u0003 ƚŽƌŶĂ\u0003 ŽƐ\u0003 ƐŝƐƚĞŵĂƐ\u0003 ŵĂŝƐ\u0003 ŇĞǆşǀĞŝƐ͕ \u0003 ƉĞƌŵŝƟŶĚŽ\u0003ƋƵĞ\u0003ĂƐ\u0003ƉĂƌƚĞƐ\u0003ƉŽƐƐĂŵ\u0003ƐĞƌ\u0003ĂůƚĞƌĂĚĂƐ\u0003 ĚĞ\u0003ĨŽƌŵĂ\u0003ŝŶĚĞƉĞŶĚĞŶƚĞ͘ ///͘ \u0003 \u0004\u0003 ƐĞƉĂƌĂĕĆŽ\u0003 ĚŽƐ\u0003 ƐŝƐƚĞŵĂƐ\u0003 Ğŵ\u0003 ƚƌġƐ\u0003 ĐĂŵĂĚĂƐ\u0003 ůſŐŝĐĂƐ\u0003ĂƵŵĞŶƚŽƵ\u0003Ž\u0003ĂĐŽƉůĂŵĞŶƚŽ͕ \u0003ĚŝĮĐƵůƚĂŶĚŽ\u0003 Ă\u0003ŵĂŶƵƚĞŶĕĆŽ͘ \u0003ĐŽƌƌĞƚŽ\u0003Ž\u0003ƋƵĞ\u0003ƐĞ\u0003ĂĮƌŵĂ\u0003Ğŵ",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A //͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "B",
+        "texto": "B ///͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "C",
+        "texto": "C /\u0003Ğ\u0003//͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "D",
+        "texto": "D /\u0003Ğ\u0003///͕ \u0003ĂƉĞŶĂƐ͘"
+      },
+      {
+        "letra": "E",
+        "texto": "E /͕ \u0003//\u0003Ğ\u0003///͘"
+      }
+    ],
+    "gabarito": "C",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2014_CST_Analise_Desenvolvimento_Sistemas-18.png"
+  },
+  {
+    "id": "2008_CST_Analise_Desenvolvimento_Sistemas-12",
+    "ano": 2008,
+    "prova": "2008_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2008_CST_Analise_Desenvolvimento_Sistemas/2008_PV_TECNOLOGIA_DESENVOLVIMENTO_SISTEMAS.pdf",
+    "numero": 12,
+    "discursiva": false,
+    "pagina": 9,
+    "enunciado": "Uma pizzaria fez uma ampliação de suas instalações e o gerente aproveitou para melhorar o sistema informatizado, que era limitado e não atendia a todas as funções necessárias. O gerente, então, contratou uma empresa para ampliar o software. No desenvolvimento do novo sistema, a empresa aproveitou partes do sistema antigo e estendeu os componentes de maneira a usar código validado, acrescentando as novas funções solicitadas. Que conceito de orientação a objetos está descrito na situação hipotética acima?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A sobrecarga"
+      },
+      {
+        "letra": "B",
+        "texto": "B herança"
+      },
+      {
+        "letra": "C",
+        "texto": "C sobreposição"
+      },
+      {
+        "letra": "D",
+        "texto": "D abstração"
+      },
+      {
+        "letra": "E",
+        "texto": "E mensagem"
+      }
+    ],
+    "gabarito": "B",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2008_CST_Analise_Desenvolvimento_Sistemas-12.png"
+  },
+  {
+    "id": "2017_CST_Analise_Desenvolvimento_Sistemas-24",
+    "ano": 2017,
+    "prova": "2017_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2017_CST_Analise_Desenvolvimento_Sistemas/2017_PV_41_TEC_ANA_DES_SIS_BAIXA.pdf",
+    "numero": 24,
+    "discursiva": false,
+    "pagina": 27,
+    "enunciado": "27 TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS QUESTÃO 23 hŵ\u0003ƐŽŌǁĂƌĞ\u0003ĐŽŵ\u0003ĚĞĨĞŝƚŽ\u0003ƉŽĚĞ\u0003ƐĞƌ\u0003ĐŽŶƐĞƋƵġŶĐŝĂ\u0003 ĚĞ\u0003ƉƌŽďůĞŵĂƐ\u0003ŶŽ\u0003ůĞǀĂŶƚĂŵĞŶƚŽ\u0003ĚŽƐ\u0003ƌĞƋƵŝƐŝƚŽƐ͕ \u0003ƵŵĂ\u0003 ǀĞǌ\u0003 ƋƵĞ\u0003 Ž\u0003 ƌĞƋƵŝƐŝƚŽ\u0003 ƉŽĚĞ\u0003 ƐĞƌ\u0003 ĂŵďşŐƵŽ\u0003 ƉŽƌƋƵĞ\u0003 Ž\u0003 ĐůŝĞŶƚĞ\u0003ŶĆŽ\u0003ĞƐƚĂǀĂ\u0003ĐŽŶǀŝĐƚŽ\u0003ĚĂ\u0003ƐƵĂ\u0003ƌĞĂů\u0003ŶĞĐĞƐƐŝĚĂĚĞ\u0003 ŽƵ\u0003ƉŽƌƋƵĞ\u0003Ă\u0003ĞƋƵŝƉĞ\u0003Ž\u0003ŝŶƚĞƌƉƌĞƚŽƵ\u0003ŵĂů\u0003Ğ\u0003ƌĞŐŝƐƚƌŽƵ\u0003 ƵŵĂ\u0003 ĞƐƉĞĐŝĮĐĂĕĆŽ\u0003 ĚĞ\u0003 ĨŽƌŵĂ\u0003 ŝŶĐŽƌƌĞƚĂ͘ \u0003 WŽƌ\u0003 ĞƐƐĞƐ\u0003 ŵŽƟǀŽƐ͕ \u0003ĂƐ\u0003ǀĞƌŝĮĐĂĕƁĞƐ͕ \u0003ĂƐ\u0003ǀĂůŝĚĂĕƁĞƐ\u0003Ğ\u0003ŽƐ\u0003ƚĞƐƚĞƐ\u0003 ƐĆŽ\u0003ĨƵŶĚĂŵĞŶƚĂŝƐ\u0003ƉĂƌĂ\u0003ƐĞ\u0003ĐĞƌƟĮĐĂƌ\u0003ĚĂ\u0003ƋƵĂůŝĚĂĚĞ\u0003ĚŽ\u0003 ƐŽŌǁĂƌĞ\u0003ƌĞƐƵůƚĂŶƚĞ͘ \u0012ŽŶƐŝĚĞƌĂŶĚŽ\u0003ĞƐƐĞ\u0003ĐŽŶƚĞǆƚŽ͕ \u0003ĂǀĂůŝĞ\u0003ĂƐ\u0003ĂĮƌŵĂĕƁĞƐ\u0003 Ă\u0003ƐĞŐƵŝƌ͘ /͘ \u0003 K\u0003 ƚĞƐƚĞ\u0003 ĨƵŶĐŝŽŶĂů\u0003 ĐĞƌƟĮĐĂ\u0003 ƐĞ\u0003 Ž\u0003 ƐŽŌǁĂƌĞ ĚĞƐĞŵƉĞŶŚĂ\u0003 ĂƐ\u0003 ĨƵŶĕƁĞƐ\u0003 ĞƐƉĞĐŝĮĐĂĚĂƐ\u0003 ŶŽƐ\u0003 ƌĞƋƵŝƐŝƚŽƐ͘ //͘ \u0003 K\u0003 ƚĞƐƚĞ\u0003 ĚĞ\u0003 ĚĞƐĞŵƉĞŶŚŽ\u0003 ǀĂůŝĚĂ\u0003 Ă\u0003 ĐŽŶĨŽƌŵŝĚĂĚĞ\u0003ĚĂ\u0003ĞƐƉĞĐŝĮĐĂĕĆŽ\u0003ĚŽ\u0003ƉƌŽĐĞƐƐŽ\u0003 ĚĞ\u0003ĚĞƐĞŶǀŽůǀŝŵĞŶƚŽ\u0003ĚĞ\u0003ƐŽŌǁĂƌĞ. ///͘ \u0003 K\u0003 ƚĞƐƚĞ\u0003 ĚĞ\u0003 ĂĐĞŝƚĂĕĆŽ\u0003 Ġ\u0003 ƌĞĂůŝǌĂĚŽ\u0003 ƉĞůŽ\u0003 ĐůŝĞŶƚĞ\u0003 Ă\u0003 Įŵ\u0003 ĚĞ\u0003 ǀĂůŝĚĂƌ\u0003 ƐĞ\u0003 ĂƋƵŝůŽ\u0003 ƋƵĞ\u0003 ĨŽŝ\u0003 ŝŵƉůĞŵĞŶƚĂĚŽ\u0003Ġ\u0003Ž\u0003ƋƵĞ\u0003ĨŽŝ\u0003ƐŽůŝĐŝƚĂĚŽ͘ /s͘ \u0003 K\u0003 ƚĞƐƚĞ\u0003 ĚĞ\u0003 ŝŶƐƚĂůĂĕĆŽ͕ \u0003 ŝŶǀĂƌŝĂǀĞůŵĞŶƚĞ͕ \u0003 Ġ\u0003 ĞǆĞĐƵƚĂĚŽ\u0003ŶŽ\u0003ůŽĐĂů\u0003ĚĞƚĞƌŵŝŶĂĚŽ\u0003ƉĞůŽ\u0003ĐůŝĞŶƚĞ\u0003 ƉĂƌĂ\u0003ŝŶƐƚĂůĂĕĆŽ\u0003ĚŽ\u0003ƐŽŌǁĂƌĞ. V. \u0004Ɛ\u0003 ƚĠĐŶŝĐĂƐ\u0003 ĚĞ\u0003 ǀĞƌŝĮĐĂĕĆŽ\u0003 Ğ\u0003 ǀĂůŝĚĂĕĆŽ\u0003 ĚĞ\u0003 ƐŽŌǁĂƌĞ\u0003ĂƐƐĞŐƵƌĂŵ\u0003ƋƵĞ\u0003Ž\u0003ƐŝƐƚĞŵĂ\u0003ƋƵĞ\u0003ĞƐƚĄ\u0003 ƐĞŶĚŽ\u0003 ĚĞƐĞŶǀŽůǀŝĚŽ\u0003 ƐĞũĂ\u0003ĂĚĞƋƵĂĚŽ\u0003ĂŽ\u0003ƐĞƵ\u0003 ƉƌŽƉſƐŝƚŽ͘ \u0003ĐŽƌƌĞƚŽ\u0003ĂƉĞŶĂƐ\u0003Ž\u0003ƋƵĞ\u0003ƐĞ\u0003ĂĮƌŵĂ\u0003Ğŵ A \u0003/\u0003Ğ\u0003/s͘ B \u0003/͕ \u0003///\u0003Ğ\u0003s͘ C \u0003//͕ \u0003///\u0003Ğ\u0003/s͘ D \u0003//͕ \u0003/s\u0003Ğ\u0003s͘ E \u0003/͕ \u0003//͕ \u0003///\u0003Ğ\u0003s͘ \u0006ƌĞĂ\u0003ůŝǀƌĞ Yh ^d\bK\u0003Ϯϰ\u0003 EĂƐ\u0003 ĚĠĐĂĚĂƐ\u0003 ĚĞ\u0003 ϭϵϳϬ\u0003 Ğ\u0003 ϭϵϴϬ͕ \u0003 ŵƵŝƚŽƐ\u0003 ƐŝƐƚĞŵĂƐ\u0003 ĐŽƌƉŽƌĂƟǀŽƐ\u0003ĨŽƌĂŵ\u0003ĚĞƐĞŶǀŽůǀŝĚŽƐ\u0003ĐŽŵ\u0003Ă\u0003ůŝŶŐƵĂŐĞŵ\u0003 \u0012ŽďŽů͕ \u0003ƵƟůŝǌĂŶĚŽ\u0003Ž\u0003^ŝƐƚĞŵĂ\u0003'ĞƌĞŶĐŝĂĚŽƌ\u0003ĚĞ\u0003\u0011ĂŶĐŽ\u0003ĚĞ\u0003 ĚĂĚŽƐ\u0003\u0004\u0018\u0004\u0011\u0004^\u0003Ğ\u0003ĂƌƋƵŝǀŽƐ\u0003ŝŶĚĞǆĂĚŽƐ\u0003ĚŽ\u0003ƟƉŽ\u0003/^\u0004D\u0003Ğ\u0003 s/^\u0004D͘ \u0003\u0004ůŐƵŶƐ\u0003ĚĞƐƐĞƐ\u0003ƉƌŽĚƵƚŽƐ\u0003ĚĞ\u0003ŝŵƉůĞŵĞŶƚĂĕĆŽ\u0003 ĨŽƌĂŵ͕ \u0003ŽƵ\u0003ĞƐƚĆŽ\u0003ƐĞŶĚŽ͕ \u0003ĚĞƐĐŽŶƟŶƵĂĚŽƐ\u0003ƉĞůŽƐ\u0003ƐĞƵƐ\u0003 ĨĂďƌŝĐĂŶƚĞƐ͘ \u0003 WŽƌ\u0003 ŝƐƐŽ͕ \u0003 Ž\u0003 ƚƌĂďĂůŚŽ\u0003 ĚĞ\u0003 ƌĞĞŶŐĞŶŚĂƌŝĂ\u0003 ĚĞƐƐĞƐ\u0003 ƐŝƐƚĞŵĂƐ͕ \u0003 ƵƟůŝǌĂŶĚŽ\u0003 ůŝŶŐƵĂŐĞŶƐ\u0003 ŵĂŝƐ\u0003 ŵŽĚĞƌŶĂƐ͕ \u0003 ĐŽŵŽ\u0003 WǇƚŚŽŶ͕ \u0003 :ĂǀĂ\u0003 ŽƵ\u0003 ŵĞƐŵŽ\u0003 \u0012нн͕ \u0003 ĂƐƐŽĐŝĂĚĂƐ\u0003ĐŽŵ\u0003ƐŝƐƚĞŵĂƐ\u0003ĚĞ\u0003ďĂŶĐŽ\u0003ĚĞ\u0003ĚĂĚŽƐ\u0003ŵĂŝƐ\u0003 ĂƚƵĂŝƐ͕ \u0003ĂƉƌĞƐĞŶƚĂͲƐĞ\u0003ĐŽŵŽ\u0003ƵŵĂ\u0003ďŽĂ\u0003ŽƉŽƌƚƵŶŝĚĂĚĞ\u0003 ĚĞ\u0003ŶĞŐſĐŝŽƐ͘ \u0003 \u0012ŽŶƐŝĚĞƌĂŶĚŽ\u0003ĞƐƐĞ\u0003ĐĞŶĄƌŝŽ͕ \u0003ĂǀĂůŝĞ\u0003ĂƐ\u0003ĂĮƌŵĂĕƁĞƐ\u0003 Ă\u0003ƐĞŐƵŝƌ͘ /͘ \u0003 \u0004\u0003ĚŝĮĐƵůĚĂĚĞ\u0003ĚĞ\u0003ƌĞĞŶŐĞŶŚĂƌŝĂ\u0003ĚĞ\u0003ƐŝƐƚĞŵĂƐ\u0003 ĂŶƟŐŽƐ\u0003ĚĞǀĞͲƐĞ\u0003ĂŽ\u0003ĨĂƚŽ\u0003ĚĞ\u0003ƋƵĞ͕ \u0003ŶĂ\u0003ŵĂŝŽƌŝĂ\u0003 ĚĂƐ\u0003 ǀĞǌĞƐ͕ \u0003 Ž\u0003 ĚĞƐĞŶǀŽůǀĞĚŽƌ\u0003 ĚĞĮŶŝĂ\u0003 Ž\u0003 ƐŝƐƚĞŵĂ\u0003Ğ\u0003ĞƐƐĞ\u0003ũĄ\u0003ĞƌĂ\u0003Ž\u0003ƉƌſƉƌŝŽ\u0003ƉƌŽĐĞƐƐŽ\u0003ĚĂ\u0003 ŽƌŐĂŶŝǌĂĕĆŽ͘ //͘ \u0003 K\u0003ĐƵƐƚŽ\u0003ĚĞ\u0003ĂůƚĞƌĂĕĆŽ\u0003ƉĂƌĂ\u0003ŵŽĚĞƌŶŝǌĂĕĆŽ\u0003ĚĞ\u0003 ƵŵĂ\u0003ůŝŶŚĂ\u0003ĚĞ\u0003ĐſĚŝŐŽ\u0003Ğŵ\u0003\u0012ŽďŽů\u0003Ġ\u0003ĂůƚŽ͕ \u0003ƉŽƌ\u0003 ŝƐƐŽ͕ \u0003ĨĂǌĞƌ\u0003Ă\u0003ŵĂŶƵƚĞŶĕĆŽ\u0003ĚĞƐƐĞƐ\u0003ƐŝƐƚĞŵĂƐ\u0003Ġ\u0003 ŵĞŶŽƐ\u0003ĚĞƐƉĞŶĚŝŽƐŽ͘ ///͘ \u0003hŵĂ\u0003 ĞƐƚƌĂƚĠŐŝĂ\u0003 ĚĞ\u0003 ĐŽŶǀĞƌƐĆŽ\u0003 ĚŽƐ\u0003 ƌĞĨĞƌŝĚŽƐ\u0003 ƐŝƐƚĞŵĂƐ\u0003 ƉĂƌĂ\u0003 ƵŵĂ\u0003 ůŝŶŐƵĂŐĞŵ\u0003 ŽƌŝĞŶƚĂĚĂ\u0003 Ă\u0003 ŽďũĞƚŽƐ\u0003 Ġ\u0003 ĚĞĨŝŶŝƌ\u0003 ƵŵĂ\u0003 ĞƐƚƌƵƚƵƌĂ\u0003ĚĞ\u0003ĐůĂƐƐĞƐ\u0003Ğ\u0003ŵĠƚŽĚŽƐ\u0003Ğ\u0003ƌĞĂůŝǌĂƌ\u0003 Ž\u0003ƌĞĨĂƚŽƌĂŵĞŶƚŽ\u0003ĚŽ\u0003ĐſĚŝŐŽ͘ \u0003ĐŽƌƌĞƚŽ\u0003Ž\u0003ƋƵĞ\u0003ƐĞ\u0003ĂĮƌŵĂ\u0003Ğŵ A \u0003/͕ \u0003ĂƉĞŶĂƐ͘ B \u0003///͕ \u0003ĂƉĞŶĂƐ͘ C /\u0003Ğ\u0003//͕ \u0003ĂƉĞŶĂƐ͘ D \u0003//\u0003Ğ\u0003///͕ \u0003ĂƉĞŶĂƐ͘ E \u0003/͕ \u0003//\u0003Ğ\u0003///͘ \u0006ƌĞĂ\u0003ůŝǀƌĞ",
+    "alternativas": [],
+    "gabarito": "E",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2017_CST_Analise_Desenvolvimento_Sistemas-24.png"
+  },
+  {
+    "id": "2019_Engenharia_de_Computacao-30",
+    "ano": 2019,
+    "prova": "2019_Engenharia_de_Computacao",
+    "pdf": "2019_Engenharia_de_Computacao/2019_PV_ENGENHARIA_COMPUTACAO.pdf",
+    "numero": 30,
+    "discursiva": false,
+    "pagina": 33,
+    "enunciado": "É comum a expressão \"servidor web\" ser utilizada para denominar processos cuja finalidade é disponibilizar recursos estáticos, que são os que se encontram completos antes de uma requisição ser realizada, e recursos dinâmicos, que são produzidos no momento em que um cliente o requisita e seu conteúdo é definido em tempo de requisição. Um Container de Servlets é um servidor web capaz de gerenciar diferentes aplicações que disponibilizam conteúdo dinâmico, e um Servlet é uma classe Java capaz de gerar conteúdo desse tipo, mediante a requisição de um cliente. Cada requisição atendida por um Servlet pode ser executada por uma thread e múltiplas requisições podem estar em execução simultaneamente. Considere o Servlet a seguir que mantém uma variável cuja finalidade é controlar quantas requisições são atendidas ao longo do tempo. 1 @WebServlet (\"/\") 2 public class ContaRequisicoes extends HttpServlet { 3 private int contador; 4 protected void doGet (HttpServletRequest req, HttpServletResponse resp) throws Exception { 5 contador = contador + 1; 6 } 7 } Disponível em: <https://www.javaee.github.io/servlet-spec/downloads/servlet-4.0/servlet-4_0_FINAL.pdf>. Acesso em: 24 jun. 2019 (adaptado).",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A respeito do Servlet apresentado, avalie as afirmações a seguir. I. O código apresenta uma condição de corrida. II. Substituir a linha 5 pela construção synchronized (this) {contador = contador + 1;} garante o correto funcionamento do método. III. Obter a trava do objeto referenciado por request antes de executar o incremento e liberá-la logo a seguir, garante o correto funcionamento do método. É correto o que se afirma em A I, apenas"
+      },
+      {
+        "letra": "B",
+        "texto": "B II, apenas"
+      },
+      {
+        "letra": "C",
+        "texto": "C I e III, apenas"
+      },
+      {
+        "letra": "D",
+        "texto": "D II e III, apenas"
+      },
+      {
+        "letra": "E",
+        "texto": "E I, II e III. ENGENHARIA DE COMPUTAÇÃO 34"
+      }
+    ],
+    "gabarito": "D",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2019_Engenharia_de_Computacao-30.png"
+  },
+  {
+    "id": "2008_CST_Analise_Desenvolvimento_Sistemas-19",
+    "ano": 2008,
+    "prova": "2008_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2008_CST_Analise_Desenvolvimento_Sistemas/2008_PV_TECNOLOGIA_DESENVOLVIMENTO_SISTEMAS.pdf",
+    "numero": 19,
+    "discursiva": false,
+    "pagina": 12,
+    "enunciado": "Uma instituição de auxílio a desabrigados tem a preocupação de fornecer uma alimentação equilibrada a seus pensionistas. Para atingir esse objetivo, decidiu empregar um sistema informatizado e contratou um analista para projetá-lo. O analista, que deveria empregar UML na modelagem do sistema, recebeu as informações a seguir acerca das refeições. < Café da manhã: dois tipos de carboidrato, duas vitaminas e duas proteínas. < Almoço: dois tipos de carboidrato e de proteínas, quatro tipos de vitamina e um tipo de lipídio. < Jantar: um tipo de carboidrato, uma proteína e uma vitamina. Cada tipo de alimento deve ser acompanhado por seu nome, sua porção recomendável, por refeição, e seu valor calórico, por porção. O cálculo para descobrir a quantidade de calorias para cada pensionista é dado pelo produto do fator de atividade (FA) pela taxa de metabolismo basal (TMB). Esses dois valores são obtidos nas tabelas I e II a seguir. Tabela I idade taxa de metabolismo basal mulheres de 30 a 60 anos 8,7 × peso(kg) + 829 acima de 60 anos 10,5 × peso(kg) + 596 homens de 30 a 60 anos 8,7 × peso(kg) + 879 acima de 60 anos 13,5 × peso(kg) + 487 Tabela II descrição valor do fator de atividade (FA) fica a maior parte do tempo sentado e não pratica atividades físicas programadas mulheres e homens 1,2 caminha até o ponto de ônibus, mas sem atividades físicas programadas mulheres 1,3 homens 1,4 realiza atividades físicas três vezes por semana, cerca de 30 minutos por dia mulheres 1,45 homens 1,5 faz duas horas e meia de atividades físicas diárias mulheres 1,5 homens 1,6 pratica atividade física diária por mais de três horas mulheres 1,7 homens 1,8 O cardápio de cada pensionista deve ser gerado, a cada dia, com base no cálculo da quantidade de calorias recomendada para cada um deles e, depois, deve ser encaminhado para a cozinheira. Considerando as necessidades da instituição no que se refere ao cardápio diário e a aspectos da modelagem conceitual com UML, julgue os itens a seguir, acerca da classe Refeição. I Para o cálculo do TMB, são precondições que a idade seja um valor maior do que 30 anos e que seja relacionada uma das descrições da tabela II para o valor de FA. II Essa classe tem um método denominado montarCardápioDiário() que será sobrescrito nas subclasses. III Suas subclasses não implementam o método para calcular a quantidade de calorias, utilizando a implementação já definida na classe pai. IV Essa classe possui associações um-para-um com a classe Pensionista e agregação com a classe Alimento. V O conceito de acoplamento é um critério importante durante a modelagem da classe Refeição, pois diminui a quantidade de seus relacionamentos, o que contribui para o seu reúso. Estão certos apenas os itens",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A I e II"
+      },
+      {
+        "letra": "B",
+        "texto": "B I e IV"
+      },
+      {
+        "letra": "C",
+        "texto": "C II e III"
+      },
+      {
+        "letra": "D",
+        "texto": "D III e V"
+      },
+      {
+        "letra": "E",
+        "texto": "E IV e V. 11 TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS"
+      }
+    ],
+    "gabarito": null,
+    "anulada": true,
+    "padrao": null,
+    "imagem": "/img/2008_CST_Analise_Desenvolvimento_Sistemas-19.png"
+  },
+  {
+    "id": "2019_Engenharia_de_Computacao-9",
+    "ano": 2019,
+    "prova": "2019_Engenharia_de_Computacao",
+    "pdf": "2019_Engenharia_de_Computacao/2019_PV_ENGENHARIA_COMPUTACAO.pdf",
+    "numero": 9,
+    "discursiva": false,
+    "pagina": 16,
+    "enunciado": "O MergeSort é um método de ordenação que combina dois vetores ordenados e cria um terceiro vetor maior também ordenado. O algoritmo abaixo apresenta essa ideia e combina os vetores a[lo..mid] e a[mid+1..hi] no vetor a[lo..hi]. public class MergeSort { private static Comparable[] aux; public static void merge(Comparable[] a, int lo, int mid, int hi) { int i = lo, j = mid+1; for (int k = lo; k <= hi; k++) aux[k] = a[k]; for (int k = lo; k <= hi; k++) { if (i > mid) a[k] = aux[j++]; else if (j > hi ) a[k] = aux[i++]; else if (aux[j].compareTo(aux[i])) a[k] = aux[j++]; else a[k] = aux[i++]; } } public static void sort(Comparable[] a) { aux = new Comparable[a.length]; sort(a, 0, a.length - 1); } private static void sort(Comparable[] a, int lo, int hi) { //implementação } } SEDGEWICK, R.; WAYNE, K. Algorithms. 4. ed. Boston: Addison-Wesley, 2011 (adaptado). Considerando o código apresentado, a implementação do protótipo do método sort da classe MergeSort é A if (hi == lo) return; int mid = lo + (hi - lo)/2; sort(a, lo, mid); sort(a, mid, hi); merge(a, lo, mid, hi); D if (hi > lo) return; int mid = lo + (hi - lo)/2; sort(a, lo, mid); sort(a, mid+1, hi); merge(a, lo, mid, hi); B if (hi > lo) return; int mid = lo + (hi - lo)/2; sort(a, lo, mid); sort(a, mid, hi); merge(a, lo, mid, hi); E if (hi <= lo) return; int mid = lo + (hi - lo)/2; sort(a, lo, mid); sort(a, mid+1, hi); merge(a, lo, mid, hi); C if (hi <= lo) return; int mid = lo + (hi - lo)/2; sort(a, lo, mid); sort(a, mid, hi); merge(a, lo, mid, hi); ENGENHARIA DE COMPUTAÇÃO 17",
+    "alternativas": [],
+    "gabarito": "E",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2019_Engenharia_de_Computacao-9.png"
+  },
+  {
+    "id": "2017_Ciencia_Computacao_Bacharelado-10",
+    "ano": 2017,
+    "prova": "2017_Ciencia_Computacao_Bacharelado",
+    "pdf": "2017_Ciencia_Computacao_Bacharelado/2017_PV_03_CIE_COM_BACHAREL_BAIXA.pdf",
+    "numero": 10,
+    "discursiva": false,
+    "pagina": 17,
+    "enunciado": "\u0012ŽŶƐŝĚĞƌĞ\u0003 ŽƐ\u0003 ƐĞŐƵŝŶƚĞƐ\u0003 ƌĞƋƵŝƐŝƚŽƐ\u0003 ƉĂƌĂ\u0003 ĚĞƐĞŶǀŽůǀŝŵĞŶƚŽ\u0003 ĚĞ\u0003 ƵŵĂ\u0003 ƐŽůƵĕĆŽ\u0003 ƉĂƌĂ\u0003 ƵŵĂ\u0003 ƌĞĚĞ\u0003 ĚĞ\u0003ƌĞƐƚĂƵƌĂŶƚĞƐ\u0003fast-food͗ YƵĂŶĚŽ\u0003Ž\u0003ƐƚĂƚƵƐ\u0003ĚĞ\u0003Ƶŵ\u0003ƉĞĚŝĚŽ\u0003Ġ\u0003ĂƚƵĂůŝǌĂĚŽ͕ \u0003ƚŽĚŽƐ\u0003 ŽƐ\u0003 ĚŝƐƉŽƐŝƟǀŽƐ\u0003 ĚŽƐ\u0003 ĞŶǀŽůǀŝĚŽƐ\u0003 ĚĞǀĞŵ\u0003 ƌĞĐĞďĞƌ\u0003 Ă\u0003 ŝŶĨŽƌŵĂĕĆŽ͘ \u0003 KƐ\u0003 ƐŝƐƚĞŵĂƐ\u0003 Ă\u0003 ƐĞƌ\u0003 ĂƚƵĂůŝǌĂĚŽƐ\u0003 ŝŶĐůƵĞŵ\u0003ŽƐ\u0003ĂĐĞƐƐĂĚŽƐ\u0003ƉĞůŽ\u0003ĞŶƚƌĞŐĂĚŽƌ͕ \u0003ƉĞůĂ\u0003ůŝŶŚĂ\u0003 ĚĞ\u0003 ƉƌŽĚƵĕĆŽ\u0003 Ğ\u0003 ƉĞůĂ\u0003 ĐĞŶƚƌĂů\u0003 ĚĞ\u0003 ĂƚĞŶĚŝŵĞŶƚŽ͘ \u0003 ƐƉĞƌĂͲƐĞ\u0003ĂŝŶĚĂ\u0003ƋƵĞ\u0003ŽƵƚƌŽƐ\u0003ƐŝƐƚĞŵĂƐ\u0003ƉŽƐƐĂŵ\u0003ƐĞƌ\u0003 ŝŶĐůƵşĚŽƐ\u0003ĨƵƚƵƌĂŵĞŶƚĞ\u0003;ƉŽƌ\u0003ĞǆĞŵƉůŽ͕ \u0003ƐŝƐƚĞŵĂ\u0003ĚĞ\u0003 ƉĞĚŝĚŽ\u0003on-line\u0003ĚŽ\u0003ĐůŝĞŶƚĞͿ͕ \u0003ĚĞǀĞŶĚŽ\u0003ƐĞ\u0003ĐŽŵƉŽƌƚĂƌ\u0003 ĚĂ\u0003ŵĞƐŵĂ\u0003ĨŽƌŵĂ͘ \u0012ŽŶƐŝĚĞƌĂŶĚŽ\u0003ĞƐƐĞ\u0003ĐŽŶƚĞǆƚŽ͕ \u0003ĂǀĂůŝĞ\u0003ĂƐ\u0003ĂƐƐĞƌĕƁĞƐ\u0003Ă\u0003 ƐĞŐƵŝƌ\u0003Ğ\u0003Ă\u0003ƌĞůĂĕĆŽ\u0003ƉƌŽƉŽƐƚĂ\u0003ĞŶƚƌĞ\u0003ĞůĂƐ͘ /͘ \u0003 K\u0003 ƌĞƋƵŝƐŝƚŽ\u0003 ĂƉƌĞƐĞŶƚĂĚŽ\u0003 ƉŽĚĞ\u0003 ƐĞƌ\u0003 ŝŵƉůĞŵĞŶƚĂĚŽ\u0003 ĐŽŵ\u0003 Ă\u0003 ƵƟůŝǌĂĕĆŽ\u0003 ĚŽ\u0003 ƉĂĚƌĆŽ\u0003 ĚĞ\u0003ƉƌŽũĞƚŽ\u0003Observer. WKZYh //͘ \u0003 K\u0003 ƉĂĚƌĆŽ\u0003 ĚĞ\u0003 ƉƌŽũĞƚŽ\u0003 Observer\u0003 ƌĞĂůŝǌĂ\u0003 Ž\u0003 ĞƐƟůŽ\u0003 ĂƌƋƵŝƚĞƚƵƌĂů\u0003 ĐůŝĞŶƚĞͲƐĞƌǀŝĚŽƌ͕ \u0003 ŶŽ\u0003 ƋƵĂů\u0003 Ž\u0003 ƐĞƌǀŝĚŽƌ\u0003 Ġ\u0003 ƌĞƐƉŽŶƐĄǀĞů\u0003 ƉŽƌ\u0003 ĞŶǀŝĂƌ\u0003 ŶŽƟĮĐĂĕƁĞƐ\u0003ĂŽƐ\u0003ĐůŝĞŶƚĞƐ\u0003ƐĞŵƉƌĞ\u0003ƋƵĞ\u0003ŚŽƵǀĞƌ\u0003 ĂƚƵĂůŝǌĂĕĆŽ\u0003 Ğŵ\u0003 ĂůŐƵŵĂ\u0003 ŝŶĨŽƌŵĂĕĆŽ\u0003 ĚĞ\u0003 ŝŶƚĞƌĞƐƐĞ͘ \u0004\u0003ƌĞƐƉĞŝƚŽ\u0003ĚĞƐƐĂƐ\u0003ĂƐƐĞƌĕƁĞƐ͕ \u0003ĂƐƐŝŶĂůĞ\u0003Ă\u0003ŽƉĕĆŽ\u0003ĐŽƌƌĞƚĂ͘",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A \u0003\u0004Ɛ\u0003ĂƐƐĞƌĕƁĞƐ\u0003/\u0003Ğ\u0003//\u0003ƐĆŽ\u0003ƉƌŽƉŽƐŝĕƁĞƐ\u0003ǀĞƌĚĂĚĞŝƌĂƐ͕ \u0003 Ğ\u0003Ă\u0003//\u0003Ġ\u0003ƵŵĂ\u0003ũƵƐƟĮĐĂƟǀĂ\u0003ĐŽƌƌĞƚĂ\u0003ĚĂ\u0003/͘"
+      },
+      {
+        "letra": "B",
+        "texto": "B \u0003\u0004Ɛ\u0003ĂƐƐĞƌĕƁĞƐ\u0003/\u0003Ğ\u0003//\u0003ƐĆŽ\u0003ƉƌŽƉŽƐŝĕƁĞƐ\u0003ǀĞƌĚĂĚĞŝƌĂƐ͕ \u0003 ŵĂƐ\u0003Ă\u0003//\u0003ŶĆŽ\u0003Ġ\u0003ƵŵĂ\u0003ũƵƐƟĮĐĂƟǀĂ\u0003ĐŽƌƌĞƚĂ\u0003ĚĂ\u0003/͘"
+      },
+      {
+        "letra": "C",
+        "texto": "C \u0003\u0004\u0003ĂƐƐĞƌĕĆŽ\u0003/\u0003Ġ\u0003ƵŵĂ\u0003ƉƌŽƉŽƐŝĕĆŽ\u0003ǀĞƌĚĂĚĞŝƌĂ͕ \u0003Ğ\u0003Ă\u0003//\u0003 Ġ\u0003ƵŵĂ\u0003ƉƌŽƉŽƐŝĕĆŽ\u0003ĨĂůƐĂ͘"
+      },
+      {
+        "letra": "D",
+        "texto": "D \u0003\u0004\u0003ĂƐƐĞƌĕĆŽ\u0003/\u0003Ġ\u0003ƵŵĂ\u0003ƉƌŽƉŽƐŝĕĆŽ\u0003ĨĂůƐĂ͕ \u0003Ğ\u0003Ă\u0003//\u0003Ġ\u0003ƵŵĂ\u0003 ƉƌŽƉŽƐŝĕĆŽ\u0003ǀĞƌĚĂĚĞŝƌĂ͘"
+      },
+      {
+        "letra": "E",
+        "texto": "E \u0003\u0004Ɛ\u0003ĂƐƐĞƌĕƁĞƐ\u0003/\u0003Ğ\u0003//\u0003ƐĆŽ\u0003ƉƌŽƉŽƐŝĕƁĞƐ\u0003ĨĂůƐĂƐ͘ \u0006ƌĞĂ\u0003ůŝǀƌĞ"
+      }
+    ],
+    "gabarito": "C",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2017_Ciencia_Computacao_Bacharelado-10.png"
+  },
+  {
+    "id": "2019_Engenharia_de_Computacao-20",
+    "ano": 2019,
+    "prova": "2019_Engenharia_de_Computacao",
+    "pdf": "2019_Engenharia_de_Computacao/2019_PV_ENGENHARIA_COMPUTACAO.pdf",
+    "numero": 20,
+    "discursiva": false,
+    "pagina": 25,
+    "enunciado": "Rigidez é a tendência de um software ser difícil de modificar. Cada mudança causa uma cascata de mudanças subsequentes em módulos dependentes. O trecho de código a seguir faz parte de um sistema com suporte à comunicação entre diferentes dispositivos de comunicação via rádio (modems): 1 struct Modem { enum Type {hayes, courrier, ernie) type; }; 2 struct Hayes { 3 Modem::Type type; 4 // Detalhes do modem tipo Hayes 5 }; 6 struct Courrier { 7 Modem::Type type; 8 // Detalhes do modem tipo Courrier 9 }; 10 struct Ernie { 11 Modem::Type type; 12 // Detalhes do modem tipo Ernie 13 }; 14 void LogOn(Modem& m, string& frq, string& user, string& pw) { 15 if (m.type == Modem::hayes) 16 OpenHayesChannel((Hayes&)m, frq); 17 else OpenCourrierChannel((Courrier&)m, frq); 18 // depois de conectado, enviar user, pw, etc. 19 // (continua) Disponível em: <http://www.staff.cs.utu.fi/staff/jouni.smed/doos_06/material/DesignPrinciplesAndPatterns.pdf>. Acesso em: 15 jun. 2019 (adaptado). Nesse trecho, cada tipo de modem tem suas particularidades e foram criadas estruturas específicas para cada tipo (linhas 2 a 13). Um \"enumeration\" (linha 1) é utilizado para identificar o tipo de modem. O procedimento LogOn (linhas 14 a 19) é responsável por realizar a conexão a um modem. Dados o tipo do modem (m), a frequência (frq), o nome de usuário (user) e a senha (pw), inicialmente, é feita a abertura do canal de comunicação, que corresponde a uma chamada específica para cada tipo de modem (linhas 15 a 17). Como os modems do tipo Courrier e Ernie são similares em termos de abertura de canal, o programador decidiu otimizar o código, utilizando a função do modem Courrier para ambos (OpenCourrierChannel - linha 17). Uma vez conectado, o código continua o processo de LogOn na linha 18 em diante. Nesse projeto do código um sintoma de rigidez é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A se o suporte ao modem do tipo Ernie for removido do sistema, será necessário remover a estrutura Ernie do código"
+      },
+      {
+        "letra": "B",
+        "texto": "B se um novo tipo de modem for adicionado, será necessário alterar o número de parâmetros definidos no procedimento LogOn"
+      },
+      {
+        "letra": "C",
+        "texto": "C se um novo tipo de modem for adicionado, é necessário copiar e colar todo o código de uma das outras estruturas de modems para incluir novos detalhes"
+      },
+      {
+        "letra": "D",
+        "texto": "D se a política de comunicação do modem do tipo Hayes sofrer alteração, pode ser necessário alterar o procedimento OpenHayesChannel e a estrutura Hayes"
+      },
+      {
+        "letra": "E",
+        "texto": "E se a política de comunicação do modem do tipo Courrier sofrer alteração, pode ser necessário alterar OpenCourrierChannel e LogOn e criar um novo procedimento OpenErnieChannel. ENGENHARIA DE COMPUTAÇÃO 26"
+      }
+    ],
+    "gabarito": "E",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2019_Engenharia_de_Computacao-20.png"
+  },
+  {
+    "id": "2011_CST_Analise_Desenvolvimento_Sistemas-20",
+    "ano": 2011,
+    "prova": "2011_CST_Analise_Desenvolvimento_Sistemas",
+    "pdf": "2011_CST_Analise_Desenvolvimento_Sistemas/2011_PV_ANALISE_E_DESENVOLVIMENTO_DE_SISTEMAS.pdf",
+    "numero": 20,
+    "discursiva": false,
+    "pagina": 12,
+    "enunciado": "Padrões de criação (creational patterns) abstraem a forma como objetos são criados, tornando o sistema independente de como os objetos são criados, compostos e representados. Um padrão de criação de classe usa a herança para variar a classe que é instanciada, enquanto que um padrão de criação de objeto delegará a instanciação para outro objeto. Há dois temas recorrentes nesses padrões. Primeiro, todos encapsulam conhecimento sobre quais classes concretas são usadas pelo sistema. Segundo, ocultam o modo como essas classes são criadas e montadas. Tudo que o sistema sabe no geral sobre os objetos é que suas classes são definidas por classes abstratas. Os padrões de criação são classificados em Abstract Factory, Builder, Factory Method, Prototype e Singleton. GAMMA, E. et al. Design Patterns: Elements of Reusable Object-Oriented Software. Reading, MA: Addison-Wesley, 1994.(adaptado) O padrão Abstract Factory é usado quando",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A o sistema deve ser independente da maneira como seus produtos são criados, relacionados e representados"
+      },
+      {
+        "letra": "B",
+        "texto": "B o algoritmo de criação de um objeto deve ser independente das suas partes e da maneira como ele é montado"
+      },
+      {
+        "letra": "C",
+        "texto": "C houver uma única instância de uma classe e esta for acessada a partir de um ponto de acesso conhecido"
+      },
+      {
+        "letra": "D",
+        "texto": "D classes delegam responsabilidade a alguma das subclasses, e deseja-se localizar qual é a subclasse acessada"
+      },
+      {
+        "letra": "E",
+        "texto": "E as classes utilizadas para instanciação são especificadas em tempo de execução ou carregadas dinamicamente"
+      }
+    ],
+    "gabarito": "A",
+    "anulada": false,
+    "padrao": null,
+    "imagem": "/img/2011_CST_Analise_Desenvolvimento_Sistemas-20.png"
+  }
+]

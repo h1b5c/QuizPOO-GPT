@@ -1,0 +1,16 @@
+# next
+node_modules/
+.next/
+out/
+.vercel/
+*.log
+.DS_Store
+
+# ENADE raw corpus (159M, licensed CC study copies) — keep local, never commit
+ENADE_Computacao_Todas_Areas/**/*.pdf
+ENADE_Engenharia_de_Computacao/**/*.pdf
+*.pdf
+
+# temp / OCR intermediates
+/tmp/
+.env*.local
