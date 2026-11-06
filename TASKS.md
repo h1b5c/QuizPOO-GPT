@@ -29,3 +29,4 @@
 ## Regra
 Antes de iniciar qualquer tarefa: ler `AGENTS.md`, `PRD.md`, `ARCHITECTURE.md`, `PLAN.md`, `TASKS.md`. Ao concluir: mover item para Concluídas com evidência e atualizar `PLAN.md` sem apagar histórico.
 - [x] Fix textos 2014/2017 (OCR v2 no pipeline, commit `4ffef07`) + build/push validados.
+- [x] Política de testes/commits: ESLint, Vitest (data/calc/quiz 15 testes), Husky `pre-commit` = `npm run verify`, GitHub Actions `ci.yml`, scripts `lint/test/typecheck/verify` no package.json; `AGENTS.md` com seção obrigatória + regressão. Verificação: `npm run verify` passa. Sem commit sem autorização.

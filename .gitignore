@@ -14,3 +14,4 @@ ENADE_Engenharia_de_Computacao/**/*.pdf
 # temp / OCR intermediates
 /tmp/
 .env*.local
+*.tsbuildinfo

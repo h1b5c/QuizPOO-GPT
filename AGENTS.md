@@ -30,3 +30,22 @@
 - Before any new task: read `AGENTS.md`, `PRD.md`, `ARCHITECTURE.md`, `PLAN.md`, `TASKS.md` (and `POO_questoes_ENADE.md` for ENADE data).
 - After completing each activity: update `PLAN.md` (progress) and `TASKS.md` (done/pending/in-progress) preserving history and real state. Do not mark complete without verification.
 - Do not implement features beyond current scope in PRD.md. Flag missing info as pendências in `TASKS.md`/`PRD.md`, do not invent requirements.
+
+## Política Obrigatória de Testes e Commits
+### Antes de qualquer commit
+- Executar ESLint (`npm run lint`), testes unitários (`npm run test`), testes de integração quando aplicáveis, build de produção (`npm run build`), verificação TypeScript (`npm run typecheck`).
+- Verificar que não existem arquivos/dados indevidos no commit (PDFs ENADE, `node_modules`, `.next`, caches — ver `.gitignore`).
+- Comando único: `npm run verify` (= lint + typecheck + test + build). Husky pre-commit roda `npm run verify`; GitHub Actions (`.github/workflows/ci.yml`) roda a mesma bateria em push/PR.
+
+### Testes específicos do projeto (não remover/enfraquecer)
+- `__tests__/data.test.ts`: integridade/estrutura `questoes.json`, enunciados e alternativas obrigatórias (5× A–E ou fallback figura), gabaritos A–E, IDs únicos, existência de imagens em `public/img/`, 53 objetivas válidas (1 anulada fora), 10 discursivas.
+- `__tests__/calc.test.ts`: cálculo da nota `10*acertos/53`.
+- `__tests__/quiz.test.tsx`: navegação anterior/próxima, resumo/nota só-objetivas, discursiva com `textarea` + “Ver gabarito”, persistência `localStorage v1`.
+
+### Regras de commit
+- Nunca commite com testes falhando; nunca ignore erros nem desabilite testes para aprovar; corrija antes de retentar; não use comandos que escondam erros/resultados.
+- Antes do commit, apresentar resumo dos testes executados e resultados; preservar alterações preexistentes que não sejam suas; não dar push sem autorização explícita.
+
+### Política de regressão
+- Ao corrigir bug: identificar causa raiz, criar teste que reproduza **antes** da correção, confirmar falha→passo depois, manter teste permanentemente, verificar regressões e rodar `npm run verify` antes de qualquer commit.
+- Nunca remover/enfraquecer teste só para passar. Sem automação possível, documentar motivo e propor validação alternativa. Novo problema revelado → registrar e investigar separadamente; atualizar docs se mudar comportamento.

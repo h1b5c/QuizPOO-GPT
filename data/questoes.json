@@ -418,7 +418,7 @@
     "numero": 24,
     "discursiva": false,
     "pagina": 21,
-    "enunciado": "",
+    "enunciado": "QUESTÃO 24 — O ensino de algoritmos é um processo delicado e complexo, e seu sucesso depende de diversos fatores, tais como: habilidade do aluno em realização eficiente de práticas laboratoriais, apoio extra-classe na solução de dúvidas, trabalhos em grupo, dedicação do aluno entre outros. A escolha da linguagem de programação também merece atenção. Uns defendem o uso de linguagens orientadas a objetos, que possuem facilidades de programação de alto nível e facilitam a vida do desenvolvedor. Outros defendem o uso de linguagens mais básicas, que forçam o desenvolvedor a implementar muitas das rotinas. Nesse contexto, avalie as afirmações (linguagem fortemente tipificada; C/ponteiros; Python/estruturas de dados). [Ver imagem da página p.21, coluna esquerda, para enunciado e alternativas completos.]",
     "alternativas": [],
     "gabarito": "E",
     "anulada": false,
